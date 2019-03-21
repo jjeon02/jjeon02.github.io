@@ -1,0 +1,24 @@
+.grid{
+	display:grid;
+	grid-template-columns: 16vw 16vw 16vw 16vw 16vw 16vw;
+	grid-template-rows: 16vw 16vw 16vw 16vw 16vw 16vw;
+
+}
+.box{
+	border: 1px solid black;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.name{
+	font-family:"baskerville";
+	font-size: 125px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
