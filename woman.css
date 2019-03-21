@@ -1,0 +1,22 @@
+.box{
+	margin:30px;
+	padding:30px;
+}
+h1{
+	font-family:"baskerville";
+	font-size: 35;
+	text-align:left;
+	text-transform: uppercase;
+}
+body{
+	background-color:black;
+	background-image: url("background.jpg");
+	background-attachment:fixed;
+}
+a{
+	color: #d6d6d6;
+}
+.static{
+	position: fixed;
+	z-index: 2;
+}
