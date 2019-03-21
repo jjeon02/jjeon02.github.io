@@ -4,16 +4,18 @@
 		<title>Exercise 4 Jueun</title>
 		<style>
 			.box{
-				display: inline-block;
+				display:inline-block;
 				position:relative;
-				background-color: #d3d3d3;
 				width: 300px;
 				height: 300px;
 				border: 10px;
 				margin: 10px;
-				z-index: -1;  
+				border: 1px black solid;
+				overflow: hiddens;
+
 			}
 			.horizontal{
+				display: inline-block;
 				position:absolute;
 				height:50px;
 				width:300px;
@@ -21,18 +23,22 @@
 				z-index: 2;  
 			}
 			.vertical{
+				display: inline-block;
 				position:absolute;
 				height:300px;
 				width:50px;
 				background-color: #759188;
 			}
 			.verticalmove{
+				display: inline-block;
 				transform: translateX(250px);
 			}
 			.horizontalmove{
+				display: inline-block;
 				transform: translateY(100px);
 			}
-			#roundhorizontal{
+			.roundhorizontal{
+				display: inline-block;
 				margin-left: 50px;
 				margin-right: 50px;
 				position:absolute;
@@ -43,12 +49,30 @@
 				border-radius: 10px 30px 10px 30px;
 			}
 			#skewposition1{
-				transform: translateX(100px);
+				display: inline-block;
+				transform: translateX(30px);
+				transform-origin: bottom left;
 				position:absolute;
 				height:300px;
 				width:50px;
-				background-color: #759188;
+				background-color: #0c2b5b;
 				transform: skewX(-10deg);
+			}
+			#verticalmove2{
+				display: inline-block;
+				transform: translateX(230px);
+				position:absolute;
+			}
+			.circle{
+				display: inline-block;
+				position:absolute;
+				height: 100px;
+				width: 100px;
+				margin-left: 100px;
+				margin-right: 100px;
+				margin-top: 100px;
+				border-radius:50%;
+				background-color: #9c72af;
 			}
 		</style>
 	</head>
@@ -61,17 +85,27 @@
 			<div class="horizontal horizontalmove"></div>
 			<div class="vertical verticalmove"></div>
 		</div>
+
 		<div class="box">
 			<div class="horizontal"></div>
 			<div class="vertical"></div>
-			<div class="horizontalmove" id="roundhorizontal"></div>
+			<div class="horizontalmove roundhorizontal"></div>
 			<div class="vertical verticalmove"></div>
 		</div>
+
 		<div class="box">
 			<div class="horizontal"></div>
 			<div id="skewposition1"></div>
+			<div class="circle"></div>
+			<div class="vertical" id="verticalmove2"></div>
 		</div>
-		<div class="box"></div>
+
+		<div class="box">
+			<div class="horizontal"></div>
+			<div class="vertical"></div>
+			<div class="circle"></div>
+			<div class="vertical verticalmove"></div>
+		</div>
 		<div class="box"></div>
 	</body>
 </html>
