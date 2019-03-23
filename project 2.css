@@ -2,11 +2,8 @@
 	display:grid;
 	grid-template-columns: 16vw 16vw 16vw 16vw 16vw 16vw;
 	grid-template-rows: 16vw 16vw 16vw 16vw 16vw 16vw;
-
 }
 .box{
-	border: 1px solid black;
-	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -21,4 +18,17 @@
 	width:100%;
 	height:100%;
 	object-fit: cover;
+}
+.img2{
+	z-index:-1;
+	
+}
+body{
+	background-color:#ededed;
+}
+.overlap{
+	z-index:-1;
+}
+.overlap2{
+	mix-blend-mode: multiply;
 }
