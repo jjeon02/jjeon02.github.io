@@ -1,22 +1,13 @@
 body{
 	background-color:#e8e3c7;
+	background-image:url("crosshatch.gif");
 }
 .box{
 	margin:0px;
 	padding:0px;
-	object-position: 50% 50%;
 }
 .img{
 	width:100%;
 	height:100%;
 	object-fit: cover;
-}
-h1{
-	font-family:"baskerville";
-	font-size: 35;
-	text-align:left;
-	text-transform: uppercase;
-}
-a{
-	color:#000000;
 }
