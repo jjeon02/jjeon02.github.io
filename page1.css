@@ -10,6 +10,9 @@ p{
 	text-align:left;
 	color: #d8b343;	
 }
+strong{
+	font-size: 200px;
+}
 body{
 	background-color:black;
 }
