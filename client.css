@@ -11,6 +11,12 @@
 	border-radius: 50%;
 	position: relative;
 }
+#box{
+	margin-left:auto;
+	margin-right:auto;
+	width:120px;
+	display:block;
+}
 .img{
 	width:100%;
 	height:100%;
@@ -40,5 +46,45 @@ p{
 	border: 1px solid black;
 	position: relative;
 	background-image: url("client_1.png");
+	background-position: center;
+}
+#client2{
+	margin:10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	background-image: url("client_2.png");
+	background-position: center;
+}
+#client3{
+	margin:10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	background-image: url("client_3.png");
+	background-position: center;
+}
+#client4{
+	margin:10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	background-image: url("client_4.png");
+	background-position: center;
+}
+#client5{
+	margin:10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	background-image: url("client_5.png");
+	background-position: center;
+}
+#client6{
+	margin:10px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	background-image: url("client_6.png");
 	background-position: center;
 }
