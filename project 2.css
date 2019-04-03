@@ -70,6 +70,14 @@ body{
 	z-index:2;
 	background-size: cover;
 }
+.resource{
+	background-image:url("resource_i.jpg");
+	background-size: cover;
+}
+.resource:hover{
+	background-image:url("resource_h.jpg");
+	z-index:2;
+}	
 a{
 	color:white;
 }
