@@ -46,6 +46,7 @@ body{
 .client{
 	background-image:url("client_i.jpg");
 	background-size: cover;
+	
 }
 .client:hover{
 	background-image:url("client_h.jpg");
