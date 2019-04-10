@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise 6 Jueun</title>
+		<style>
+			.box{
+				display:inline-block;
+				position:relative;
+				width: 400px;
+				height: 500px;
+				margin: 20px;
+				border: 1px #8c8c8c solid;
+			}
+			.horizontal{
+				display: inline-block;
+				position:absolute;
+				width: 400px;
+				height: 50px;
+				background-color: #8c8c8c;
+			}
+			.hmiddle{
+				transform: translateY(225px);
+				background-color: #8c8c8c;
+			}
+			.hend{
+				transform: translateY(450px);
+				background-color: #8c8c8c;
+			}
+			.vertical{
+				width: 50px;
+				height: 500px;
+				display: inline-block;
+				position:absolute;
+				background-color: #4c4c4c;
+				z-index:2;
+			}
+			#t1{
+				width: 400px;
+				height: 50px;
+				display: inline-block;
+				position:absolute;
+				background-color: #8c8c8c;
+				transition-property: all;
+			}
+			#t1:hover{
+				background-color: black;
+				transition: all 0.4s ease;
+			}
+			#t2{
+				display: inline-block;
+				position: absolute;
+				width: 200px;
+				height: 50px;
+				margin-top: 225px;
+				margin-bottom:225px;
+				background-color: #8c8c8c;
+				transition: all ease-in 0.3s;
+			}
+			#t2:hover{
+				transform: translateX(200px);
+				background-color: #a33939;
+
+			}
+			#t3{
+				width: 50px;
+				height: 500px;
+				display: inline-block;
+				position:absolute;
+				background-color: #4c4c4c;
+				z-index:2;
+				transition: all ease-out 0.6s;
+				opacity: 0.4;
+			}
+			#t3:hover{
+				transform: scaleX(8);
+				transform-origin: bottom left;
+				background-color: black;
+				opacity: 1.0;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="index.html">
+			Exercise Lists
+		</a>
+		<br>
+		<div class="box">
+			<div class="vertical"></div>
+			<div id="t1"></div>
+			<div class="horizontal hmiddle"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box">
+			<div class="vertical"></div>
+			<div class="horizontal"></div>
+			<div id="t2"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box">
+			<div id="t3"></div>
+			<div class="horizontal"></div>
+			<div class="horizontal hmiddle"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box"></div>
+		<div class="box"></div>
+
+	</body>
+</html>
