@@ -77,6 +77,43 @@
 				background-color: black;
 				opacity: 1.0;
 			}
+			#t4{
+				width:200px;
+				height:200px;
+				display: inline-block;
+				position: absolute;
+				transform: translateY(150px);
+				border-radius: 50%;
+				animation: colors 3.5s linear 3 alternate;	
+
+			}
+			@keyframes colors {
+				0% {
+					background-color: #868d99;
+				}
+				50% {
+				background-color: #209b6e;
+				}
+				75% {
+				background-color: #ff7568;
+				}
+				100% {
+				background-color: #868d99;
+				}
+			}
+			#t5{
+				width:200px;
+				height:200px;
+				display: inline-block;
+				position: absolute;
+				transform: translateY(150px);
+				border-radius: 50%;
+				animation: scale 3.5s linear 3 alternate;	
+			}
+			#t5:hover{
+
+			}
+
 		</style>
 	</head>
 	<body>
@@ -102,8 +139,17 @@
 			<div class="horizontal hmiddle"></div>
 			<div class="horizontal hend"></div>
 		</div>
-		<div class="box"></div>
-		<div class="box"></div>
-
+		<div class="box">
+			<div class="vertical"></div>
+			<div class="horizontal"></div>
+			<div id="t4"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box">
+			<div class="vertical"></div>
+			<div class="horizontal"></div>
+			<div class="horizontal hmiddle"></div>
+			<div class="horizontal hend"></div>
+		</div>
 	</body>
 </html>
