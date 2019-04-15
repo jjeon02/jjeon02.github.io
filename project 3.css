@@ -1,15 +1,87 @@
-.font1{
+/* General */
+body{
+	background-color:black;
+}
+.box{
+	margin: 50px 20px 50px 20px;
+	padding: 10px;
+	width: 90%;
+	float: center;
+}
+.line{
+	width:90%;
+	background-color: white;
+	height:2px;
+}
+.font{
+	font-family: 'courier new';
+	font-size: 20px;
+	color:white;
+}
+/* Font for Each Movie */
+.terminator{
 	font-family: 'Orbitron', sans-serif;
 	text-transform: uppercase;
-	font-size: 45px;
-	line-height: 50%;
+	font-size: 50px;
+	color:white;
 }
-.font2{
-	font-family: 'Orbitron', sans-serif;
+.spaceodyssey{
+	font-family: 'Futura';
 	text-transform: uppercase;
-	font-size: 30px;
-	line-height: 35%;
+	font-size: 50px;
+	line-height: 85%;
+	color:white;
 }
+.backtothefuture{
+	font-family: 'Bowlby One SC', cursive;
+	text-transform: uppercase;
+	line-height: 85%;
+	font-size: 50px;
+	color:white;
+}
+.bladerunner{
+	font-family: 'Sarpanch', sans-serif;
+	text-transform: uppercase;
+	line-height: 80%;
+	font-size: 48px;
+	color:white;
+}
+/* For title part */
+
+.title{
+	font-family: 'courier new';
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 75%;
+	text-transform: uppercase;
+	margin: auto;
+	color: white;
+	padding:20px;
+	animation: title 3.5s linear infinite alternate;
+}
+@keyframes title{
+	0%{
+		color: #f4424b;
+		transition: all 0.3s ease;
+	}
+	25%{
+		color: #ffe949;
+		transition: all 0.3s ease;
+	}
+	50%{
+		color: #24996e;
+		transition: all 0.3s ease;
+	}
+	75%{
+		color: #244d99;
+		transition: all 0.3s ease;
+	}
+	100%{
+		color: #f4424b;
+		transition: all 0.3s ease;
+	}
+
+/* For Javascript */
 .countup {
 	margin-bottom: 20px;
 	margin-bottom: 20px;
@@ -23,8 +95,4 @@
 .countup span[class*="timeRef"] {
 	margin-left: 0;
 	color: black;
-}
-.box{
-	text-align: left;
-	margin-bottom: 20px;
 }
