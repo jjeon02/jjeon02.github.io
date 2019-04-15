@@ -1,5 +1,5 @@
+// Terminator: Judgement Day
 window.onload = function() {
-	// Month Day, Year Hour:Minute:Second, id-of-element-container
 	countUpFromTime("Aug 4, 1997 02:14:00", 'countup1'); // ****** Change this line!
 };
 	
@@ -8,7 +8,6 @@ window.onload = function() {
 		var now = new Date(),
 		countFrom = new Date(countFrom),
 		timeDifference = (now - countFrom);
-			    
 		var secondsInADay = 60 * 60 * 1000 * 24,
 		secondsInAHour = 60 * 60 * 1000;
 			    
@@ -26,5 +25,5 @@ window.onload = function() {
 		clearTimeout(countUpFromTime.interval);
 		countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
 	}
+// 2001 Space Odyssey
 
-	
