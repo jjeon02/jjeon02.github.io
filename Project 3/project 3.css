@@ -1,0 +1,93 @@
+/* General */
+.bigbox{
+	background-color: black;
+	margin: 0px;
+	padding:0px;
+	z-index: 1;
+}
+.box{
+	margin: 50px 20px 50px 20px;
+	padding: 10px;
+	width: 90%;
+	float: center;
+	z-index: 2;
+}
+.font{
+	font-family: 'courier new';
+	font-size: 20px;
+	color:white;
+}
+.gradient{
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.7217261904761905) 49%, rgba(0,0,0,1) 100%);
+}
+/* Font for Each Movie */
+.same{
+	text-transform: uppercase;
+	color:white;
+}
+
+/* For title part */
+.titlebox{
+	display:inline-block;
+	background-position: center;
+  	background-repeat: no-repeat;
+	margin: 0px;
+  	width: 100%;
+  	height: 700px;
+	background: url("project 3_gif.gif") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.titleframe{
+	margin: 320px 20px 50px 20px;
+	padding: 10px;
+	width: 90%;
+	float: center;
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 75%;
+	text-transform: uppercase;
+	color: white;
+	animation: title 1s linear infinite alternate;
+}
+@keyframes title{
+	0%{
+		color: #f4424b;
+		transition: all 0.3s ease;
+		font-family: 'Orbitron', sans-serif;
+	}
+	25%{
+		color: #ffe949;
+		transition: all 0.3s ease;
+		font-family: 'Sarpanch', sans-serif;
+	}
+	50%{
+		color: #24996e;
+		transition: all 0.3s ease;
+		font-family: 'Orbitron', sans-serif;
+	}
+	75%{
+		color: #244d99;
+		transition: all 0.3s ease;
+		font-family: 'Bowlby One SC', cursive;
+	}
+	100%{
+		color: #f4424b;
+		transition: all 0.3s ease;
+		font-family: 'Futura';
+	}
+}
+/* For Javascript */
+.countup .timeel {
+	display: inline-block;
+	margin: 0;
+}
+.countup span[class*="timeRef"] {
+	margin-left: 0;
+}
