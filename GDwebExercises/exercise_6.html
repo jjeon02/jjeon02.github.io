@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise 6 Jueun</title>
+		<style>
+			.box{
+				display:inline-block;
+				position:relative;
+				width: 400px;
+				height: 500px;
+				margin: 20px;
+				border: 1px #8c8c8c solid;
+			}
+			.horizontal{
+				display: inline-block;
+				position:absolute;
+				width: 400px;
+				height: 50px;
+				background-color: black;
+			}
+			.hmiddle{
+				transform: translateY(225px);
+				background-color: black;
+			}
+			.hend{
+				transform: translateY(450px);
+				background-color: black;
+			}
+			.vertical{
+				width: 50px;
+				height: 500px;
+				display: inline-block;
+				position:absolute;
+				background-color: black;
+				z-index:2;
+			}	
+			.tone{
+				transition-property: all;
+				animation: tone 3.5s linear infinite alternate;
+			}
+			@keyframes tone {
+				0%{
+				background-color: red;
+				transition: all 0.4s ease;
+				}
+				50%{
+				background-color: green;
+				transition: all 0.4s ease;
+				}
+				100%{
+				background-color: blue;
+				transition: all 0.4s ease;
+				}
+			}
+			#t2{
+				display: inline-block;
+				position: absolute;
+				width: 200px;
+				height: 50px;
+				margin-top: 225px;
+				margin-bottom:225px;
+				background-color: #8c8c8c;
+				transition: all ease-in 0.3s;
+				animation: ttwo 3.5s linear infinite alternate;
+			}
+			@keyframes ttwo {
+				0%{
+				transform: translateX(50px);
+				}
+				50%{
+				transform: translateX(200px);
+				background-color: #a33939;
+				}
+				100%{
+				transform: translateX(50px);
+				}
+			}
+			
+			#t3{
+				width: 50px;
+				height: 500px;
+				display: inline-block;
+				position:absolute;
+				background-color: black;
+				z-index:2;
+				transition: all;
+				animation: tthree 3s ease-in infinite alternate;
+				opacity: 0.2;
+			}
+			@keyframes tthree {
+				0% {
+				transform: scaleX(1);
+				transform-origin: bottom left;
+				opacity: 0.2;
+				}
+				50% {
+				background-color: black;
+				transform: scaleX(8);
+				transform-origin: bottom left;
+				opacity: 1.0;
+				}
+				100% {
+				transform: scaleX(1);
+				transform-origin: bottom left;
+				opacity: 0.2;
+				}
+			}
+				
+			#t4{
+				width:100px;
+				height:100px;
+				display: inline-block;
+				position: absolute;
+				margin-left:15px;
+				transform: translateY(200px);
+				transform-origin: center;
+				border-radius: 50%;
+				transition: all;
+				animation: colors 3s ease-in infinite alternate;	
+
+			}
+			@keyframes colors {
+				0% {
+				background-color: #868d99;
+				}
+				25%{
+				background-color: #f442bf;
+				}
+				50% {
+				background-color: #8726ff;
+				margin-left:300px;
+				}
+				85%{
+				background-color: #7bbc2b;
+				}
+				100% {
+				background-color: #fff3b5;
+				}
+			}
+			#t5{
+				display: inline-block;
+				position:absolute;
+				width: 400px;
+				height: 50px;
+				background-color: black;
+				transform: translateY(0px);
+				animation: tfive 4s linear infinite alternate;	
+				transition-property: all;
+			}
+			@keyframes tfive {
+				0% {
+				transform: translateY(50px);
+				}
+				50% {
+				transform: translateY(400px);
+				}
+				100% {
+				transform: translateY(50px);
+				}
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<a href="https://jjeon02.github.io/">
+			Exercise Lists
+		</a>
+		<br>
+		<div class="box">
+			<div class="vertical tone"></div>
+			<div class="horizontal tone"></div>
+			<div class="horizontal hmiddle tone"></div>
+			<div class="horizontal hend tone"></div>
+		</div>
+		<div class="box">
+			<div class="vertical"></div>
+			<div class="horizontal"></div>
+			<div id="t2"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box">
+			<div id="t3"></div>
+			<div class="horizontal"></div>
+			<div class="horizontal hmiddle"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box">
+			<div class="vertical"></div>
+			<div class="horizontal"></div>
+			<div id="t4"></div>
+			<div class="horizontal hend"></div>
+		</div>
+		<div class="box">
+			<div class="vertical"></div>
+			<div class="horizontal"></div>
+			<div id="t5"></div>
+			<div class="horizontal hend"></div>
+		</div>
+	</body>
+</html>
