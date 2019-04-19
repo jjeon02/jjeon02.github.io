@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>animation</title>
+		<style>
+			.box{
+				width: 500px;
+				height: 500px;
+				background-color: black;
+				border-radius: 50%;
+				transition: all 0.3s ease-in;
+				/*helpful link: https://www.w3schools.com/csSref/css3_pr_transition-timing-function.asp */
+			}
+			.box:hover{
+				border-radius: 20%;
+				opacity: 0.3;
+				background-color: blue;
+				transform: scale(0.7) translateX(500px);
+			}
+			/* https://www.w3schools.com/cssref/css3_pr_transform.asp */
+			.hover{
+				margin: 10px;
+				width: 500px;
+				height: 500px;
+				background-color: black;
+				border-radius: 10%;
+				transition: all 0.3s ease;
+			}
+			.hover:hover{
+				opacity: 0.3;
+				background-color: blue;
+				transform-origin: top left ;
+				transform: scale(2);
+			}
+			.hover2{
+				margin: 10px;
+				width: 400px;
+				height: 400px;
+				background-color: black;
+				transition: all 0.3s ease;
+			}
+			.hover2:hover{
+				transform-origin: bottom left ;
+				transform: skewX(-10deg);
+			}
+			.ani{
+				width: 400px;
+				height: 300px;
+				animation: animation 3s ease-in infinite;
+			}
+			@keyframes animation {
+				0%{
+					transform: scale(1);
+					background-color: red;
+				}
+				50%{
+					transform: scale(2);
+					background-color: yellow;
+				}
+				90%{
+					transform: scale(0.5);
+					background-color: blue;
+				}
+				100%{
+					transform: scale(1);
+					background-color: red;
+				}
+			}
+
+			/*gradient: https://www.w3schools.com/css/css3_gradients.asp */
+
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+		<div class="hover"></div>
+		<div class="hover2"></div>
+		<div class="ani"></div>
+	</body>
+</html>
