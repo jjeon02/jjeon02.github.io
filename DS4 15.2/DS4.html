@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Exercise 3.3 Jueun</title>
 		<style>
-			body{
-				background-image: url("universe.jpg");
-				background-repeat: no-repeat;
-  				background-size: auto;
-			}
-			.grid{
-				grid-template-columns: 50px 50% 50px;
-				grid-template-rows: 50px 50px 50px;
-			}
+		body{
+			background-color:#28292b;
+		}
+		.grid{
+			background-color: #565656;
+			display: grid;
+  			max-width: 1500px;
+  			min-width: 600px;
+			position: relative;
+			margin: auto;
+			padding: 20px;
+			grid-template-columns: 100px auto 100px;
+			grid-template-rows: 100px 100px;
+			grid-gap: 10px;
+		}
+		.box{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color:red;
+		}
+		.woman{
+			background-image:url(woman_i.jpg);
+			background-size: cover;
+
+		}
+		.woman:hover{
+			background-image:url(woman_h.jpg);
+		}
 		</style>
-	<head>
+	</head>
 	<body>
-		
+		<div class="grid">
+			<div class="box"></div>
+		</div>
 	</body>
 </html>
