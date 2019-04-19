@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise 3.2 Jueun</title>
+		<link rel="stylesheet" type="text/css" href="practice_3.2.css">
+		<style>
+			.blog{
+	display:grid;
+	border: 20px;
+	margin: 100px;
+	grid-template-columns: repeat (3,1fr);
+	grid-template-rows: 300px 100px 600px 300px;
+	grid-gap: 5px;
+}
+.header{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: #6bceba;
+	text-align: center;
+}
+.header2{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: #fdffa3;
+	text-align: center;
+
+}
+.column1{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background-color:#7a7887;
+
+}
+.column2{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background-color:#7a7887;
+
+}
+.column3{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background-color:#7a7887;
+
+}
+.footer{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	background-color: #6bceba;
+	text-align: center;
+}
+		</style>
+	</head>
+	<body>
+		<a href="https://jjeon02.github.io/">Exercise Lists</a>
+		<div class="blog">
+			<h1 class="header">This is header</h1>
+			<h2 class="header2">This is header 2</h2>
+			<p class="column1">lorem ipsum</p>
+			<p class="column2">lorem ipsum</p>
+			<p class="column3">lorem ipsum</p>
+			<footer class="footer">this is footer</footer>
+		</div>
+	</body>
+</html>
