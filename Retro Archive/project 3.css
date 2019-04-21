@@ -1,22 +1,30 @@
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* General */
-.box{
-	margin: 70px 20px 70px 20px;
-	padding: 10px;
-	width: 90%;
-	float: center;
-	z-index: 2;
-	min-width: 700px;
-}
 .font{
 	font-family: 'Futura';
 	font-size: 20px;
 	color: #565656;
 }
+
+a{
+	text-decoration: none;
+}
+.box{
+	margin: 70px 10px 70px 10px;
+	padding: 10px 30px 10px 30px;
+	width: 90%;
+	float: center;
+	z-index: 2;
+	min-width: 700px;
+}
+
 .gradient{
 	background: rgb(2,0,36);
 	background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.7217261904761905) 49%, rgba(0,0,0,1) 100%);
 }
-/* Font for Each Movie */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+/* For Each Movie */
 .same{
 	text-transform: uppercase;
 }
@@ -26,6 +34,7 @@
 .white{
 	color:white;
 }
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* For title part */
 .animation{
 	display:inline-block;
@@ -78,16 +87,4 @@
 	}
 }
 
-/* mobile and computer */
 
-
-
-
-/* For Javascript */
-.countup .timeel {
-	display: inline-block;
-	margin: 0;
-}
-.countup span[class*="timeRef"] {
-	margin-left: 0;
-}
