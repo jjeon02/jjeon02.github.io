@@ -3,8 +3,8 @@ body{
 }
 .grid{
 	display:grid;
-	grid-template-columns: 16vw 16vw 16vw 16vw 16vw 16vw;
-	grid-template-rows: 16vw 16vw 16vw 16vw 16vw 16vw;
+	grid-template-columns: 16.4vw 16.4vw 16.4vw 16.4vw 16.4vw 16.4vw;
+	grid-template-rows: 16.4vw 16.4vw 16.4vw 16.4vw 16.4vw 16.4vw;
 }
 .gridbox{
 	display: flex;
