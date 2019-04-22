@@ -1,17 +1,9 @@
-
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* General */
-button{
+.button{
 	background-color:black;
 	border: 2px solid white;
-}
-.mystyle{
-	margin: 70px 10px 70px 10px;
-	padding: 10px 30px 10px 30px;
-	font-family: 'Futura';
-	font-size: 20px;
-	color: #565656;
-	background-color:black;
+	padding: 5px;
 }
 .font{
 	font-family: 'Futura';
