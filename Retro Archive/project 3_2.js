@@ -32,13 +32,7 @@ function countUpFromTime(countFrom, id) {
 }
 
 // 2. 
-console.log('x')
-
-function myToggle() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "Event") {
-    x.style.display = "_A Victorian English inventor living in Richmond, Surrey, succeed at creating a time machine.";
-  } else {
-    x.style.display = "Event";
-  }
+function myToggle(){
+	var x = document.getElementById("myDIV");
+	return x.style.display ="block";
 }
