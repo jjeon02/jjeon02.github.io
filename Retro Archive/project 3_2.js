@@ -30,9 +30,15 @@ function countUpFromTime(countFrom, id) {
   clearTimeout(countUpFromTime.interval);
   countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
 }
+// 2.
 
-// 2. 
-function myToggle(){
-	var x = document.getElementById("myDIV");
-	return x.style.display ="block";
-}
+// toggle. 
+  function myToggle(e) {
+    const item = document.querySelector(`[data-id=${e.target.id}]`);
+    item.toggleAttribute('hidden'); 
+  }
+
+  const chapters = document.querySelectorAll('details');
+  chapters.forEach((chapter) => {
+    chapter.addEventListener('toggle', logItem);
+  });
