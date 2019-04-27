@@ -1,195 +1,172 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* General */
+.animation{
+  	background-repeat: no-repeat;
+	margin: 10px auto 10px auto;
+	padding: 10px 5px 10px 5px;
+	border: solid 2px white;
+  	width: 90%;
+  	height: 700px;
+	background: url("project 3_gif.gif") no-repeat  center fixed; 
+   	-webkit-background-size: cover;
+   	-moz-background-size: 90% 700px;
+   	-o-background-size: 90% 700px;
+   	background-size: 90% 700px;
+}
+body{
+	background-color:black;
+	}
 h1{
 	font-size: 60px;
 	color: white;
 }
 h2{
-	font-family: 'Helvetica';
+	text-align:center;
+	font-family: 'Play', sans-serif;
 	font-size: 30px;
 	color: white;
 	text-transform:uppercase;
 
 }
 p{
-	font-family: 'Helvetica';
+	text-align:center;
+	font-family: 'Play', sans-serif;
 	font-size: 27px;
-	color: #818791;
-	max-width: 1100px;
-	min-width: 500px;
-	margin: 10px auto 10px auto;
+	color: white;
 	margin-bottom:10px;
 }
 summary{
 	border-bottom: solid 3px white;
-	height: 90px;
-	margin: 5px auto 5px auto;
-	max-width: 700px;
-	min-width: 400px;
-}
-.titlebox{
-	margin: auto auto auto auto;
-	padding: auto 10px auto 10px;
-	max-width: 1100px;
-	min-width: 500px;
+	height: 150px;
+	margin: 20px auto 10px auto;
+	max-width: 1000px;
+	min-width: 600px;
 }
 a{
 	text-decoration: underline;
 	color:white;
-}
-.box{
-	display: inline-block;
-	padding: 10px;
-	margin: 10px auto 10px auto;
-	width:100%;
-	float: center;
-	z-index: 2;
 }
 .same{
 	color:white;
 	text-transform: uppercase;
 	text-align:center;
 	background-color:black;
+	margin:auto;
+	padding: 10px auto 10px auto;
+	font-size:70px;
 }
-.same:hover{
-	animation: rainbow 2s linear infinite alternate;
+.imgbox{
+	margin: 20px auto 10px auto;
+	border: solid 5px white;
+  	width: 90%;
+  	height: 300px;
 }
-@keyframes rainbow{
-	0%{
-		color: red;
-		transition: all 0.3s ease;
-	}
-	25%{
-		color: yellow;
-		transition: all 0.3s ease;
-	}
-	50%{
-		color: green;
-		transition: all 0.3s ease;
-	}
-	75%{
-		color: blue;
-		transition: all 0.3s ease;
-	}
-	100%{
-		color: purple;
-		transition: all 0.3s ease;
-	}
+.titlebox{
+	text-align: center;
+	margin: 10px auto 20px auto;
+	padding: 10px 5px 10px 5px;
+  	width: 80%;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* For Each Movie */
 
 #timemachine{
-	height:500px;
 	background:url("time machine.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	 -webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
+
 }
 #warworld{
-	height:500px;
 	background:url("war_worlds.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #tripmoon{
-	height:500px;
 	background:url("a trip to the moon.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #earthstood{
-	height:500px;
 	background:url("earthstood.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #ape{
 	height:500px;
 	background:url("planet_ape.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #tron{
 	height:500px;
 	background:url("tron.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #owell{
 	height:500px;
 	background:url("1984.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
-
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #terminator{
 	height:500px;
 	background:url("terminator.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
-
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #odyssey{
 	height:500px;
 	background:url("spaceodyssey.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 #backfuture{
 	height:500px;
 	background:url("backtothefuture.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 
 }
 #bladerunner{
 	height:500px;
 	background:url("bladerunner.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
+	-webkit-background-size: 90%;
+   	-moz-background-size: 90%;
+   	-o-background-size: 90%;
+   	background-size: 90%;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* For title part */
-.animation{
-	background-position: center;
-  	background-repeat: no-repeat;
-	margin: 0px;
-  	width: 100%;
-  	height:700px;
-	background: url("project 3_gif.gif") no-repeat center center fixed; 
-   	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
-}
-.title{
+
+#title{
+	text-align:center;
+	line-height: 85%;
 	float: center;
 	font-weight: bold;
 	font-size: 70px;
-	line-height: 75%;
+	min-width: 400px;
 	text-transform: uppercase;
 	color: white;
 	animation: title 2s linear infinite alternate;
@@ -197,27 +174,22 @@ a{
 
 @keyframes title{
 	0%{
-		color: red;
 		transition: all 0.3s ease;
 		font-family: 'Orbitron', sans-serif;
 	}
 	25%{
-		color: yellow;
 		transition: all 0.3s ease;
 		font-family: 'Sarpanch', sans-serif;
 	}
 	50%{
-		color: green;
 		transition: all 0.3s ease;
 		font-family: 'Orbitron', sans-serif;
 	}
 	75%{
-		color: blue;
 		transition: all 0.3s ease;
 		font-family: 'Bowlby One SC', cursive;
 	}
 	100%{
-		color: purple;
 		transition: all 0.3s ease;
 		font-family: 'Futura';
 	}
