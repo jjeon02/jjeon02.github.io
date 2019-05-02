@@ -1,278 +1,240 @@
+//Common.
+      window.onload=function() {
+        doTime();
+        doTimeTwo();
+        doTimeThree();
+        doTimeFour();
+        doTimeFive();
+        doTimeSix();
+        doTimeSeven();
+        doTimeEight();
+        doTimeNine();
+        doTimeTen();
+        doTimeEleven();
+      }
+// 1. Time Machine
 
+      function doTime() {
 
-// 1.
+       now=new Date ();
+       then=new Date ('feb,06,2019,22:31:00');
 
-window.onload = function() {
-countUpFromTime("Mar 8, 1895 00:00:00", 'countup1'); 
-};
+       difference=(now-then);
 
-function countUpFromTime(countFrom, id) {
-  countFrom = new Date(countFrom).getTime();
-  var now = new Date(),
-      countFrom = new Date(countFrom),
-      timeDifference = (now - countFrom);
-    
-  var secondsInADay = 60 * 60 * 1000 * 24,
-      secondsInAHour = 60 * 60 * 1000;
-    
-  days = Math.floor(timeDifference / (secondsInADay) * 1);
-  years = Math.floor(days / 365);
-  if (years > 1){ days = days - (years * 365) }
-  hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1);
-  mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
-  secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
 
-  var idEl = document.getElementById(id);
-  idEl.getElementsByClassName('years')[0].innerHTML = years;
-  idEl.getElementsByClassName('days')[0].innerHTML = days;
-  idEl.getElementsByClassName('hours')[0].innerHTML = hours;
-  idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
-  idEl.getElementsByClassName('seconds')[0].innerHTML = secs;
+       document.getElementById('timer').firstChild.nodeValue=
 
-  clearTimeout(countUpFromTime.interval);
-  countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
-}
+       '125'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
 
-// 1.
+       setTimeout('doTime()',1000);
+      }
+// 2. War of the Worlds
 
-      var minutesLabel = document.getElementById("minutes");
-      var secondsLabel = document.getElementById("seconds");
-      var totalSeconds = 0;
-      setInterval(setTime, 1000);
+      function doTimeTwo() {
 
-      function setTime() {
-        ++totalSeconds;
-        secondsLabel.innerHTML = pad(totalSeconds % 60);
-        minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+       now=new Date ();
+       then=new Date ('Jan,01,2019,12:00:07');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer2').firstChild.nodeValue=
+
+       '121'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeTwo()',1000);
+      }
+// 3. Trip Moon
+
+      function doTimeThree() {
+
+       now=new Date ();
+       then=new Date ('Sep,1,2018,12:00:07');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer3').firstChild.nodeValue=
+
+       '117'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeThree()',1000);
       }
 
-      function pad(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
+// 4. Earth Stood
+
+      function doTimeFour() {
+
+       now=new Date ();
+       then=new Date ('Sep,28,2018,16:06:43');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer4').firstChild.nodeValue=
+
+       '68'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeFour()',1000);
       }
-// 2.
-      var minutesLabelTwo = document.getElementById("minutes2");
-      var secondsLabelTwo = document.getElementById("seconds2");
-      var totalSecondsTwo = 0;
-      setInterval(setTimeTwo, 1000);
+// 5. Ape
 
-      function setTimeTwo() {
-        ++totalSecondsTwo;
-        secondsLabelTwo.innerHTML = padTwo(totalSecondsTwo % 60);
-        minutesLabelTwo.innerHTML = padTwo(parseInt(totalSecondsTwo / 60));
-      }
+      function doTimeFive() {
 
-      function padTwo(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-// 3.
+       now=new Date ();
+       then=new Date ('March,27,2019,16:17:00');
 
-      var minutesLabelThree = document.getElementById("minutes3");
-      var secondsLabelThree = document.getElementById("seconds3");
-      var totalSecondsThree = 0;
-      setInterval(setTimeThree, 1000);
+       difference=(now-then);
 
-      function setTimeThree() {
-        ++totalSecondsThree;
-        secondsLabelThree.innerHTML = padThree(totalSecondsThree % 60);
-        minutesLabelThree.innerHTML = padThree(parseInt(totalSecondsThree / 60));
-      }
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
 
-      function padThree(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
+       document.getElementById('timer5').firstChild.nodeValue=
+
+       '51'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeFive()',1000);
       }
 
-// 4.
-      var minutesLabelFour = document.getElementById("minutes4");
-      var secondsLabelFour = document.getElementById("seconds4");
-      var totalSecondsFour = 0;
-      setInterval(setTimeFour, 1000);
+// 6. tron 
 
-      function setTimeFour() {
-        ++totalSecondsFour;
-        secondsLabelFour.innerHTML = padFour(totalSecondsFour % 60);
-        minutesLabelFour.innerHTML = padFour(parseInt(totalSecondsFour / 60));
+      function doTimeSix() {
+
+       now=new Date ();
+       then=new Date ('July,9,2018,16:07:53');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer6').firstChild.nodeValue=
+
+       '36'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeSix()',1000);
+      }
+// 7. 1984
+
+      function doTimeSeven() {
+
+       now=new Date ();
+       then=new Date ('Sep,28,2018,12:30:37');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer7').firstChild.nodeValue=
+
+       '35'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeSeven()',1000);
+      }
+// 8. Terminator
+
+      function doTimeEight() {
+
+       now=new Date ();
+       then=new Date ('August,29,2018,12:00:11');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer8').firstChild.nodeValue=
+
+       '22'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeEight()',1000);
       }
 
-      function padFour(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
+// 9. 2001
+
+      function doTimeNine() {
+
+       now=new Date ();
+       then=new Date ('April,3,2018,23:00:05');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer9').firstChild.nodeValue=
+
+       '18'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeNine()',1000);
+      }
+      
+// 10. Back to Future
+
+      function doTimeTen() {
+
+       now=new Date ();
+       then=new Date ('April,3,2018,08:10:34');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer10').firstChild.nodeValue=
+
+       '3'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeTen()',1000);
       }
 
-//5. 
-      var minutesLabelFive = document.getElementById("minutes5");
-      var secondsLabelFive = document.getElementById("seconds5");
-      var totalSecondsFive = 0;
-      setInterval(setTimeFive, 1000);
+// 11. Blade Runner
 
-      function setTimeFive() {
-        ++totalSecondsFive;
-        secondsLabelFive.innerHTML = padFive(totalSecondsFive % 60);
-        minutesLabelFive.innerHTML = padFive(parseInt(totalSecondsFive / 60));
+      function doTimeEleven() {
+
+       now=new Date ();
+       then=new Date ('June,25,2018,00:04:03');
+
+       difference=(now-then);
+
+       days=Math.floor(difference/(60*60*1000*24)*1);
+       hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+       mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+       secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+       document.getElementById('timer11').firstChild.nodeValue=
+
+       '3'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+
+       setTimeout('doTimeEleven()',1000);
       }
-
-      function padFive(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-//6. 
-      var minutesLabelSix = document.getElementById("minutes6");
-      var secondsLabelSix = document.getElementById("seconds6");
-      var totalSecondsSix = 0;
-      setInterval(setTimeSix, 1000);
-
-      function setTimeSix() {
-        ++totalSecondsSix;
-        secondsLabelSix.innerHTML = padSix(totalSecondsSix % 60);
-        minutesLabelSix.innerHTML = padSix(parseInt(totalSecondsSix / 60));
-      }
-
-      function padSix(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-
-//7. 
-      var minutesLabelSeven= document.getElementById("minutes7");
-      var secondsLabelSeven = document.getElementById("seconds7");
-      var totalSecondsSeven = 0;
-      setInterval(setTimeSeven, 1000);
-
-      function setTimeSeven() {
-        ++totalSecondsSeven;
-        secondsLabelSeven.innerHTML = padSeven(totalSecondsSeven % 60);
-        minutesLabelSeven.innerHTML = padSeven(parseInt(totalSecondsSeven / 60));
-      }
-
-      function padSeven(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-
-//8.
-      var minutesLabelEight = document.getElementById("minutes8");
-      var secondsLabelEight = document.getElementById("seconds8");
-      var totalSecondsEight = 0;
-      setInterval(setTimeEight, 1000);
-
-      function setTimeEight() {
-        ++totalSecondsEight;
-        secondsLabelEight.innerHTML = padEight(totalSecondsEight % 60);
-        minutesLabelEight.innerHTML = padEight(parseInt(totalSecondsEight / 60));
-      }
-
-      function padEight(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-
-//9.
-      var minutesLabelNine = document.getElementById("minutes9");
-      var secondsLabelNine = document.getElementById("seconds9");
-      var totalSecondsNine = 0;
-      setInterval(setTimeNine, 1000);
-
-      function setTimeNine() {
-        ++totalSecondsNine;
-        secondsLabelNine.innerHTML = padNine(totalSecondsNine % 60);
-        minutesLabelNine.innerHTML = padNine(parseInt(totalSecondsNine / 60));
-      }
-
-      function padNine(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-//10
-      var minutesLabelTen = document.getElementById("minutes10");
-      var secondsLabelTen = document.getElementById("seconds10");
-      var totalSecondsTen = 0;
-      setInterval(setTimeTen, 1000);
-
-      function setTimeTen() {
-        ++totalSecondsTen;
-        secondsLabelTen.innerHTML = padTen(totalSecondsTen % 60);
-        minutesLabelTen.innerHTML = padTen(parseInt(totalSecondsTen / 60));
-      }
-
-      function padTen(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-
-//11
-      var minutesLabelElev = document.getElementById("minutes11");
-      var secondsLabelElev = document.getElementById("seconds11");
-      var totalSecondsElev = 0;
-      setInterval(setTimeElev, 1000);
-
-      function setTimeElev() {
-        ++totalSecondsElev;
-        secondsLabelElev.innerHTML = padElev(totalSecondsElev % 60);
-        minutesLabelElev.innerHTML = padElev(parseInt(totalSecondsElev / 60));
-      }
-
-      function padElev(val) {
-        var valString = val + "";
-        if (valString.length < 2) {
-          return "0" + valString;
-        } else {
-          return valString;
-        }
-      }
-
-
-
-// toggle. 
-  function myToggle(e) {
-    const item = document.querySelector(`[data-id=${e.target.id}]`);
-    item.toggleAttribute('hidden'); 
-  }
-
-  const chapters = document.querySelectorAll('details');
-  chapters.forEach((chapter) => {
-    chapter.addEventListener('toggle', logItem);
-  });
-
-  // 
+      
