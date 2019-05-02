@@ -233,7 +233,7 @@
 
        document.getElementById('timer11').firstChild.nodeValue=
 
-       '3'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+       '0'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
 
        setTimeout('doTimeEleven()',1000);
       }
