@@ -65,7 +65,7 @@
 	.titlebox{
 		text-align: center;
 		margin: 10px auto 20px auto;
-		padding: 10px 5px 40px 5px;
+		padding: 10px 5px 100px 5px;
 	  	max-width: 1200px;
 		min-width: 800px;
 	  	border-bottom: solid 3px white;
@@ -76,82 +76,83 @@
 
 	#timemachine{
 		background:url("time machine.jpg") no-repeat center fixed;
-		 -webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 
 	}
 	#warworld{
 		background:url("war_worlds.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#tripmoon{
 		background:url("a trip to the moon.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#earthstood{
 		background:url("earthstood.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#ape{
 		background:url("planet_ape.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
 	}
 	#tron{
 		background:url("tron.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#owell{
 		background:url("1984.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#terminator{
 		background:url("terminator.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#odyssey{
 		background:url("spaceodyssey.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#backfuture{
 		background:url("backtothefuture.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 
 	}
 	#bladerunner{
 		background:url("bladerunner.jpg") no-repeat center fixed;
-		-webkit-background-size: 90%;
-	   	-moz-background-size: 90%;
-	   	-o-background-size: 90%;
-	   	background-size: 90%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 	/* For title part */
@@ -356,82 +357,82 @@
 
 	#timemachine{
 		background:url("time machine.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 
 	}
 	#warworld{
 		background:url("war_worlds.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#tripmoon{
 		background:url("a trip to the moon.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#earthstood{
 		background:url("earthstood.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#ape{
 		background:url("planet_ape.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#tron{
 		background:url("tron.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#owell{
 		background:url("1984.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#terminator{
 		background:url("terminator.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#odyssey{
 		background:url("spaceodyssey.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	#backfuture{
 		background:url("backtothefuture.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 
 	}
 	#bladerunner{
 		background:url("bladerunner.jpg") no-repeat center fixed;
-		 -webkit-background-size: 200%;
-	   	-moz-background-size: 200%;
-	   	-o-background-size: 200%;
-	   	background-size: 200%;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 	/* For title part */
