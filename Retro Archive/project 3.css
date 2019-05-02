@@ -572,12 +572,12 @@
 	padding: 10px 5px 10px 5px;
 	border: solid 2px white;
   	width: 90%;
-  	height: 90%;
+  	height: 700px;
 	background: url("project 3_gif.gif") no-repeat  center fixed; 
    	-webkit-background-size: cover;
-   	-moz-background-size: 90% 700px;
-   	-o-background-size: 90% 700px;
-   	background-size: 90% 700px;
+   	-moz-background-size: 90% 90%;
+   	-o-background-size: 90% 90%;
+   	background-size: 90% 90%;
 	}
 	body{
 		background-color:black;
