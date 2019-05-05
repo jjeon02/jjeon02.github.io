@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>exercise final</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<style>
+			.grid{
+				margin: 20px;
+				min-width: 600px;
+				max-width:1500px;
+				display:grid;
+				grid-template-columns: 150px auto 200px;
+				grid-template-rows: 100px 400px 400px;
+			}
+			.box{
+				border: 2px solid black;
+				margin:10px;
+			}
+			#box{
+				border: 2px dashed black;
+				padding:10px;
+				margin: 20px;
+			}
+			.title{
+				margin-top: 20px;
+				margin-bottom: 20px;
+				background-color: red;
+				grid-column-start:1;
+				grid-column-end: 4;
+			}
+			p{
+				font-family: "futura";
+				text-align:center;
+			}
+			.block{
+				overflow: hidden;
+				grid-column-start:1;
+				grid-column-end: 3;
+				object-fit: cover;
+			}
+			a{
+				font-family: 'Poppins', sans-serif;
+				color:white;
+			}
+			a:visited{
+				color:black;
+			}
+
+			.ani{
+				margin: 50px;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				animation: animation 3s ease-in infinite;
+			}
+			@keyframes animation {
+				0%{
+					transform: scale(1);
+					background-color: red;
+				}
+				20%{
+					transform: scale(2);
+					background-color: yellow;
+				}
+				40%{
+					background-color: green;
+				}
+				60%{
+					background-color: blue;
+				}
+				80%{
+					background-color: purple;
+				}
+				100%{
+					transform: scale(1);
+					background-color: red;
+				}
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div class="grid">
+			<!-- title -->
+			<div class="title box">
+				<p style="color:white;">hello world title</p>
+			</div>
+
+			<!-- 1st row -->
+			<div class="block box">
+				<a href="https://www.netflix.com/browse" target="_blank">
+					<img class="img" src="universe.jpg" style="object-fit:cover">
+				</a>
+			</div>
+			<div class="box" style="background-color: yellow">
+				<div id="box">
+					<ul>
+						<li><p>List 1</p></li>
+						<li><p>List 2</p></li>
+						<li><p>List 3</p></li>
+						<li><p>List 4</p></li>
+						<li><p>List 5</p></li>
+						<li><p>List 6</p></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 2nd row -->
+			<div class="box" style="background-color:green;">
+				<div class="box">
+					<a href="https://www.netflix.com/browse" target="_blank">
+					<!--target="_blank" opens in different page -->
+						lorem ipsum
+					</a>
+				</div>
+			</div>
+
+			<!-- 2nd row animation -->
+			<div class="box">
+				
+			</div>
+
+			<div class="box">
+				<div class="ani"></div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
