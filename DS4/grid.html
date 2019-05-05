@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid</title>
+		<style>
+
+		.grid{
+			display:grid;
+			grid-template-columns: 100px auto 300px;
+			grid-template-rows: 400px 500px;
+			margin: 20px;
+			grid-gap: 10px;
+			/* top - right - bottom -left */
+		}
+		.box{
+			background-color: red;
+			border: 1px solid black;
+		}
+		.block{
+			background-color: blue;
+			grid-column-start: 1;
+  			grid-column-end: 3;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div></div>
+		<div class="grid">
+			<div class="block">
+				<h1> titles </h1>
+			</div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+		</div>
+	</body>
+</html>
