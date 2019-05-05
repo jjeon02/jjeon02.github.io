@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise 3.3 Jueun</title>
+		<style>
+			.rainbowbox{
+				padding:20px;
+				margin:0px;
+				width:100%;
+				animation: rainbowtwo 5s ease-in infinite;
+			}
+			@keyframes rainbowtwo {
+				0%{
+					background-color: red;
+				}
+				20%{
+					background-color: yellow;
+				}
+				40%{
+					background-color: green;
+				}
+				60%{
+					background-color: blue;
+				}
+				80%{
+					background-color: purple;
+				}
+				100%{
+					background-color: red;
+				}
+			}
+
+			.box{
+				width:90%;
+				height:500px;
+				margin:10px auto 10px auto;
+				padding:10px;
+			}
+			#bono1{
+				background-image:url("Bonobono_1.jpg");
+			}
+			#gif{
+				height:800px;
+				background-image:url("bono-bono.gif");
+			}
+			#bono2{
+				background-image:url("Bonobono_2.jpg");
+			}
+			h1{
+				font-family:"Comic Sans MS", cursive, sans-serif;
+				font-size:80px;
+			}
+			.animation{
+				animation: rainbow 5s ease-in infinite;
+			}
+			@keyframes rainbow {
+				0%{
+					color: red;
+				}
+				20%{
+					color: yellow;
+				}
+				40%{
+					color: green;
+				}
+				50%{
+					transform:rotate(180deg);
+				}
+				60%{
+					color: blue;
+				}
+				80%{
+					color: purple;
+				}
+				100%{
+					color: red;
+					transform:rotate(360deg);
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="rainbowbox">
+			<div class="box" id="bono1">
+				<div class="animation">
+					<h1>Graphic Design is My Passion</h1>
+				</div>
+			</div>
+		</div>
+		<div id="gif"></div>
+		<div class="rainbowbox">
+			<div class="box" id="bono2">
+				<div class="animation">
+					<h2 style="font-size:100px">그래픽 디자인은 내 열정</h2>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
