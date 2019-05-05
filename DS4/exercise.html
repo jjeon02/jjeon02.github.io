@@ -1,0 +1,105 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Bar</title>
+		<link rel="stylesheet" type="text/css" href="exercise.css">
+		<style>
+			/* CSS Memo ! */
+			body{
+				background-image: url("universe.jpg");
+				background-repeat: none;
+				background-attachment:fixed;
+			}
+			p{
+			font-family: "baskerville";
+			font-size: 50px;
+			}
+			.title{
+				padding: 30px;
+				border: solid 3px black;
+				margin: 30px;
+				text-transform: uppercase;
+			}
+			.center{
+				text-align:center;
+			}
+			.imgsize{
+				width: 100%;
+ 				height: auto;
+				object-fit: cover;
+			}
+
+			li{
+				color: black;
+			}
+			li:hover{
+				color: white;
+			}
+
+			.cat{
+				background-image: url("cat.jpg");
+				background-repeat: none;
+				background-size: auto;
+				width:400px;
+				height:400px;
+				margin:auto;
+				background-position: center;
+			}
+			.cat:hover{
+				background-image: url("universe.jpg");
+			}
+
+		</style>
+	</head>
+	<body>
+		<!-- title -->
+		<div class="title center" style="background-color: blue;">
+			<h1 style="color:white;"> Header 1 </h1>
+		</div>
+
+		<div class="title" style="background-color: red;">
+			<h2> Defines Header 2 </h2>
+			<h3> Defines Header 3 </h3>
+			<h4> Defines Header 4 </h4>
+			<h5> Defines Header 5 </h5>
+			<h6> Defines Header 6 </h6>
+			<p> Defines paragraph<p>
+		</div>
+			<!-- List -->
+		<div class="title" style="background-color: yellow;">
+			<ul> 
+				<li>List 1</li>
+				<li>List 2</li>
+			</ul>
+			
+			<ol>
+				<li>List 1</li>
+				<li>List 2</li>
+			</ol>
+		</div>
+			<!-- image -->
+		<div class="title" style="background-color: green;">
+			<div>
+				<img src="cat.jpg" class="imgsize">
+			</div>
+		</div>
+
+			<!-- link -->
+		<div class="title center">
+			<a href="https://www.google.com/">
+				<p>Link</p>
+			</a>
+			<a href="DS4.html">
+				<p>Link</p>
+			</a>
+		</div>
+
+		<!-- cat hover -->
+		<div class="title">
+			<div  class="cat"></div>
+		</div>
+
+			
+
+	</body>
+</html>
