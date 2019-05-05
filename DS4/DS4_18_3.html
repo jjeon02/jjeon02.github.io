@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Exercise 3.3 Jueun</title>
+		<title>GOD DAMN BONOBONO</title>
+		<link rel = "icon" href = "Bonobono_icon.jpg" type = "image/x-icon"> 
+		<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 		<style>
 			.rainbowbox{
 				padding:20px;
@@ -11,22 +13,22 @@
 			}
 			@keyframes rainbowtwo {
 				0%{
-					background-color: red;
-				}
-				20%{
-					background-color: yellow;
-				}
-				40%{
 					background-color: green;
 				}
-				60%{
+				20%{
 					background-color: blue;
 				}
-				80%{
+				40%{
 					background-color: purple;
 				}
-				100%{
+				60%{
 					background-color: red;
+				}
+				80%{
+					background-color: yellow;
+				}
+				100%{
+					background-color: green;
 				}
 			}
 
@@ -39,8 +41,8 @@
 			#bono1{
 				background-image:url("Bonobono_1.jpg");
 			}
-			#gif{
-				height:800px;
+			.gif{
+				height:1000px;
 				background-image:url("bono-bono.gif");
 			}
 			#bono2{
@@ -48,7 +50,7 @@
 			}
 			h1{
 				font-family:"Comic Sans MS", cursive, sans-serif;
-				font-size:80px;
+				font-size:50px;
 			}
 			.animation{
 				animation: rainbow 5s ease-in infinite;
@@ -77,24 +79,74 @@
 					transform:rotate(360deg);
 				}
 			}
-
+			p{
+				font-family: 'Sofia', cursive;
+				text-align:center;
+				font-size:50px;
+				animation: rainbowthree 5s ease-in infinite;
+			}
+			@keyframes rainbowthree {
+				0%{
+					color: yellow;
+				}
+				20%{
+					color: green;
+				}
+				40%{
+					color: blue;
+				}
+				60%{
+					color: purple;
+				}
+				80%{
+					color: red;
+				}
+				100%{
+					color: yellow;
+				}
+			}
 		</style>
 	</head>
 	<body>
 		<div class="rainbowbox">
 			<div class="box" id="bono1">
 				<div class="animation">
-					<h1>Graphic Design is My Passion</h1>
+					<h1>Graphic Design is My Pass<br>ion</h1>
 				</div>
 			</div>
 		</div>
-		<div id="gif"></div>
+
 		<div class="rainbowbox">
 			<div class="box" id="bono2">
 				<div class="animation">
-					<h2 style="font-size:100px">그래픽 디자인은 내 열정</h2>
+					<h2 style="font-size:100px">그래픽 디자인은 내 열<br>정</h2>
 				</div>
 			</div>
 		</div>
+		
+		<div class="gif"></div>
+
+		<div class="box" style="background-color:black">
+			<p>Not every choices, decisions and events on our life has reasons. <br> A simple reason can be still valid reason if it's enjoyable.</p>
+		</div>
+		
+		<div class="gif"></div>
+		
+		<div class="rainbowbox">
+			<div class="box" id="bono1">
+				<div class="animation">
+					<h1>Graphic Design is My Pass<br>ion</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="rainbowbox">
+			<div class="box" id="bono2">
+				<div class="animation">
+					<h2 style="font-size:100px">그래픽 디자인은 내 열<br>정</h2>
+				</div>
+			</div>
+		</div>
+	
 	</body>
 </html>
