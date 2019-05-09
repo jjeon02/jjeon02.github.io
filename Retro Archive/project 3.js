@@ -11,6 +11,7 @@
         doTimeNine();
         doTimeTen();
         doTimeEleven();
+        startTime()
       }
 // 1. Time Machine
 
@@ -180,7 +181,7 @@
       function doTimeNine() {
 
        now=new Date ();
-       then=new Date ('April,3,2018,23:00:05');
+       then=new Date ('April,3,2019,23:00:05');
 
        difference=(now-then);
 
@@ -201,7 +202,7 @@
       function doTimeTen() {
 
        now=new Date ();
-       then=new Date ('April,3,2018,08:10:34');
+       then=new Date ('March,22,2019,08:10:34');
 
        difference=(now-then);
 
@@ -238,3 +239,8 @@
        setTimeout('doTimeEleven()',1000);
       }
       
+
+// current time 
+
+
+
