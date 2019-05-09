@@ -1,0 +1,19 @@
+.img{
+	width:90%;
+	padding: 10px auto 10px auto;
+	margin: 10px auto 10px auto;
+}
+.imgbox{
+	width:50%;
+	margin:50px;
+	border:1px solid black;
+	object-fit:cover;
+}
+.left{
+	transform: rotate(-5deg);
+	float:left;
+}
+.right{
+	transform: rotate(5deg);
+	float:right;
+}
