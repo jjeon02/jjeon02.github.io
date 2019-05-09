@@ -25,15 +25,13 @@
 	h2{
 		text-align:center;
 		font-family: 'Play', sans-serif;
-		font-size: 30px;
+		font-size: 45px;
 		color: white;
-		text-transform:uppercase;
-
 	}
 	p{
 		text-align:center;
 		font-family: 'Play', sans-serif;
-		font-size: 27px;
+		font-size: 30px;
 		color: white;
 		margin-bottom:10px;
 	}
@@ -53,6 +51,28 @@
 		text-decoration: underline;
 		color:white;
 	}
+	a:hover{
+		animation: grey 2s linear infinite alternate;
+	}
+
+	@keyframes grey{
+		0%{
+			color:white;
+		}
+		25%{
+			color:#424242;
+		}
+		50%{
+			color:white;
+		}
+		75%{
+			color:#424242;
+		}
+		100%{
+			color:white;
+		}
+	}
+
 	.same{
 		color:white;
 		text-transform: uppercase;
@@ -60,6 +80,9 @@
 		margin:auto auto auto auto;
 		padding: 10px;
 		font-size: 65px;
+	}
+	.same:hover{
+		animation: grey 2s linear infinite alternate;
 	}
 	.imgbox{
 		margin: 20px auto 10px auto;
@@ -74,6 +97,39 @@
 	  	max-width: 1200px;
 		min-width: 800px;
 	  	border-bottom: solid 3px white;
+	}
+
+	#twenty{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("a trip to the moon.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#twentyone{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("spaceodyssey.jpg") no-repeat center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
 	}
 
 	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -220,6 +276,7 @@
 			font-family: 'Futura';
 		}
 	}
+
 	#datepassedbox{
 		margin: 10px auto 10px auto;
 		padding: 10px 5px 10px 5px;
@@ -326,7 +383,7 @@
 	summary{
 		border-bottom: solid 3px white;
 		margin: 15px auto 15px auto;
-		height: 150px;
+		height: 130px;
 		max-width: 800px;
 		min-width: 300px;
 		outline:none;
@@ -339,13 +396,38 @@
 		text-decoration: underline;
 		color:white;
 	}
+	a:hover{
+		animation: grey 2s linear infinite alternate;
+	}
+
+	@keyframes grey{
+		0%{
+			color:white;
+		}
+		25%{
+			color:#424242;
+		}
+		50%{
+			color:white;
+		}
+		75%{
+			color:#424242;
+		}
+		100%{
+			color:white;
+		}
+	}
+
 	.same{
 		color:white;
 		text-transform: uppercase;
 		text-align:center;
 		margin:auto auto auto auto;
 		padding: 5px;
-		font-size: 35px;
+		font-size: 40px;
+	}
+	.same:hover{
+		animation: grey 2s linear infinite alternate;
 	}
 	.imgbox{
 		margin: 20px auto 10px auto;
@@ -361,9 +443,43 @@
 		min-width: 300px;
 	  	border-bottom: solid 3px white;
 	}
+	#twenty{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("a trip to the moon.jpg") no-repeat center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+
+	#twentyone{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("spaceodyssey.jpg") no-repeat center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+
 
 	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 	/* For Each Movie */
+
 
 	#timemachine{
 		background:url("time machine.jpg") no-repeat center fixed;
@@ -400,6 +516,7 @@
 	   	-moz-background-size: 100% 100%;
 	   	-o-background-size: 100% 100%;
 	   	background-size: 100% 100%;
+
 	}
 	#tron{
 		background:url("tron.jpg") no-repeat center fixed;
