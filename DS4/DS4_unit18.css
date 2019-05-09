@@ -1,0 +1,23 @@
+p{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:30px;
+	color:black;
+}
+.text{
+	width: 87%;
+	margin: 10px auto 10px auto;
+}
+.fusion{
+	font-family: 'Apple Chancery', serif;
+	font-size:30px;
+}
+.link{
+	font-family: 'Rockwell';
+}
+a{
+	text-decoration: none;	
+	color:black;
+}
+a:visited{
+	color:black;
+}
