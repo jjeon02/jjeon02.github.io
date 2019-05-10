@@ -2,82 +2,112 @@
 <html>
 	<head>
 		<title>Sketch</title>
+		<link rel = "icon" href = "J.png" type = "image/x-icon"> 
 		<link rel="stylesheet" type="text/css" href="sketch.css">
 		<style>
 			body{
-				background: url("sketch_background.jpg") no-repeat center center fixed;
-				background-size: cover;
-
+				background-color:black;
 			}
 			.grid{
+				border: 5px white solid;
+				width:90%;
 				display:grid;
 				grid-template-columns: 30vw 30vw 30vw;
 				grid-template-rows: 30vw 30vw 30vw;
-				grid-gap:10px;
-				margin:20px;
-				padding:20px;
+				margin:20px auto 20px auto;
+				overflow: hidden;
 			}
 			.box{
-				margin:10px;
-				padding:10px;
+				border: 3px solid white;
+				display: flex;
 			}
+			.textbox{
+				width:100%;
+				margin: 10px auto 10px auto;
+				padding: 30px;
+				width: 90%;
+				display:flex;
+			}
+
 			p{
 				text-align: left;
 				font-family: "baskerville";
-				font-size: 30px;
+				font-size: 20px;
 				color: white;
 			}
 			.img{
+				border: 3px solid white;
+				display: flex;
 				width:100%;
 				height:100%;
-				object-fit: cover;
+				object-fit: contain;
 				z-index:-1;
+			}
+			@media screen and (max-width: 1024px){
+
+
 			}
 		</style>
 	</head>
 	<body>
 		<div class="grid">
 			<!--1-->
-			<div>
+
+			<div class="box">
 				<img class="img" src="sketch2.jpg">
 			</div>
+
 			<div class="box">
-				<p>Before meeting a model, he drew prolific sketches. After he brought the model, he made rough sketches in charcoal and pencil.</p>
+				
+				<div class="textbox">
+					<p>Before meeting a model, he drew prolific sketches. After he brought the model, he made rough sketches in charcoal and pencil.</p>
+
+					<a href="project 2.html">
+						<img src="back.png">
+					</a>
+					<a href="quote.html">
+						<img src="toquote.png">
+					</a>
+				</div>
+
 			</div>
+
 			<div>
 				<img class="img" src="sketch1.jpg">
 			</div>
+
 			<!--2-->
+
 			<div>
 				<img class="img" src="sketch4.jpg">
 			</div>
+
 			<div>
 				<img class="img" src="sketch5.jpg">
 			</div>
+
 			<div>
 				<img class="img" src="sketch6.jpg">
 			</div>
+
 			<!--3-->
 			<div>
 				<img class="img" src="sketch7.jpg">
 			</div>
+
 			<div>
 				<img class="img" src="sketch8.jpg">
 			</div>
+
 			<div class="box">
 			<p>When a sketch suited him, Leyendecker drew a grid on the final canvas so that the composition of scale can stay consistent. <br> Leyendecker referred this process as “picture puzzle.”</p>
-			<a href="project 2.html">
-				<img src="back.png">
-			</a>
-			<a href="quote.html">
-				<img src="toquote.png">
-			</a>
-			<a href="brush.html">
-				<img src="tobrush.png">
-			</a>
-			<a href="woman.html">
-				<img src="towoman.png">
-			</a>
+				
+				<a href="brush.html">
+					<img src="tobrush.png">
+				</a>
+				<a href="woman.html">
+					<img src="towoman.png">
+				</a>
 			</div>
 	</body>
 </html>
