@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sketch</title>
+	</head>
+	<style>
+	.wrapper {
+		width: 90%;
+		height:100vh;
+		border: solid red 1px;
+		margin:0 auto;
+
+	}
+	.col {
+		width: calc(33.3% - 20px);
+		float:left;
+		border: blue 1px solid;
+		height:300px;
+		margin:10px;
+	}
+	.col:nth-child(3n+1){
+		margin-left:0;
+	}
+	.col:nth-child(3n){
+		margin-right:0;
+	}
+
+	@media screen and (max-width: 1024px){
+
+		.col {
+			width: calc(50% - 20px);
+			float:left;
+			border: blue 1px solid;
+			height:300px;
+			margin:10px;
+		}
+		.col:nth-child(3n+1){
+			margin:10px;
+		}
+		.col:nth-child(3n){
+			margin:10px;
+		}
+
+		.col:nth-child(2n+1){
+			margin-left:0;
+		}
+		.col:nth-child(2n){
+			margin-right:0;
+		}
+	}
+
+
+	</style>
+<body>
+	<div class="wrapper">
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+	</div>
+</body>
+</html>
