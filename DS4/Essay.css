@@ -1,18 +1,26 @@
 /* Fonts */
 	h1{
-		font-family: 'Great Vibes', cursive;
-		font-size:60px;
+		font-family: 'Gugi', cursive;
+		font-size:40px;
 		text-align:center;
-		line-height: 10%;
+		line-height: 80%;
+		text-transform:uppercase;
 	}
 	h2{
-		font-family: 'Playfair Display', serif;
-		font-size:24px;
+		font-family: 'Permanent Marker', cursive;
+		font-size:23px;
 		text-align:center;
+		text-transform:uppercase;
+	}
+	h3{
+		font-family: 'Gugi', cursive;
+		font-size:20px;
+		line-height: 80%;
+		text-transform:uppercase;
 	}
 	p{
-		font-family: 'Playfair Display', serif;
-		font-size:20px;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size:17px;
 	}
 	a{
 		color:black;
@@ -21,37 +29,42 @@
 		color:black;
 	}
 
+
+
+
 /* Formats */
+	
 	.chapter{
 		margin:10px auto 10px auto;
+		padding:5px;
 		width: 30%;
-		border-bottom: 3px double black;
 	}
 
 	summary{
 		font-weight:normal;
-		padding: 20px 20px 30px 20px;
+		padding: 10px 10px 10px 10px;
 		margin: 10px auto 5px auto;
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
+		border:1px solid black;
 		width:60%;
 		outline:none;
 	}
 	summary:hover{
-		outline-color: black;
-		outline-style: double;
-		outline-width: 1px;
+		color:white;
+		background-color:black;
 	}
+	summary::-webkit-details-marker { display:none; }
+
+
 	.bigbox{
 		margin: 10px auto 5px auto;
 		border-top: 3px solid black;
 		border-bottom: 3px solid black;
-		width:73%;
+		width:65%;
 	}
 
 	.line3{
 		border-top: 3px solid black;
-		width: 74%;
+		width: 65%;
 		margin: 10px auto 10px auto;
 	}
 	.box2{
@@ -92,13 +105,14 @@
 	}
 
 	.box{
+		object-fit:contain;
 		display:inline-block;
 		margin: 0px;
 		padding: 15px;
 	}
 
 	.imggrid{
-		margin: 100px auto 100px auto;
+		margin: 200px auto 200px auto;
 		display:grid;
 		width:70%;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -112,18 +126,69 @@
 		height:auto;
 		animation: rotate 3s linear infinite;
 	}
-@keyframes rotate{
-	0%{
-		transform:rotate(0deg);
+	@keyframes rotate{
+		0%{
+			transform:rotate(0deg);
+		}
+		100%{
+			transform:rotate(360deg);
+		}
 	}
-	100%{
-		transform:rotate(360deg);
+	.rotate{
+		animation: rotate 3s linear infinite;
 	}
+
+
+/* title */
+.titlegrid{
+	margin: 100px auto 100px auto;
+	display:grid;
+	width:90%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap: 10px;
+}
+.titlebox{
+	display:inline-block;
+	float:center;
+	width:100%;
+	height:auto;
 }
 
+#title{
+	font-family: 'Gugi', cursive;
+	font-size:25px;
+	text-align:center;
+	line-height: 80%;
+	text-transform:uppercase;
+	animation: rotate 4s linear infinite;
+}
+/* terms */
+
+.term{
+	width:80%;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+}
+
+/* map */
+	#map{
+		background:url("map.jpg") no-repeat center center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	   	color:white;
+	}
+
+
 /* Fusion 1 */
-	#fusion1{
-		background-color:#d8d8d8;
+	.fusion1{
+		background:url("fusion1.png") no-repeat center center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 
 
@@ -132,7 +197,7 @@
 
 /*Fusion 2*/
 
-	#fusion2{
+	.fusion2{
 		background:url("space.jpg") no-repeat center center fixed;
 		-webkit-background-size: 100% 100%;
 	   	-moz-background-size: 100% 100%;
@@ -148,8 +213,8 @@
 		margin: 10px auto 10px auto;
 	}
 
-/*Fusion3*/
-	#fusion3{
+/*Fusion 3*/
+	.fusion3{
 		background:url("무궁화.jpg") no-repeat center center fixed;
 		 -webkit-background-size: 100% 100%;
 	   	-moz-background-size: 100% 100%;
@@ -157,6 +222,7 @@
 	   	background-size: 100% 100%;
 	}
 	#obanggrid{
+		background-color:#fdaaff;
 		border: 2px double black;
 		margin: 20px auto 20px auto;
 		display:grid;
@@ -165,7 +231,10 @@
 		grid-template-rows: 1fr 1fr 1fr;
 		padding:10px;
 	}
-
+/*Fusion 4*/
+	.fusion4{
+	background: #7caeff;
+	}
 
 
 
