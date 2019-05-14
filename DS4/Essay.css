@@ -15,7 +15,7 @@
 	h3{
 		font-family: 'Gugi', cursive;
 		font-size:20px;
-		line-height: 80%;
+		line-height: 100%;
 		text-transform:uppercase;
 	}
 	h4{
@@ -236,7 +236,14 @@
 	}
 /*Fusion 4*/
 	.fusion4{
-	background: #7caeff;
+	background: #2e667a;
+	color:yellow;
+	}
+
+	.bono{
+		width:50%;
+		margin:20px auto 20px auto;
+		padding:10px;
 	}
 
 
