@@ -18,6 +18,12 @@
 		line-height: 80%;
 		text-transform:uppercase;
 	}
+	h4{
+		font-family: 'Comic Sans MS', sans-serif;
+		font-size:20px;
+		line-height: 80%;
+		text-transform:uppercase;
+	}
 	p{
 		font-family: 'Noto Sans KR', sans-serif;
 		font-size:17px;
@@ -28,9 +34,6 @@
 	a:visited{
 		color:black;
 	}
-
-
-
 
 /* Formats */
 	
@@ -140,36 +143,36 @@
 
 
 /* title */
-.titlegrid{
-	margin: 100px auto 100px auto;
-	display:grid;
-	width:90%;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	padding:10px;
-	grid-gap: 10px;
-}
-.titlebox{
-	display:inline-block;
-	float:center;
-	width:100%;
-	height:auto;
-}
+	.titlegrid{
+		margin: 100px auto 100px auto;
+		display:grid;
+		width:90%;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		padding:10px;
+		grid-gap: 10px;
+	}
+	.titlebox{
+		display:inline-block;
+		float:center;
+		width:100%;
+		height:auto;
+	}
 
-#title{
-	font-family: 'Gugi', cursive;
-	font-size:25px;
-	text-align:center;
-	line-height: 80%;
-	text-transform:uppercase;
-	animation: rotate 4s linear infinite;
-}
+	#title{
+		font-family: 'Gugi', cursive;
+		font-size:25px;
+		text-align:center;
+		line-height: 80%;
+		text-transform:uppercase;
+		animation: rotate 4s linear infinite;
+	}
 /* terms */
 
-.term{
-	width:80%;
-	margin: 10px auto 10px auto;
-	padding: 20px;
-}
+	.term{
+		width:80%;
+		margin: 10px auto 10px auto;
+		padding: 20px;
+	}
 
 /* map */
 	#map{
