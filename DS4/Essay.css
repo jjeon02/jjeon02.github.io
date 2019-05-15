@@ -41,6 +41,12 @@
 		margin:10px auto 10px auto;
 		padding:5px;
 		width: 30%;
+		border:5px solid black;
+		background:url("background.jpg") no-repeat center center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
 	}
 
 	summary{
@@ -52,24 +58,16 @@
 		outline:none;
 	}
 	summary:hover{
-		color:white;
-		background-color:black;
+		outline: 5px solid black;
 	}
 	summary::-webkit-details-marker { display:none; }
 
 
 	.bigbox{
 		margin: 10px auto 5px auto;
-		border-top: 3px solid black;
-		border-bottom: 3px solid black;
 		width:65%;
 	}
 
-	.line3{
-		border-top: 3px solid black;
-		width: 65%;
-		margin: 10px auto 10px auto;
-	}
 	.box2{
 		object-fit:cover;
 		width:70%;
@@ -115,7 +113,7 @@
 	}
 
 	.imggrid{
-		margin: 200px auto 200px auto;
+		margin: 100px auto 100px auto;
 		display:grid;
 		width:70%;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -127,8 +125,14 @@
 		float:center;
 		width:100%;
 		height:auto;
+		animation: rotate 5s linear infinite;
+	}
+
+/*rotate */
+	.rotate{
 		animation: rotate 3s linear infinite;
 	}
+
 	@keyframes rotate{
 		0%{
 			transform:rotate(0deg);
@@ -137,8 +141,21 @@
 			transform:rotate(360deg);
 		}
 	}
-	.rotate{
-		animation: rotate 3s linear infinite;
+	
+	.rotate2{
+		width:60%;
+		height:60%;
+		margin:auto auto auto auto;
+		animation: rotates 5s linear infinite;
+	}
+
+	@keyframes rotates{
+		0%{
+			transform:rotate(0deg);
+		}
+		100%{
+			transform:rotate(-360deg);
+		}
 	}
 
 
@@ -169,10 +186,19 @@
 /* terms */
 
 	.term{
-		width:80%;
+		width:70%;
 		margin: 10px auto 10px auto;
 		padding: 20px;
 	}
+
+	#term{
+		background:url("neologism.png") no-repeat center center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+
 
 /* map */
 	#map{
@@ -183,7 +209,15 @@
 	   	background-size: 100% 100%;
 	   	color:white;
 	}
-
+/* Chart */
+	.chart{
+		color:white;
+		background-color:black;
+		width:60%;
+		margin: 50px auto 50px auto;
+		padding:20px;
+		border:5px solid black;
+	}
 
 /* Fusion 1 */
 	.fusion1{
@@ -225,7 +259,6 @@
 	   	background-size: 100% 100%;
 	}
 	#obanggrid{
-		background-color:#fdaaff;
 		border: 2px double black;
 		margin: 20px auto 20px auto;
 		display:grid;
@@ -236,8 +269,7 @@
 	}
 /*Fusion 4*/
 	.fusion4{
-	background: #2e667a;
-	color:yellow;
+		background: #91bae2;
 	}
 
 	.bono{
@@ -246,7 +278,14 @@
 		padding:10px;
 	}
 
+	.kakao{
+		background:#fff544;
+		border-radius:30px;
+		margin: 20px;
+		padding: 30px;
+	}
 
+/* background */
 
 
 
