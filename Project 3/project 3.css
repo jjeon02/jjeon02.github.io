@@ -1,0 +1,690 @@
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+/* General */
+@media screen and (min-width: 801px){ 
+
+	.animation{
+	  	background-repeat: no-repeat;
+		margin: 10px auto 10px auto;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 90%;
+	  	height: 655px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	body{
+		background-color:black;
+		}
+	h1{
+		font-size: 60px;
+		color: white;
+	}
+	h2{
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+	}
+	p{
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 30px;
+		color: white;
+		margin-bottom:10px;
+	}
+	summary{
+		border-bottom: solid 3px white;
+		margin: 15px auto 15px auto;
+		height: 150px;
+		max-width: 1200px;
+		min-width: 800px;
+		outline:none;
+	}
+	summary:active{
+		outline-color: white;
+		outline-style: solid;
+	}
+	a{
+		text-decoration: underline;
+		color:white;
+	}
+	a:hover{
+		animation: grey 2s linear infinite alternate;
+	}
+
+	@keyframes grey{
+		0%{
+			color:white;
+		}
+		25%{
+			color:#424242;
+		}
+		50%{
+			color:white;
+		}
+		75%{
+			color:#424242;
+		}
+		100%{
+			color:white;
+		}
+	}
+
+	.same{
+		color:white;
+		text-transform: uppercase;
+		text-align:center;
+		margin:auto auto auto auto;
+		padding: 10px;
+		font-size: 65px;
+	}
+	.same:hover{
+		animation: grey 2s linear infinite alternate;
+	}
+	.imgbox{
+		margin: 20px auto 10px auto;
+		border: solid 3px white;
+	  	width: 90%;
+	  	height: 400px;
+	}
+	.titlebox{
+		text-align: center;
+		margin: 10px auto 20px auto;
+		padding: 10px 5px 100px 5px;
+	  	max-width: 1200px;
+		min-width: 800px;
+	  	border-bottom: solid 3px white;
+	}
+
+	#twenty{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("a trip to the moon.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#twentyone{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("spaceodyssey.jpg") no-repeat center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+
+	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* For Each Movie */
+
+	#timemachine{
+		background:url("time machine.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#warworld{
+		background:url("war_worlds.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#tripmoon{
+		background:url("a trip to the moon.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#earthstood{
+		background:url("earthstood.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#ape{
+		background:url("planet_ape.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#tron{
+		background:url("tron.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#owell{
+		background:url("1984.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#terminator{
+		background:url("terminator.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#odyssey{
+		background:url("spaceodyssey.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#backfuture{
+		background:url("backtothefuture.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#bladerunner{
+		background:url("bladerunner.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* For title part */
+
+	#title{
+		text-align:center;
+		line-height: 85%;
+		float: center;
+		font-weight: bold;
+		font-size: 70px;
+		min-width: 400px;
+		text-transform: uppercase;
+		color: white;
+		animation: title 3s linear infinite alternate;
+	}
+
+	@keyframes title{
+		0%{
+			transition: all 0.3s ease;
+			font-family: 'IM Fell English SC', serif;
+		}
+		10%{
+			transition: all 0.3s ease;
+			font-family: 'Amiri', serif; line-height: 85%;
+		}
+		20%{
+			transition: all 0.3s ease;
+			font-family: 'Old Standard TT', serif;
+		}
+		30%{
+			transition: all 0.3s ease;
+			font-family: 'Anton', sans-serif;
+		}
+		40%{
+			transition: all 0.3s ease;
+			font-family: 'Titillium Web', sans-serif;
+		}
+		50%{
+			transition: all 0.3s ease;
+			font-family: 'Monoton', cursive;
+		}
+		60%{
+			transition: all 0.3s ease;
+			font-family: 'Futura'; line-height: 85%;
+		}
+		70%{
+			transition: all 0.3s ease;
+			font-family: 'Bowlby One SC', cursive;
+		}
+		80%{
+			transition: all 0.3s ease;
+			font-family: 'Sarpanch'; line-height: 85%;
+		}
+		90%{
+			transition: all 0.3s ease;
+			font-family: 'Play', sans-serif;
+		}
+		100%{
+			transition: all 0.3s ease;
+			font-family: 'Futura';
+		}
+	}
+
+	#datepassedbox{
+		margin: 10px auto 10px auto;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 90%;
+	  	height: 80px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	#datepassed{
+		margin:auto auto auto auto;
+		padding: auto auto auto auto;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 60px;
+		color: white;
+		text-transform: uppercase;
+	}
+	.hole1{
+		margin: 20px 5% 20px 55%;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 40%;
+	  	height: 300px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	.hole2{
+		margin: 20px 26% 20px 5%;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 70%;
+	  	height: 100px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	.hole3{
+		margin: 20px 25% 20px 45%;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 40%;
+	  	height: 200px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+}
+/* ----------------------------------------------------------------SMALL SCREEN ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------SMALL SCREEN ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------SMALL SCREEN ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------SMALL SCREEN ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------SMALL SCREEN ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------SMALL SCREEN ----------------------------------------------------------------- */
+
+
+@media screen and (min-width: 300px) and (max-width: 800px) { 
+
+	.animation{
+  	background-repeat: no-repeat;
+	margin: 10px auto 10px auto;
+	padding: 10px 5px 10px 5px;
+	border: solid 2px white;
+  	width: 90%;
+  	height: 655px;
+	background: url("project 3_gif.gif") no-repeat  center fixed; 
+   	-webkit-background-size: cover;
+   	-moz-background-size: 90% 700px;
+   	-o-background-size: 90% 700px;
+   	background-size: 90% 700px;
+	}
+	body{
+		background-color:black;
+		}
+	h1{
+		font-size: 60px;
+		color: white;
+	}
+	h2{
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 35px;
+		color: white;
+		text-transform:uppercase;
+
+	}
+	p{
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 30px;
+		color: white;
+		margin-bottom:10px;
+	}
+	summary{
+		border-bottom: solid 3px white;
+		margin: 15px auto 15px auto;
+		height: 130px;
+		max-width: 800px;
+		min-width: 300px;
+		outline:none;
+	}
+	summary:active{
+		outline-color: white;
+		outline-style: solid;
+	}
+	a{
+		text-decoration: underline;
+		color:white;
+	}
+	a:hover{
+		animation: grey 2s linear infinite alternate;
+	}
+
+	@keyframes grey{
+		0%{
+			color:white;
+		}
+		25%{
+			color:#424242;
+		}
+		50%{
+			color:white;
+		}
+		75%{
+			color:#424242;
+		}
+		100%{
+			color:white;
+		}
+	}
+
+	.same{
+		color:white;
+		text-transform: uppercase;
+		text-align:center;
+		margin:auto auto auto auto;
+		padding: 5px;
+		font-size: 40px;
+	}
+	.same:hover{
+		animation: grey 2s linear infinite alternate;
+	}
+	.imgbox{
+		margin: 20px auto 10px auto;
+		border: solid 3px white;
+	  	width: 90%;
+	  	height: 200px;
+	}
+	.titlebox{
+		text-align: center;
+		margin: 10px auto 20px auto;
+		padding: 10px 5px 40px 5px;
+		max-width: 800px;
+		min-width: 300px;
+	  	border-bottom: solid 3px white;
+	}
+	#twenty{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("a trip to the moon.jpg") no-repeat center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+
+	#twentyone{
+		width: 50%;
+		margin: 100px auto 100px auto;
+		border: solid 3px white;
+		padding:10px;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 45px;
+		color: white;
+		background:url("spaceodyssey.jpg") no-repeat center fixed;
+		-webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+
+
+	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* For Each Movie */
+
+
+	#timemachine{
+		background:url("time machine.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#warworld{
+		background:url("war_worlds.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#tripmoon{
+		background:url("a trip to the moon.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#earthstood{
+		background:url("earthstood.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#ape{
+		background:url("planet_ape.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#tron{
+		background:url("tron.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#owell{
+		background:url("1984.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#terminator{
+		background:url("terminator.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#odyssey{
+		background:url("spaceodyssey.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	#backfuture{
+		background:url("backtothefuture.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+
+	}
+	#bladerunner{
+		background:url("bladerunner.jpg") no-repeat center fixed;
+		 -webkit-background-size: 100% 100%;
+	   	-moz-background-size: 100% 100%;
+	   	-o-background-size: 100% 100%;
+	   	background-size: 100% 100%;
+	}
+	/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+	/* For title part */
+
+	#title{
+		text-align:center;
+		line-height: 85%;
+		float: center;
+		font-weight: bold;
+		font-size: 70px;
+		min-width: 400px;
+		text-transform: uppercase;
+		color: white;
+		animation: title 3s linear infinite alternate;
+	}
+
+	@keyframes title{
+		0%{
+			transition: all 0.3s ease;
+			font-family: 'IM Fell English SC', serif;
+		}
+		10%{
+			transition: all 0.3s ease;
+			font-family: 'Amiri', serif; line-height: 85%;
+		}
+		20%{
+			transition: all 0.3s ease;
+			font-family: 'Old Standard TT', serif;
+		}
+		30%{
+			transition: all 0.3s ease;
+			font-family: 'Anton', sans-serif;
+		}
+		40%{
+			transition: all 0.3s ease;
+			font-family: 'Titillium Web', sans-serif;
+		}
+		50%{
+			transition: all 0.3s ease;
+			font-family: 'Monoton', cursive;
+		}
+		60%{
+			transition: all 0.3s ease;
+			font-family: 'Futura'; line-height: 85%;
+		}
+		70%{
+			transition: all 0.3s ease;
+			font-family: 'Bowlby One SC', cursive;
+		}
+		80%{
+			transition: all 0.3s ease;
+			font-family: 'Sarpanch'; line-height: 85%;
+		}
+		90%{
+			transition: all 0.3s ease;
+			font-family: 'Play', sans-serif;
+		}
+		100%{
+			transition: all 0.3s ease;
+			font-family: 'Futura';
+		}
+	}
+	#datepassedbox{
+		margin: 10px auto 10px auto;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 90%;
+	  	height: 60px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	#datepassed{
+		margin:auto auto auto auto;
+		padding: auto auto auto auto;
+		text-align:center;
+		font-family: 'Play', sans-serif;
+		font-size: 50px;
+		color: white;
+		text-transform: uppercase;
+	}
+	.hole1{
+		margin: 20px 5% 20px 55%;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 40%;
+	  	height: 300px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	.hole2{
+		margin: 20px 26% 20px 5%;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 70%;
+	  	height: 100px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+	.hole3{
+		margin: 20px 25% 20px 45%;
+		padding: 10px 5px 10px 5px;
+		border: solid 2px white;
+	  	width: 40%;
+	  	height: 200px;
+		background: url("project 3_gif.gif") no-repeat  center fixed; 
+	   	-webkit-background-size: cover;
+	   	-moz-background-size: 90% 700px;
+	   	-o-background-size: 90% 700px;
+	   	background-size: 90% 700px;
+	}
+
+}
+
+
+
+
+
+
+
