@@ -1,84 +1,93 @@
 body{
-	background: #dbdbdb;
 	background-image: url("resourceback.jpg");
-	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	-o-background-size: cover;
+   	background-size: cover;
 }
-h1{
+
+
+h2{
+	font-family: "baskerville";
+	font-style: bold;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: "baskerville";
+	font-size:20px;
+}
+li{
+	font-family: "baskerville";
+	font-size:20px;
+}
+img{
+	width:100%;
+	margin:10px auto 10px auto;
+}
+
+.box{
+	overflow:hidden;
+	padding:20px;
+	border: 3px solid black;
+}
+
+.title{
+	background-color:white;
 	font-family: "baskerville";
 	text-align: center;
 	font-size: 60px;
 	font-style: bold;
 	text-transform: uppercase;
+	height:auto;
 }
-h2{
-	font-family: "baskerville";
-	text-align: center;
-	font-size: 25px;
-	text-transform: uppercase;
 
-}
-.h2{
-	font-family: "baskerville";
-	text-align: center;
-	font-size: 20px;
-
-}
-p{
-	font-family: "baskerville";
-	text-align: left;
-	font-size:15px;
-}
-#book{
-	margin-left: auto;
-	margin-right:auto;
-	width:50%;
-	display:block;
-}
-.p{
-	font-family: "baskerville";
-	font-size:15px;
-}
-.box{
-	margin: 20px;
-	padding:20px;
-	background: white;
-}
-.line{
-	border: solid black 1px;
-}
-.titlebox{
-	margin-top:10px;
-	margin-bottom: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding-left:20px;
-	padding-right:20px;
-	min-height:75px;
-	max-height:150px;
-    background: white;
-}
 .grid{
+	width:95%;
+	min-width:700px;
 	display:grid;
-	margin: 20px;
-	padding: 20px;
-	grid-template-columns: 45vw 45vw;
-	grid-template-rows: 1fr;
-	grid-gap:45px;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:20px;
 }
-#gridbox1{
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 400px;
-	min-height:200px;
-	float: left;
+.grid2{
+	width:95%;
+	min-width:700px;
+	display:grid;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	grid-template-columns: 1fr 10%;
+	grid-gap:20px;
 }
-#gridbox2{
-	margin-left: auto;
-	margin-right: auto;
-	float: right;
-	max-height: 400px;
-	min-height:200px;
+
+#book{
+	width:70%;
+	margin: 0px auto 0px auto;
 }
+
+.twobox{
+	display: inline-block;	
+	grid-column-start:1;
+	grid-column-end:3;
+	border: 3px solid black;
+}
+
+.icon{
+	float:center;
+	display:inline-block;
+	margin: 10px auto 10px auto;
+}
+
+.white{
+	background-color:white;
+}
+
+
 a:link{
 	color: black;
 }
