@@ -6,9 +6,9 @@
 	  	background-repeat: no-repeat;
 		margin: 10px auto 10px auto;
 		padding: 10px 5px 10px 5px;
-		border: solid 2px white;
+		border-bottom: solid 2px white;
 	  	width: 90%;
-	  	height: 655px;
+	  	height: 700px;
 		background: url("project 3_gif.gif") no-repeat  center fixed; 
 	   	-webkit-background-size: cover;
 	   	-moz-background-size: 90% 700px;
