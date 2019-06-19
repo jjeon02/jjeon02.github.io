@@ -1,6 +1,6 @@
 /* LAPTOP */
 
-@media screen and (min-width: 300px){ 
+
 /* Fonts */
 	h1{
 		font-family: 'Gugi', cursive;
@@ -10,26 +10,28 @@
 		text-transform:uppercase;
 	}
 	h2{
-		font-family: 'Permanent Marker', cursive;
-		font-size:23px;
+		font-family: 'Archivo Black', sans-serif;
+		font-size:40px;
 		text-align:center;
 		text-transform:uppercase;
 	}
 	h3{
 		font-family: 'Gugi', cursive;
 		font-size:20px;
-		line-height: 100%;
+		line-height: 110%;
 		text-transform:uppercase;
 	}
 	h4{
-		font-family: 'Comic Sans MS', sans-serif;
-		font-size:20px;
-		line-height: 80%;
-		text-transform:uppercase;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size:30px;
+		line-height: 150%;
 	}
+	
 	p{
 		font-family: 'Noto Sans KR', sans-serif;
-		font-size:17px;
+		font-size: 25px;
+		line-height: 150%;
+		font-stretch: expanded;
 	}
 	a{
 		color:black;
@@ -44,20 +46,15 @@
 		margin:10px auto 10px auto;
 		padding:5px;
 		width: 30%;
-		border:5px solid black;
-		background:url("background.jpg") no-repeat center center fixed;
-		 -webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
+		border-bottom:5px solid black;
 	}
 
 	summary{
 		font-weight:normal;
-		padding: 10px 10px 10px 10px;
+		padding: 10px 40px 10px 40px;
 		margin: 10px auto 5px auto;
-		border:1px solid black;
-		width:60%;
+		max-width:70%;
+		min-width:600px;
 		outline:none;
 	}
 	summary:hover{
@@ -68,7 +65,9 @@
 
 	.bigbox{
 		margin: 10px auto 5px auto;
-		width:65%;
+		padding: 20px;
+		max-width:70%;
+		min-width:600px;
 	}
 
 	.box2{
@@ -289,300 +288,5 @@
 	}
 
 /* background */
-}
-
-
-/* IPAD */
-
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1){ 
-	/* Fonts */
-	h1{
-		font-family: 'Gugi', cursive;
-		font-size:40px;
-		text-align:center;
-		line-height: 80%;
-		text-transform:uppercase;
-	}
-	h2{
-		font-family: 'Permanent Marker', cursive;
-		font-size:23px;
-		text-align:center;
-		text-transform:uppercase;
-	}
-	h3{
-		font-family: 'Gugi', cursive;
-		font-size:20px;
-		line-height: 100%;
-		text-transform:uppercase;
-	}
-	h4{
-		font-family: 'Comic Sans MS', sans-serif;
-		font-size:20px;
-		line-height: 80%;
-		text-transform:uppercase;
-	}
-	p{
-		font-family: 'Noto Sans KR', sans-serif;
-		font-size:17px;
-	}
-	a{
-		color:black;
-	}
-	a:visited{
-		color:black;
-	}
-
-/* Formats */
-	
-	.chapter{
-		margin:10px auto 10px auto;
-		padding:5px;
-		width: 30%;
-		border:5px solid black;
-		background:url("background.jpg") no-repeat center center fixed;
-		 -webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
-	}
-
-	summary{
-		font-weight:normal;
-		padding: 10px 10px 10px 10px;
-		margin: 10px auto 5px auto;
-		border:1px solid black;
-		width:60%;
-		outline:none;
-	}
-	summary:hover{
-		outline: 5px solid black;
-	}
-	summary::-webkit-details-marker { display:none; }
-
-
-	.bigbox{
-		margin: 10px auto 5px auto;
-		width:65%;
-	}
-
-	.box2{
-		object-fit:cover;
-		width:70%;
-		padding:30px;
-		margin: 10px auto 10px auto;
-	}
-	.inbox{
-		object-fit:cover;
-		width:90%;
-		padding:50px;
-		margin: 20px auto 20px auto;
-	}
-	
-	.imgbox{
-		width:75%;
-		height:auto;
-		padding:20px;		
-		margin: 10px auto 10px auto;
-	}
-	
-	img{
-	display: inline-block;
-	float:center;
-	width:100%;
-	height:auto;
-	}
-
-
-/* grids */
-
-	.grid{
-		display:grid;
-		grid-template-columns: 1fr 1fr;
-		padding:10px;
-		grid-gap: 10px;
-	}
-
-	.box{
-		object-fit:contain;
-		display:inline-block;
-		margin: 0px;
-		padding: 15px;
-	}
-
-	.imggrid{
-		margin: 100px auto 100px auto;
-		display:grid;
-		width:70%;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-		padding:10px;
-		grid-gap: 10px;
-	}
-	.imggrids{
-		display:inline-block;
-		float:center;
-		width:100%;
-		height:auto;
-		animation: rotate 5s linear infinite;
-	}
-
-/*rotate */
-	.rotate{
-		animation: rotate 3s linear infinite;
-	}
-
-	@keyframes rotate{
-		0%{
-			transform:rotate(0deg);
-		}
-		100%{
-			transform:rotate(360deg);
-		}
-	}
-	
-	.rotate2{
-		width:60%;
-		height:60%;
-		margin:auto auto auto auto;
-		animation: rotates 5s linear infinite;
-	}
-
-	@keyframes rotates{
-		0%{
-			transform:rotate(0deg);
-		}
-		100%{
-			transform:rotate(-360deg);
-		}
-	}
-
-
-/* title */
-	.titlegrid{
-		margin: 100px auto 100px auto;
-		display:grid;
-		width:90%;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-		padding:10px;
-		grid-gap: 10px;
-	}
-	.titlebox{
-		display:inline-block;
-		float:center;
-		width:100%;
-		height:auto;
-	}
-
-	#title{
-		font-family: 'Gugi', cursive;
-		font-size:25px;
-		text-align:center;
-		line-height: 80%;
-		text-transform:uppercase;
-		animation: rotate 4s linear infinite;
-	}
-/* terms */
-
-	.term{
-		width:70%;
-		margin: 10px auto 10px auto;
-		padding: 20px;
-	}
-
-	#term{
-		background:url("neologism.png") no-repeat center center fixed;
-		-webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
-	}
-
-
-/* map */
-	#map{
-		background:url("map.jpg") no-repeat center center fixed;
-		-webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
-	   	color:white;
-	}
-/* Chart */
-	.chart{
-		color:white;
-		background-color:black;
-		width:60%;
-		margin: 50px auto 50px auto;
-		padding:20px;
-		border:5px solid black;
-	}
-
-/* Fusion 1 */
-	.fusion1{
-		background:url("fusion1.jpg") no-repeat center center fixed;
-		-webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
-	}
-
-
-
-
-
-/*Fusion 2*/
-
-	.fusion2{
-		background:url("space.jpg") no-repeat center center fixed;
-		-webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
-	   	color:white;
-	}
-
-	#robotbox{
-		width:100%;
-		height:auto;
-		padding:20px;		
-		margin: 10px auto 10px auto;
-	}
-
-/*Fusion 3*/
-	.fusion3{
-		background:url("무궁화.jpg") no-repeat center center fixed;
-		 -webkit-background-size: 100% 100%;
-	   	-moz-background-size: 100% 100%;
-	   	-o-background-size: 100% 100%;
-	   	background-size: 100% 100%;
-	}
-	#obanggrid{
-		border: 2px double black;
-		margin: 20px auto 20px auto;
-		display:grid;
-		width:95%;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		padding:10px;
-	}
-/*Fusion 4*/
-	.fusion4{
-		background: #91bae2;
-	}
-
-	.bono{
-		width:50%;
-		margin:20px auto 20px auto;
-		padding:10px;
-	}
-
-	.kakao{
-		background:#fff544;
-		border-radius:30px;
-		margin: 20px;
-		padding: 30px;
-	}
-}
-
 
 
