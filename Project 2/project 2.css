@@ -33,15 +33,20 @@ img{
 	background-image:url("Common/quote_h.jpg");
 	z-index:2;
 	background-size: cover;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
 }
 .sketch{
 	background-image:url("Common/sketch_i.jpg");
 	background-size: cover;
+
 }
 .sketch:hover{
 	background-image:url("Common/sketch_h.jpg");
 	z-index:2;
 	background-size: cover;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
 }
 .client{
 	background-image:url("Common/client_i.jpg");
@@ -52,6 +57,8 @@ img{
 	background-image:url("Common/client_h.jpg");
 	z-index:2;
 	background-size: cover;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
 }
 .woman{
 	background-image:url("Common/woman_i.jpg");
@@ -61,6 +68,8 @@ img{
 	background-image:url("Common/woman_h.jpg");
 	z-index:2;
 	background-size: cover;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
 }
 .brush{
 	background-image:url("Common/brush_i.jpg");
@@ -70,6 +79,8 @@ img{
 	background-image:url("Common/brush_h.jpg");
 	z-index:2;
 	background-size: cover;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
 }
 .resource{
 	background-image:url("Common/resource_i.jpg");
@@ -78,6 +89,8 @@ img{
 .resource:hover{
 	background-image:url("Common/resource_h.jpg");
 	z-index:2;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
 }	
 a{
 	color:white;
