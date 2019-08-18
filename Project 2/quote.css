@@ -1,0 +1,29 @@
+.box{
+	width:70%;
+	min-width:600px;
+	margin: 50px auto 10px auto;
+	padding:10px;
+	text-align: left
+}
+
+h1{
+	font-family:"baskerville";
+	font-size: 100px;
+	text-align:left;
+	color: #E8DFAA;	
+}
+h2{
+	font-family:"baskerville";
+	font-size: 48px;
+	text-align:left;
+	color: #E8DFAA;	
+}
+p{
+	font-family:"baskerville";
+	font-size: 30px;
+	text-align:left;
+	color: #E8DFAA;	
+}
+body{
+	background-color:black;
+}
