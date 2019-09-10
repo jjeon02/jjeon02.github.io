@@ -1,3 +1,16 @@
+.banner{
+	width:100%;
+	max-height:300px;
+	min-height:200px;
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+	background:url("Common/banner_2.jpg") no-repeat top fixed;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
 .box{
 	width:70%;
 	min-width:600px;
@@ -5,10 +18,20 @@
 	padding:10px;
 	text-align: left
 }
-
+.grid{
+	display:grid;
+	grid-template-columns: 30% 1fr;
+	grid-gap:10px;
+}
+.wid{
+	width:100%;
+}
+#jc{
+	margin:10px 50px 10px auto;
+}
 h1{
 	font-family:"baskerville";
-	font-size: 100px;
+	font-size: 85px;
 	text-align:left;
 	color: #E8DFAA;	
 }
