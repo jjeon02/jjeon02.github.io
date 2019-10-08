@@ -1,0 +1,84 @@
+body{
+	background-color:#ededed;
+}
+.grid{
+	display:grid;
+	grid-template-columns: 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw;
+	grid-template-rows: 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw;
+}
+.gridbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:url("Common/grid.jpg");
+	background-size: cover;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
+img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+	z-index:-1;
+}
+.quote{
+	background-image:url("Common/quote_i.jpg");
+	background-size: cover;
+}
+.quote:hover{
+	background-image:url("Common/quote_h.jpg");
+	z-index:2;
+	background-size: cover;
+}
+.sketch{
+	background-image:url("Common/sketch_i.jpg");
+	background-size: cover;
+}
+.sketch:hover{
+	background-image:url("Common/sketch_h.jpg");
+	z-index:2;
+	background-size: cover;
+}
+.client{
+	background-image:url("Common/client_i.jpg");
+	background-size: cover;
+	
+}
+.client:hover{
+	background-image:url("Common/client_h.jpg");
+	z-index:2;
+	background-size: cover;
+}
+.woman{
+	background-image:url("Common/woman_i.jpg");
+	background-size: cover;
+}
+.woman:hover{
+	background-image:url("Common/woman_h.jpg");
+	z-index:2;
+	background-size: cover;
+}
+.brush{
+	background-image:url("Common/brush_i.jpg");
+	background-size: cover;
+}
+.brush:hover{
+	background-image:url("Common/brush_h.jpg");
+	z-index:2;
+	background-size: cover;
+}
+.resource{
+	background-image:url("Common/resource_i.jpg");
+	background-size: cover;
+}
+.resource:hover{
+	background-image:url("Common/resource_h.jpg");
+	z-index:2;
+}	
+a{
+	color:white;
+}
