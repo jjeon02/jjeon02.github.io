@@ -15,6 +15,15 @@ body{
 	width:95%;
 	margin: 0px auto 0px auto;
 }
+.text.right{
+	font-family: 'Futura';
+	font-size: 30px;
+	color: white;
+	width:95%;
+	text-align:right;
+	margin: 0px auto 0px auto;
+}
+
 strong{
 	font-family: 'Georgia';
 	font-size: 30px;
