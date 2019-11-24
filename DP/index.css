@@ -19,7 +19,7 @@ img{
     grid-template-columns: 3fr 3fr 3fr;
     grid-gap: 10px;
     width: 90%;
-    margin:auto;
+    margin: 20px auto 20px auto;
 }
 .container{
     width:100%;
