@@ -15,13 +15,11 @@
       }
 // 1. Time Machine
 
-      function doTime() {
-
+      function doTime(countFrom,id) {
        now=new Date ();
        then=new Date ('feb,06,2019,22:31:00');
 
        difference=(now-then);
-
        days=Math.floor(difference/(60*60*1000*24)*1);
        hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
        mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
@@ -29,7 +27,7 @@
 
        document.getElementById('timer').firstChild.nodeValue=
 
-       '125'+' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
+       125 +' '+':'+' '+days+' '+':'+' '+hours+' '+':'+' '+mins+' '+':'+' '+secs;
 
        setTimeout('doTime()',1000);
       }
