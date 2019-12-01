@@ -2,27 +2,60 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
     </head>
     <body>
-        <h1>LATE NIGHT NOSTALGIA TRIP</h1>
-        <h2>Share Your Nostalgia</h2>
-        <p>Late Night Nostalgia Trip is a (virtual) school project 
-            funded by your favorite streaming services, 
-            and provide you a chance to get along with people 
-            while binge-watching nostalgic films and tv shows.</p>
-        <br>
-        <p>
-            Our binge-watching meetings on every Saturday, 
-            GD commons from 6:00 PM to next day 1:00AM. 
-            On every meeting, we will watch nostalgic movies and tv shows 
-            suggested by participants through this website. 
-            Snacks will be provided while watching and socializing together.
-        </p>
-        <input style="width:100%" value="your nostalgic tv show/movie/cartoon/anime/and more"></input>
-        <button>Submit</button>
-        Thank you for your suggestion!
-        <p>
-            supported by .. NETFLIX / HULU / AMAZON PRIME 
-        </p>
+        <div class="nav">
+            <h1>Late Night Nostalgia Trip</h1>
+        </div>
+        <div class="imgbox">
+            <img src="web_1.png">
+        </div>
+
+        <div class="margin"></div>
+
+        <div class="box">
+            <div class="text">Late Night Nostalgia Trip is a (virtual) school project 
+                funded by your favorite streaming services, 
+                and provide you a chance to get along with people 
+                while binge-watching nostalgic films and tv shows.
+            <br>
+            <br>
+            
+                Our binge-watching meetings on every Saturday, 
+                GD commons from 6:00 PM to next day 1:00AM. 
+                On every meeting, we will watch nostalgic movies and tv shows 
+                suggested by participants through this website. 
+                Snacks will be provided while watching and socializing together.
+            </div>
+        </div>
+
+        <div class="margin"></div>
+
+        <div class="imgbox">
+            <img src="web_2.png">
+        </div>
+
+        <div class="margin"></div>
+
+        <div class="grid">
+            <div class="gridbox">
+                <input type="text" id="myText" value="your nostalgia suggestion" class="common"></input>
+            </div>
+            <div class="gridbox">
+                <button onclick="myFunction()" class="common">Submit</button>
+            </div>
+
+            <p id="answer" class="text"></p>
+            
+            <div class="margin"></div>
+            
+        </div>
+
+        <div class="imgbox">
+            <img src="web_3.png">
+        </div>
+        
+
     </body>
 </html>
