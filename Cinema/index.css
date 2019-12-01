@@ -2,21 +2,21 @@ body{
     background: #00103B;
 }
 .nav{
-    background: #00103B;
     position:fixed;
     width:100%;
-    top:0px;   
+    top:0px; 
 }
 h1{
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 60px;
+    padding: 30px;
     font-weight: bold;
-    color:#FFF500; 
+    color: #00103B; 
     text-align:center;
 }
-.text{
+p{
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color:#FF7655;
 }
