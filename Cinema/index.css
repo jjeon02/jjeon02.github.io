@@ -4,8 +4,17 @@ body{
 .nav{
     position:fixed;
     width:100%;
-    top:0px; 
+    left:0px;
+    top:0px;
+    font-family: Helvetica, sans-serif;
+    font-size:4vw;
+    padding: 30px;
+    font-weight: bold;
+    color:#FF7655;
+    text-align:center;
+    background-color: #FFEB00;
 }
+
 h1{
     font-family: Helvetica, sans-serif;
     font-size: 60px;
@@ -21,12 +30,15 @@ p{
     color:#FF7655;
 }
 
-/* #answer{
+#time{
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size:4vw;
+    padding: 30px;
     font-weight: bold;
     color:#FF7655;
-} */
+    text-align:center;
+    background: #005749;
+}
 
 .imgbox{
     left:0;
