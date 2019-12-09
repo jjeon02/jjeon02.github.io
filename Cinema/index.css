@@ -1,19 +1,6 @@
 body{
     background: #00103B;
 }
-.nav{
-    position:fixed;
-    width:100%;
-    left:0px;
-    top:0px;
-    font-family: Helvetica, sans-serif;
-    font-size:4vw;
-    padding: 30px;
-    font-weight: bold;
-    color:#FF7655;
-    text-align:center;
-    background-color: #FFEB00;
-}
 
 h1{
     font-family: Helvetica, sans-serif;
@@ -74,7 +61,7 @@ img{
     padding:10px;
     margin: 0 auto 0 auto;
     font-family: Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
