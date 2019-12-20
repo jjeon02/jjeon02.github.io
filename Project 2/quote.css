@@ -1,50 +1,76 @@
-.banner{
-	width:100%;
-	max-height:300px;
-	min-height:200px;
-	margin:0px;
-	padding:0px;
-	display:inline-block;
-	background:url("Common/banner_2.jpg") no-repeat top fixed;
-	-webkit-background-size: 100%;
-	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
+
+
+.bg{
+	background:url("Common/banner.jpg") no-repeat top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
 .box{
-	width:70%;
-	min-width:600px;
-	margin: 50px auto 10px auto;
+	width:99%;
+	margin: auto;
 	padding:10px;
-	text-align: left
 }
+
+.yellow{
+	border: 2px solid #E8DFAA;
+	padding:30px;
+}
+
 .grid{
 	display:grid;
 	grid-template-columns: 30% 1fr;
 	grid-gap:10px;
 }
-.wid{
+
+.gridbox{
+	padding:30px;
+}
+
+.icongrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+}
+
+.icon{
+	float:center;
+	display:inline-block;
+	margin: auto;
+	padding:10px;
+}
+
+#wid{
 	width:100%;
 }
-#jc{
-	margin:10px 50px 10px auto;
+
+.text{
+	padding:40px;
 }
+
 h1{
-	font-family:"baskerville";
-	font-size: 85px;
-	text-align:left;
 	color: #E8DFAA;	
+	font-family: "baskerville";
+	text-align: center;
+	font-size: 60px;
+	text-transform: uppercase;
+	height:auto;
 }
+
 h2{
 	font-family:"baskerville";
 	font-size: 48px;
 	text-align:left;
 	color: #E8DFAA;	
 }
-p{
+
+.font{
 	font-family:"baskerville";
 	font-size: 30px;
 	text-align:left;
+		line-height:1.5;
 	color: #E8DFAA;	
 }
 body{
