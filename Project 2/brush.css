@@ -1,0 +1,15 @@
+body{
+    background-color:#e8e3c7;
+    background: url("Common/brush.gif") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.box{
+    position:fixed;
+    width:98%;
+    margin:auto;
+    padding:0px;
+    z-index: 2;
+}
