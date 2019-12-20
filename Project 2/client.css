@@ -6,24 +6,28 @@ body{
 }
 .grid{
 	display: grid;
-	max-width:1000px;
+	width: 98%;
 	min-width: 600px;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 10px;
-	margin: 5px auto 5px auto;
+	margin: auto;
 	padding: 10px;
 }
 
 .box{
-	margin:5px;
+	margin: 10px auto 10px auto;
 	position: relative;
 	background-position: center;
+	width: 30vw;
+	height: 30vw;
 }
 
 .brownbox{
-	margin:5px;
+	margin:auto;
 	background-color:#825A31;
 	border-radius: 50%;
+	width: 30vw;
+	height: 30vw;
 }
 
 .icon{
