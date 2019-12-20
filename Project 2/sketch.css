@@ -1,5 +1,13 @@
+/* Structure */
 body{
-	background-color:black;
+	background-color:#53516A;
+}
+
+img{
+	display: flex;
+	float:center;
+	width:100%;
+	height:auto;
 }
 
 .box{
@@ -13,33 +21,42 @@ body{
 	display:inline-block;
 }
 
-.icon{
-	width:50px;
-	height:50px;
-	margin:10px;
-}
-
-p{
-	text-align: left;
-	font-family: "baskerville";
-	font-size: 25px;
-	color: white;
-}
-
-img{
-	display: flex;
-	float:center;
-	width:100%;
-	height:auto;
-}
-
 .grid{
 	border: 5px white solid;
-	width: 95%;
+	width: 98%;
 	min-width:900px;
 	display:grid;
 	grid-gap:0px;
 	grid-template-columns: 1fr 1fr 1fr;
-	margin: 5% auto 5% auto;
+	margin: auto;
 	overflow: hidden;
+}
+
+.icon{
+	width:50px;
+	height:50px;
+	margin:10px;
+	top: 0px;
+	left: 0px;
+}
+
+
+/* Font */
+
+h1{
+	font-family: "baskerville";
+	font-size: 40px;
+	line-height:1.2;
+	text-transform: uppercase;
+	color:white;
+	margin: 10px;
+}
+
+p{
+	text-align: left;
+	color: white;
+	font-family: "baskerville";
+	font-size:24px;
+	line-height:1.5;
+	margin: 10px;
 }
