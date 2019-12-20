@@ -1,0 +1,19 @@
+.box{
+    width:98%;
+    margin:auto;
+}
+
+.nav{
+    width:98%;
+    margin:auto;
+    position:fixed;
+}
+
+body{
+    background-color:black;
+    background-image: url("Common/background.jpg");
+    background-attachment:fixed;
+}
+.margin{    
+    height:100px;
+}
