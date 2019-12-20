@@ -3,8 +3,10 @@ body{
 }
 .grid{
 	display:grid;
-	grid-template-columns: 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw;
-	grid-template-rows: 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw 16.2vw;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	width: 100%;
+	margin:auto;
 }
 .gridbox{
 	display: flex;
@@ -12,12 +14,14 @@ body{
 	align-items: center;
 	background-image:url("Common/grid.jpg");
 	background-size: cover;
+	border: 1px solid #111111;
 }
 .box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	vertical-align: middle;
+	border: 1px solid #111111;
 }
 img{
 	width:100%;
