@@ -1,92 +1,119 @@
 body{
-	background-image: url("Common/resourceback.jpg");
-	background-repeat:no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
-}
+	background-color:#825A31;
 
+}
+h1{
+	font-family: "baskerville";
+	font-size: 40px;
+	line-height:1.2;
+	text-transform: uppercase;
+	margin:0px;
+	color:#53516A;
+}
 
 h2{
 	font-family: "baskerville";
-	font-style: bold;
-	text-align: center;
-	font-size: 25px;
-	text-transform: uppercase;
+	font-size: 30px;
+	line-height:1.5;
+	margin:0px;
+	color:#53516A;
 }
 
 p{
 	font-family: "baskerville";
-	font-size:20px;
+	font-size:24px;
+	margin:0px;
+	color:#53516A;
 }
+
 li{
 	font-family: "baskerville";
-	font-size:20px;
+	font-size:24px;
+	line-height:1.5;
+	margin:0px;
+	color:#53516A;
 }
+
+a{
+	color:#53516A;
+}
+a: hover{
+	color:#53516A;	
+}
+a: visited {
+	color:#53516A;	
+}
+
 img{
 	width:100%;
-	margin:10px auto 10px auto;
+	margin:auto;
 }
 
-.box{
-	overflow:hidden;
-	padding:20px;
-	border: 3px solid black;
+/* Structure */
+.bigbox{
+	background: url("Common/resourceback.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	-o-background-size: cover;
+   	background-size: cover;
+	width:98%;
+	min-width:900px;
+	margin:auto;
 }
 
-.title{
-	background-color:white;
+#title{
 	font-family: "baskerville";
 	text-align: center;
 	font-size: 60px;
-	font-style: bold;
 	text-transform: uppercase;
 	height:auto;
 }
 
+.nogrid{
+	padding:10px;
+	width:98%;
+	margin:auto;
+}
+
+.gap{
+	width: 100%;
+	height:10px;
+}
+
 .grid{
-	width:95%;
-	min-width:700px;
+	width:98%;
 	display:grid;
-	margin: 10px auto 10px auto;
+	margin:auto;
 	padding: 10px;
-	grid-template-columns: 1fr 1fr;
-	grid-gap:20px;
-}
-.grid2{
-	width:95%;
-	min-width:700px;
-	display:grid;
-	margin: 10px auto 10px auto;
-	padding: 10px;
-	grid-template-columns: 1fr 10%;
-	grid-gap:20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:10px;
 }
 
-#book{
-	width:70%;
-	margin: 0px auto 0px auto;
+.box{
+	overflow:hidden;
+	margin:0px;
+	padding:30px;
 }
 
-.twobox{
-	display: inline-block;	
-	grid-column-start:1;
-	grid-column-end:3;
-	border: 3px solid black;
+.icongrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
 }
 
 .icon{
 	float:center;
 	display:inline-block;
-	margin: 10px auto 10px auto;
+	margin: auto;
+	padding:10px;
 }
 
 .white{
 	background-color:white;
 }
-
+.brown{
+	border: 2px solid #825A31;
+}
 
 a:link{
 	color: black;
