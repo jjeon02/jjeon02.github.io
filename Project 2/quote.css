@@ -31,17 +31,17 @@
 
 .icongrid{
 	display:grid;
-	width:480px;
+	width:360px;
 	margin:auto;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding:10px;
+	padding:5px;
 }
 
 .icon{
 	float:center;
 	display:inline-block;
 	margin: auto;
-	padding:10px;
+	padding:5px;
 }
 
 #wid{
