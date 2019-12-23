@@ -31,9 +31,10 @@ body{
 	height: 30vw;
 }
 
-.brownbox{
+.greybox{
+	/* border: 3px solid #825A31; */
 	margin:auto;
-	background-color:#825A31;
+	background-color:#ededed;
 	border-radius: 50%;
 	width: 30vw;
 	height: 30vw;
@@ -77,7 +78,7 @@ a{
   text-decoration:underline;
 }
 .white{
-	color: white;
+	color: #ededed;
 }
 
 img{
