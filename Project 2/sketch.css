@@ -15,14 +15,14 @@ img{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	border: 2px solid white;
+	border: 2px solid #ededed;
 	padding:15px;
 	object-fit:cover;
 	display:inline-block;
 }
 
 .grid{
-	border: 5px white solid;
+	border: 5px #ededed solid;
 	width: 98%;
 	min-width:900px;
 	display:grid;
