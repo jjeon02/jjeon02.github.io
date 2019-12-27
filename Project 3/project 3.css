@@ -62,15 +62,18 @@ a:hover{
 	font-size: 6vw;
 	text-decoration: underline;
 }
+
 .same:hover{
 	color:blue;
 }
+
 .imgbox{
-	margin: 20px auto 10px auto;
+	margin: 50px auto 10px auto;
 	border: solid 3px white;
 	width:90%;
 	height: 400px;
 }
+
 .titlebox{
 	text-align: center;
 	margin: 10px auto 20px auto;
@@ -201,64 +204,7 @@ a:hover{
 #title{
 	width: 90%;
 	margin:auto;
-	/* text-align:center;
-	line-height: 85%;
-	float: center;
-	font-weight: bold;
-	font-size: 6vw;
-	min-width: 400px;
-	text-transform: uppercase;
-	color: white;
-	animation: title 3s linear infinite alternate;
-	-webkit-animation: title 3s linear infinite alternate; */
 }
-
-/* @keyframes title{
-	0%{
-		font-family: 'Futura';
-		-webkit-font-family: 'Futura';
-	}
-	10%{
-		font-family: 'Amiri', serif; line-height: 85%;
-		-webkit-font-family: 'Amiri', serif; line-height: 85%;
-	}
-	20%{
-		font-family: 'Old Standard TT', serif;
-		-webkit-font-family: 'Old Standard TT', serif;
-	}
-	30%{
-		font-family: 'Anton', sans-serif;
-		-webkit-font-family: 'Anton', sans-serif;
-	}
-	40%{
-		font-family: 'Titillium Web', sans-serif;
-		-webkit-font-family: 'Titillium Web', sans-serif;
-	}
-	50%{
-		font-family: 'Monoton', cursive;
-		-webkit-font-family: 'Monoton', cursive;
-	}
-	60%{
-		font-family: 'Futura'; line-height: 85%;
-		-webkit-font-family: 'Futura'; line-height: 85%;
-	}
-	70%{
-		font-family: 'Bowlby One SC', cursive;
-		-webkit-font-family: 'Bowlby One SC', cursive;
-	}
-	80%{
-		font-family: 'Sarpanch'; line-height: 85%;
-		-webkit-font-family: 'Sarpanch'; line-height: 85%;
-	}
-	90%{
-		font-family: 'Play', sans-serif;
-		-webkit-font-family: 'Play', sans-serif;
-	}
-	100%{
-		font-family: 'IM Fell English SC', serif;
-		-webkit-font-family: 'IM Fell English SC', serif;			
-	}
-} */
 
 #datepassedbox{
 	margin: 10px auto 10px auto;
