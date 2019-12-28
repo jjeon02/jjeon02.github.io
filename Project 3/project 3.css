@@ -16,7 +16,7 @@ body{
 
 h1{
 	font-size: calc(12px + 3vw);
-	line-height:1.5;
+	line-height:2;
 	color: white;
 	margin:0px;
 }
@@ -47,11 +47,18 @@ p{
 }
 
 summary{
+	list-style: none ;
+	border-bottom: solid 2px white;
+	padding-bottom: 20px;
 	margin: auto auto 20px auto;
 	width:90%;
 	outline:none;
 	height:100px;
 }
+summary:hover{
+	border-bottom: solid 2px blue;
+}
+
 summary:active{
 	outline:none;
 }
@@ -70,7 +77,7 @@ a:hover{
 	margin:auto;
 	padding: 10px;
 	font-size: 4vw;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .same:hover{
@@ -78,15 +85,14 @@ a:hover{
 }
 
 .imgbox{
+	/* border: solid 2px white; */
 	margin: auto auto 20px auto;
-	border: solid 3px #666666;
 	width: 90%;
 	height: 400px;
 }
 
 .titlebox{
 	padding:20px 0px 50px 0px;
-	border-bottom: solid 3px #666666;
 	text-align: center;
 	margin: auto;
 	width:90%;
@@ -96,8 +102,8 @@ a:hover{
 	width: 90%;
 	height: 80px;
 	margin: auto;
-	border-top: solid 2px white;
-	border-bottom: solid 2px white;
+	border-top: solid 2px #666666;
+	border-bottom: solid 2px #666666;
 	padding:10px;
 	background: url("2.gif") no-repeat  center fixed; 
 	-webkit-background-size: cover;
@@ -109,8 +115,6 @@ a:hover{
 	width: 90%;
 	height:80px;
 	margin: auto;
-	border-top: solid 2px white;
-	border-bottom: solid 2px white;
 	padding:10px;
 	background:url("a trip to the moon.jpg") no-repeat center fixed;
 	-webkit-background-size: 100% 100%;
@@ -123,8 +127,6 @@ a:hover{
 	width: 90%;
 	height:80px;
 	margin: auto;
-	border-top: solid 2px white;
-	border-bottom: solid 2px white;
 	padding:10px;
 	background:url("spaceodyssey.jpg") no-repeat center fixed;
 	-webkit-background-size: 100% 100%;
@@ -225,7 +227,6 @@ a:hover{
 	width: 90%;
 	margin:auto;
 }
-
 
 
 .hole1{
