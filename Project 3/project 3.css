@@ -12,8 +12,7 @@
 
 body{
 	background-color:black;
-	}
-
+}
 h1{
 	font-size: calc(12px + 3vw);
 	line-height:2;
@@ -138,7 +137,6 @@ a:hover{
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 /* For Each Movie */
-
 
 .timemachine{
 	background:url("time machine.jpg") no-repeat center fixed;

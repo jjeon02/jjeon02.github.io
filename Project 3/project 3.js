@@ -31,6 +31,7 @@
 
        setTimeout('doTime()',1000);
       }
+
 // 2. War of the Worlds
 
       function doTimeTwo() {
@@ -225,7 +226,7 @@
 
        difference=(now-then);
 
-       days=Math.floor(difference/(60*60*1000*24)*1);
+       days=Math.floor (difference/(60*60*1000*24)*1);
        hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
        mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
        secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
