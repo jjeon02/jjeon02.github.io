@@ -1,0 +1,96 @@
+body{
+    background-color:#ddd;
+    animation: appear .6s ease-out;
+}
+
+@keyframes appear{
+    from{opacity:0;transform:translateY(1em)}
+    to{opacity:1;transform:translateY(0em)}
+}
+
+.title{
+    width:100%;
+    padding:1.2em;
+}
+
+.block{
+    width:100%;
+    display:flex;
+}
+
+.border{
+    border-bottom: 1px dashed black;
+}
+
+.box{
+    width:100%;
+    box-sizing: border-box;
+    padding:1.2em;
+    top:0;
+}
+
+a{
+    color: black;
+    opacity: .5;
+    transition: 0.6s;
+}
+
+a:hover{
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+a:visited {
+    color: black;
+}
+
+h1{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    font-weight:600;
+}
+h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight:400;
+}
+p{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight:200;
+    margin-top:0px;
+}
+ul{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight:200;
+    margin-top:0px;
+}
+
+
+#orange{
+    color:#fb7034;
+}
+#brown{
+    color:#997755;
+}
+#green{
+    color:#757a3b;
+}
+
+summary{
+    padding:0;
+    outline:none;
+}
+summary:hover{
+    opacity: .5;
+    transition: 1s;
+}
+summary::-webkit-details-marker {
+    display: none
+}
+

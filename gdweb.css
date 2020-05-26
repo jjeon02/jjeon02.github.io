@@ -1,0 +1,69 @@
+body{
+    animation: colchange 36s infinite;
+}
+h1{
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.2em;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+ul{
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+h1, h2, ul, a{
+    font-family: 'courier new';
+    color:white;
+}
+
+.box{
+    background-color:black;
+    margin: 1.2em;
+    padding:1.2em;
+    box-sizing: border-box;
+    width:20em;
+}
+
+@keyframes colchange{
+    0%{
+        background-color:rgb(209, 53, 53);
+    }
+    10%{
+        background-color:orange;
+    }
+    20%{
+        background-color:yellow;
+    }
+    30%{
+        background-color:rgb(192, 255, 98);
+    }
+    40%{
+        background-color:rgb(11, 117, 11);
+    }
+    50%{
+        background-color: rgb(43, 206, 157);
+    }
+    60%{
+        background-color: skyblue;
+    }
+    70%{
+        background-color: rgb(24, 59, 255);
+    }
+    80%{
+        background-color:blueviolet;
+    }
+    90%{
+        background-color:violet;
+    }
+    100%{
+        background-color:rgb(209, 53, 53);
+    }
+}
