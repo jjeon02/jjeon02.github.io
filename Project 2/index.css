@@ -1,6 +1,9 @@
 body{
 	background-color:#ededed;
 }
+a{
+	color:white;
+}
 .grid{
 	display:grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -16,6 +19,7 @@ body{
 	background-size: cover;
 	border: 1px solid #111111;
 }
+
 .box{
 	display: flex;
 	justify-content: center;
@@ -96,6 +100,4 @@ img{
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
 }	
-a{
-	color:white;
-}
+

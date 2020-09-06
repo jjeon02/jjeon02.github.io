@@ -1,0 +1,86 @@
+/* ICONNAV */
+.icongrid{
+    width:360px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding:5px;
+    position:fixed;
+    z-index:4;
+    top:10px;
+}
+.icon{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    padding:5px;
+}
+
+.iconmargin{
+    height: 84px;
+}
+
+/* TYPOGRAPHY */
+h1{
+    font-size: 60px;
+    line-height:80px;
+    text-transform: uppercase;
+    bottom:0;
+    margin:0;
+}
+
+p{
+    top:0;
+    text-align: left;
+    font-size:24px;
+    line-height:36px;
+    margin:0;
+}
+
+h1, p{
+    font-family: "baskerville";
+}
+
+/* TEXTCOL */
+.brown{
+    color: #825A31;	
+}
+.grey{
+    color: #ededed;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius:5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+/* WOMAN */
+
+.womanbox{
+    width:98%;
+    margin:auto;
+}
+
+.margin{    
+    height:100px;
+}
+
+@media only screen and (max-width:540px){
+    ::-webkit-scrollbar {
+        display:none;
+    }
+}

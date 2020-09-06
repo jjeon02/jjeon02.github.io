@@ -1,30 +1,20 @@
-
-h1{
-	color: #825A31;	
-	font-family: "baskerville";
-	text-align: center;
-	font-size: 60px;
-	text-transform: uppercase;
-}
-
 body{
 	background-color:#E8DFAA;
 }
 .bigbox{
 	margin: 5px auto 5px auto;
+	width: 98%;
 }
 .grid{
 	display: grid;
-	width: 98%;
 	min-width: 600px;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 10px;
+	grid-gap: 18px;
 	margin: auto;
 	padding: 10px;
 }
 
 .box{
-	margin: 10px auto 10px auto;
 	position: relative;
 	background-position: center;
 	width: 30vw;
@@ -32,21 +22,15 @@ body{
 }
 
 .greybox{
-	/* border: 3px solid #825A31; */
-	margin:auto;
 	background-color:#ededed;
 	border-radius: 50%;
 	width: 30vw;
 	height: 30vw;
+	position: relative;
 }
-
-.icon{
-	width: 15%;
-	height:15%;
-	margin: 42.5%;
-	border: none;
-	border-radius:0%;
-	display: block;
+.textbox{
+	width: 98%;
+	margin-bottom: 2em;
 }
 .overlay{
 	position: absolute;
@@ -56,9 +40,7 @@ body{
 	-webkit-transition: 0.2s ease;
 	transition: 0.2s ease;
 }
-.text {
-	font-family:"baskerville";
-	font-size:30px;
+.text{
 	margin:0px;
 	position: absolute;
 	top: 50%;
@@ -81,7 +63,7 @@ a{
 	color: #ededed;
 }
 
-img{
+.clientimg{
 	width:100%;
 	height:100%;
 	object-fit: contain;
@@ -89,4 +71,32 @@ img{
 	border: 3px solid #825A31;
 	border-radius: 50%;
 	margin:0px;
+}
+
+@media only screen and (max-width: 840px) and (min-width:601px) {
+	.grid{
+		grid-template-columns: 1fr 1fr;
+	}
+	.box{
+		width: 42vw;
+		height: 42vw;
+	}	
+	.greybox{
+		width: 42vw;
+		height: 42vw;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.grid{
+		grid-template-columns: 1fr;
+	}
+	.box{
+		width: 90vw;
+		height: 90vw;
+	}
+	.greybox{
+		width: 90vw;
+		height: 90vw;
+	}
 }
