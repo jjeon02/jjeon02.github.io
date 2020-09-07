@@ -1,12 +1,12 @@
 /* ICONNAV */
 .icongrid{
-    width:360px;
+    width:auto;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding:5px;
+    padding:1em;
     position:fixed;
     z-index:4;
-    top:10px;
+    top:0;
 }
 .icon{
     display:inline-block;
@@ -21,10 +21,19 @@
 
 /* TYPOGRAPHY */
 h1{
-    font-size: 60px;
-    line-height:80px;
+    font-size: calc(10px + 3.6vw);
+    font-size: calc(14px + 3.6vw);
     text-transform: uppercase;
     bottom:0;
+    margin:0;
+}
+
+h6{
+    top:0;
+    text-align: left;
+    font-size:24px;
+    font-weight: bold;
+    line-height:36px;
     margin:0;
 }
 
@@ -36,7 +45,7 @@ p{
     margin:0;
 }
 
-h1, p{
+h1, h6, p{
     font-family: "baskerville";
 }
 
@@ -46,6 +55,9 @@ h1, p{
 }
 .grey{
     color: #ededed;
+}
+.ivory{
+    color:#E8DFAA;
 }
 
 /* SCROLLBAR */
@@ -68,6 +80,7 @@ h1, p{
     background: #ffffff;
 }
 
+
 /* WOMAN */
 
 .womanbox{
@@ -79,8 +92,81 @@ h1, p{
     height:100px;
 }
 
-@media only screen and (max-width:540px){
+/* BG */
+
+.womanbg{
+    width:100vw;
+    height:100vh;
+    left:0;right:0;top:0;
+    position:fixed;
+    background-image: url("Common/background.jpg");
+    background-attachment:fixed;
+    z-index:-1;
+}
+
+.brushbg{
+    width:100vw;
+    height:100vh;
+    left:0;right:0;top:0;
+    position:fixed;
+    background-color:#e8e3c7;
+    background: url("Common/brush.gif") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.quotebg{
+	background:url("Common/banner.jpg") no-repeat top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* GRID */
+
+.threegrid{
+    width:98%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: auto;
+    padding: 10px;
+    box-sizing:border-box;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 960px) and (min-width:601px) {
+	.threegrid{
+		grid-template-columns: 1fr 1fr;
+	}
+	.clientbox{
+		width: 42vw;height: 42vw;
+	}	
+	.greybox{
+		width: 42vw;height: 42vw;
+	}
+}
+
+@media only screen and (max-width: 600px){
     ::-webkit-scrollbar {
         display:none;
     }
+
+    h1{
+        font-size: calc(10px + 10vw);
+        font-size: calc(14px + 10vw);
+    }
+
+	.threegrid{
+		grid-template-columns: 1fr;
+	}
+	.clientbox{
+		width: 90vw;height: 90vw;
+	}
+	.greybox{
+		width: 90vw;height: 90vw;
+	}
 }

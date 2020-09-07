@@ -1,22 +1,11 @@
-
-
-.bg{
-	background:url("Common/banner.jpg") no-repeat top fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+body{background-color:black;}
 
 .box{
-	width:99%;
-	margin: auto;
-	padding:10px;
-}
-
-.yellow{
+	width:98%;
+	margin: auto auto 1em auto;
 	border: 2px solid #E8DFAA;
-	padding:30px;
+	padding:1em;
+	box-sizing: border-box;
 }
 
 .grid{
@@ -29,52 +18,50 @@
 	padding:30px;
 }
 
-.icongrid{
-	display:grid;
-	width:360px;
-	margin:auto;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding:5px;
-}
-
-.icon{
-	float:center;
-	display:inline-block;
-	margin: auto;
-	padding:5px;
-}
-
 #wid{
 	width:100%;
 }
 
-.text{
-	padding:40px;
+.img{
+	width: 100% !important;
+	height: auto !important;
+	margin: .5em 0 .5em 0;
+}
+.imggrid{
+	line-height: 0;   
+	-webkit-column-count: 4;
+	-webkit-column-gap:   1em; 
+	-moz-column-count:    4;
+	-moz-column-gap:      1em; 
+	column-count:         4;
+	column-gap:           1em; 
 }
 
-h1{
-	color: #E8DFAA;	
-	font-family: "baskerville";
-	text-align: center;
-	font-size: 60px;
-	text-transform: uppercase;
-	height:auto;
-}
 
-h2{
-	font-family:"baskerville";
-	font-size: 48px;
-	text-align:left;
-	color: #E8DFAA;	
-}
 
-.font{
-	font-family:"baskerville";
-	font-size: 30px;
-	text-align:left;
-		line-height:1.5;
-	color: #E8DFAA;	
-}
-body{
-	background-color:black;
-}
+@media (max-width: 960px) {
+	.imggrid {
+	-moz-column-count:    3;
+	-webkit-column-count: 3;
+	column-count:         3;
+	}
+  }
+  @media (max-width: 840px) {
+	.imggrid {
+	-moz-column-count:    2;
+	-webkit-column-count: 2;
+	column-count:         2;
+	}
+	.grid{
+		display:grid;
+		grid-template-columns:1fr;
+		grid-gap:10px;
+	}
+  }
+  @media (max-width: 600px) {
+	.imggrid {
+	-moz-column-count:    1;
+	-webkit-column-count: 1;
+	column-count:         1;
+	}
+  }
