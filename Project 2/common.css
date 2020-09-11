@@ -21,33 +21,32 @@
 
 /* TYPOGRAPHY */
 h1{
-    font-size: calc(10px + 3.6vw);
-    font-size: calc(14px + 3.6vw);
+    font-size: calc(10px + 2.4vw);
     text-transform: uppercase;
-    bottom:0;
-    margin:0;
+    word-break: normal;
+    hyphens: auto;
+}
+
+h2{
+	font-size: 30px;
 }
 
 h6{
-    top:0;
-    text-align: left;
     font-size:24px;
     font-weight: bold;
-    line-height:36px;
-    margin:0;
 }
 
-p{
-    top:0;
-    text-align: left;
+p, li{
     font-size:24px;
-    line-height:36px;
-    margin:0;
 }
 
-h1, h6, p{
+h1, h2, h6, p, li{
     font-family: "baskerville";
+    line-height:1.5;
+    margin:0px;
 }
+
+
 
 /* TEXTCOL */
 .brown{
@@ -58,6 +57,9 @@ h1, h6, p{
 }
 .ivory{
     color:#E8DFAA;
+}
+.blue{
+    color:#53516A;
 }
 
 /* SCROLLBAR */
@@ -125,6 +127,14 @@ h1, h6, p{
 	background-size: cover;
 }
 
+.resourcebg{
+	background: url("Common/resourceback.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	-o-background-size: cover;
+   	background-size: cover;
+}
+
 /* GRID */
 
 .threegrid{
@@ -157,7 +167,6 @@ h1, h6, p{
 
     h1{
         font-size: calc(10px + 10vw);
-        font-size: calc(14px + 10vw);
     }
 
 	.threegrid{

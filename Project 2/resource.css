@@ -1,37 +1,5 @@
 body{
 	background-color:#825A31;
-
-}
-h1{
-	font-family: "baskerville";
-	font-size: 40px;
-	line-height:1.2;
-	text-transform: uppercase;
-	margin:0px;
-	color:#53516A;
-}
-
-h2{
-	font-family: "baskerville";
-	font-size: 30px;
-	line-height:1.5;
-	margin:0px;
-	color:#53516A;
-}
-
-p{
-	font-family: "baskerville";
-	font-size:24px;
-	margin:0px;
-	color:#53516A;
-}
-
-li{
-	font-family: "baskerville";
-	font-size:24px;
-	line-height:1.5;
-	margin:0px;
-	color:#53516A;
 }
 
 a{
@@ -50,89 +18,15 @@ img{
 }
 
 /* Structure */
-.bigbox{
-	background: url("Common/resourceback.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-   	-moz-background-size: cover;
-   	-o-background-size: cover;
-   	background-size: cover;
-	width:98%;
-	min-width:900px;
-	margin:auto;
-}
-
-#title{
-	font-family: "baskerville";
-	text-align: center;
-	font-size: 60px;
-	text-transform: uppercase;
-	height:auto;
-}
-
-.nogrid{
-	padding:10px;
-	width:98%;
-	margin:auto;
-}
 
 .gap{
 	width: 100%;
-	height:10px;
-}
-
-.grid{
-	width:98%;
-	display:grid;
-	margin:auto;
-	padding: 10px;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap:10px;
+	height:2em;
 }
 
 .box{
 	overflow:hidden;
-	margin:0px;
+	margin:1em;
 	padding:30px;
-}
-
-.icongrid{
-	display:grid;
-	width: 360px;
-	margin:auto;
-    grid-template-columns: repeat(6,1fr);
-	padding:5px;
-}
-
-.icon{
-	float:center;
-	display:inline-block;
-	margin: auto;
-	width:50px;
-	height:50px;
-	padding:5px;
-}
-
-.white{
-	background-color:white;
-}
-.brown{
 	border: 2px solid #825A31;
-}
-
-a:link{
-	color: black;
-}
-a:visited{
-	color: black;
-}
-a:hover{
-	color: #0050d3;
-}
-#link1{
-	float: left;
-	margin:20px;
-}
-#link2{
-	float: right;
-	margin:20px;
 }
