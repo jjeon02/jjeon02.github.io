@@ -15,7 +15,7 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image:url("Common/grid.jpg");
+	background-image:url("index/grid.jpg");
 	background-size: cover;
 	border: 1px solid #111111;
 }
@@ -34,68 +34,68 @@ img{
 	z-index:-1;
 }
 .quote{
-	background-image:url("Common/quote_i.jpg");
+	background-image:url("index/quote_i.jpg");
 	background-size: cover;
 }
 .quote:hover{
-	background-image:url("Common/quote_h.jpg");
+	background-image:url("index/quote_h.jpg");
 	z-index:2;
 	background-size: cover;
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
 }
 .sketch{
-	background-image:url("Common/sketch_i.jpg");
+	background-image:url("index/sketch_i.jpg");
 	background-size: cover;
 
 }
 .sketch:hover{
-	background-image:url("Common/sketch_h.jpg");
+	background-image:url("index/sketch_h.jpg");
 	z-index:2;
 	background-size: cover;
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
 }
 .client{
-	background-image:url("Common/client_i.jpg");
+	background-image:url("index/client_i.jpg");
 	background-size: cover;
 	
 }
 .client:hover{
-	background-image:url("Common/client_h.jpg");
+	background-image:url("index/client_h.jpg");
 	z-index:2;
 	background-size: cover;
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
 }
 .woman{
-	background-image:url("Common/woman_i.jpg");
+	background-image:url("index/woman_i.jpg");
 	background-size: cover;
 }
 .woman:hover{
-	background-image:url("Common/woman_h.jpg");
+	background-image:url("index/woman_h.jpg");
 	z-index:2;
 	background-size: cover;
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
 }
 .brush{
-	background-image:url("Common/brush_i.jpg");
+	background-image:url("index/brush_i.jpg");
 	background-size: cover;
 }
 .brush:hover{
-	background-image:url("Common/brush_h.jpg");
+	background-image:url("index/brush_h.jpg");
 	z-index:2;
 	background-size: cover;
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
 }
 .resource{
-	background-image:url("Common/resource_i.jpg");
+	background-image:url("index/resource_i.jpg");
 	background-size: cover;
 }
 .resource:hover{
-	background-image:url("Common/resource_h.jpg");
+	background-image:url("index/resource_h.jpg");
 	z-index:2;
 	-webkit-transition: background-image 0.2s ease;
 	transition: background-image 0.2s ease;
