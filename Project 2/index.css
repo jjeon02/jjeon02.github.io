@@ -1,16 +1,9 @@
-body{
-	background-color:#ededed;
-}
-a{
-	color:white;
-}
 .grid{
 	display:grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(6, 1fr);
 	width: 100%;
 	margin:auto;
 }
+
 .gridbox{
 	display: flex;
 	justify-content: center;
@@ -27,77 +20,52 @@ a{
 	vertical-align: middle;
 	border: 1px solid #111111;
 }
+
 img{
 	width:100%;
 	height:100%;
 	object-fit: cover;
 	z-index:-1;
 }
-.quote{
-	background-image:url("index/quote_i.jpg");
-	background-size: cover;
-}
-.quote:hover{
-	background-image:url("index/quote_h.jpg");
-	z-index:2;
-	background-size: cover;
-	-webkit-transition: background-image 0.2s ease;
-	transition: background-image 0.2s ease;
-}
-.sketch{
-	background-image:url("index/sketch_i.jpg");
-	background-size: cover;
 
-}
-.sketch:hover{
-	background-image:url("index/sketch_h.jpg");
-	z-index:2;
-	background-size: cover;
-	-webkit-transition: background-image 0.2s ease;
-	transition: background-image 0.2s ease;
-}
-.client{
-	background-image:url("index/client_i.jpg");
-	background-size: cover;
-	
-}
-.client:hover{
-	background-image:url("index/client_h.jpg");
-	z-index:2;
-	background-size: cover;
-	-webkit-transition: background-image 0.2s ease;
-	transition: background-image 0.2s ease;
-}
-.woman{
-	background-image:url("index/woman_i.jpg");
-	background-size: cover;
-}
-.woman:hover{
-	background-image:url("index/woman_h.jpg");
-	z-index:2;
-	background-size: cover;
-	-webkit-transition: background-image 0.2s ease;
-	transition: background-image 0.2s ease;
-}
-.brush{
-	background-image:url("index/brush_i.jpg");
-	background-size: cover;
-}
-.brush:hover{
-	background-image:url("index/brush_h.jpg");
-	z-index:2;
-	background-size: cover;
-	-webkit-transition: background-image 0.2s ease;
-	transition: background-image 0.2s ease;
-}
-.resource{
-	background-image:url("index/resource_i.jpg");
-	background-size: cover;
-}
-.resource:hover{
-	background-image:url("index/resource_h.jpg");
-	z-index:2;
-	-webkit-transition: background-image 0.2s ease;
-	transition: background-image 0.2s ease;
-}	
+.quote{background-image:url("index/quote_i.jpg");}
+.quote:hover{background-image:url("index/quote_h.jpg");}
 
+.sketch{background-image:url("index/sketch_i.jpg");}
+.sketch:hover{background-image:url("index/sketch_h.jpg");}
+
+.brush{background-image:url("index/brush_i.jpg");}
+.brush:hover{background-image:url("index/brush_h.jpg");}
+
+.client{background-image:url("index/client_i.jpg");}
+.client:hover{background-image:url("index/client_h.jpg");}
+
+.woman{background-image:url("index/woman_i.jpg");}
+.woman:hover{background-image:url("index/woman_h.jpg");}
+
+.resource{background-image:url("index/resource_i.jpg");}
+.resource:hover{background-image:url("index/resource_h.jpg");}	
+
+.quote, .sketch, .brush, .client, .woman, .resource{
+	background-size: cover;
+}
+
+.quote:hover, .sketch:hover, .brush:hover, .client:hover, .woman:hover, .resource:hover{
+	z-index:2;
+	background-size: cover;
+	-webkit-transition: background-image 0.2s ease;
+	transition: background-image 0.2s ease;
+}
+
+@media screen and (min-width:600px){
+	.grid{
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
+}
+
+@media screen and (max-width:600px){
+	.grid{
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
