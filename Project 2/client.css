@@ -1,5 +1,3 @@
-
-
 .text{
 	margin:0px;
 	position: absolute;
@@ -21,52 +19,61 @@
 }
 
 .clientbox{
-	position: relative;
 	background-position: center;
-	padding:1em;margin:0;
+	display:inline-block;
+	position: relative;
+	width: 28vw;
+	height: 28vw;
+	box-sizing:border-box;
+	padding:1em;
 }
 
 .clientbox:hover .overlay {
 	opacity: 1;
 	text-decoration:underline;
-  }
-
-.clientimg{
-	width:100%;
-	height:100%;
-	object-fit: contain;
-	z-index: -1;
-	border: 3px solid #825A31;
-	border-radius: 50%;
-	margin:0px;
 }
 
 .greybox{
 	width:100%;
 	height:100%;
-	object-fit: contain;
-	background-color:#ededed;
+	box-sizing:border-box;
+	display: inline-block;
 	border-radius: 50%;
-	position: relative;
-	margin:1em;
+	background-color:#ededed;
 }
 
-.clientbox, .greybox{
-	width: 30vw;
-	height: 30vw;
+.clientimg{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 50%;
+	z-index: -1;
+	border: 3px solid #825A31;
 }
 
+/* .clientimg:after{
+	content: "";
+	padding-bottom:100%;
+	display:block;
+}
 
-@media only screen and (max-width: 840px) and (min-width:601px) {
-	.clientbox, .greybox{
-		width: 42vw;height: 42vw;
-	}	
+.greybox:after{
+	content: "";
+	padding-bottom:100%;
+	display:block;
+} */
+
+@media only screen and (max-width: 960px) and (min-width:601px) {
+	.clientbox{
+		width: 42vw; height: 42vw;
+	}
 }
 
 @media only screen and (max-width: 600px){
 
-	.clientbox, .greybox{
-		width: 84vw;height: 84vw;
+	.clientbox{
+		width: 80vw; height: 80vw;
 	}
+
 
 }

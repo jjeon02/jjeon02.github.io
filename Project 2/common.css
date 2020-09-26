@@ -168,7 +168,7 @@ h1, h2, h6, p, li{
 	grid-template-columns: 1fr 1fr 1fr;
 	margin: auto;
     padding: 10px;
-    box-sizing:border-box;
+	box-sizing:border-box;
 }
 
 .imgs{
@@ -242,12 +242,7 @@ h1, h2, h6, p, li{
 	.threegrid{
 		grid-template-columns: 1fr 1fr;
 	}
-	.clientbox{
-		width: 42vw;height: 42vw;
-	}	
-	.greybox{
-		width: 42vw;height: 42vw;
-	}
+
 }
 
 @media only screen and (max-width: 600px){
@@ -262,13 +257,7 @@ h1, h2, h6, p, li{
 	.threegrid{
 		grid-template-columns: 1fr;
 	}
-	.clientbox{
-		width: 90vw;height: 90vw;
-	}
-	.greybox{
-		width: 90vw;height: 90vw;
-    }
-    
+
     .quotegrid{
 		display:grid;
 		grid-template-columns:1fr;
