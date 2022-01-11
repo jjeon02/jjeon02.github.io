@@ -1,0 +1,107 @@
+body{
+	background-image: url("Common/resourceback.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	-o-background-size: cover;
+   	background-size: cover;
+}
+
+h2{
+	font-family: "baskerville";
+	font-style: bold;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: "baskerville";
+	font-size:20px;
+}
+li{
+	font-family: "baskerville";
+	font-size:20px;
+}
+img{
+	width:100%;
+	margin:10px auto 10px auto;
+}
+
+.box{
+	overflow:hidden;
+	padding:20px;
+	border: 3px solid black;
+}
+
+.title{
+	background-color:white;
+	font-family: "baskerville";
+	text-align: center;
+	font-size: 60px;
+	font-style: bold;
+	text-transform: uppercase;
+	height:auto;
+}
+
+.grid{
+	width:95%;
+	min-width:700px;
+	display:grid;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:20px;
+}
+
+.grid2{
+	width:95%;
+	min-width:700px;
+	display:grid;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	grid-template-columns: 1fr 10%;
+	grid-gap:20px;
+}
+
+#book{
+	width:70%;
+	margin: 0px auto 0px auto;
+}
+
+.twobox{
+	display: inline-block;	
+	grid-column-start:1;
+	grid-column-end:3;
+	border: 3px solid black;
+}
+
+.icon{
+	float:center;
+	display:inline-block;
+	margin: 10px auto 10px auto;
+}
+
+.white{
+	background-color:white;
+}
+
+
+a:link{
+	color: black;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: #0050d3;
+}
+#link1{
+	float: left;
+	margin:20px;
+}
+#link2{
+	float: right;
+	margin:20px;
+}
