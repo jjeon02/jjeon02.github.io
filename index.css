@@ -1,96 +1,128 @@
+*{box-sizing: border-box;}
 body{
-    background-color:#ddd;
-    animation: appear .6s ease-out;
+    font-family: 'Gothic A1', sans-serif;
+    animation: background-rainbow 60s infinite;
+    display:block;
+    margin:0;padding:0;
 }
 
-@keyframes appear{
-    from{opacity:0;transform:translateY(1em)}
-    to{opacity:1;transform:translateY(0em)}
+::-webkit-scrollbar {display:none;}
+
+:root {
+    --line: #111;
+    --text:#111;
+    --background: rgba(0,0,0,0.1);
 }
 
-.title{
-    width:100%;
-    padding:1.2em;
+@keyframes background-rainbow {
+    0%{background-color:rgb(209, 53, 53);}
+    10%{background-color:orange;}
+    20%{background-color:yellow;}
+    30%{background-color:rgb(192, 255, 98);}
+    40%{background-color:rgb(11, 117, 11);}
+    50%{background-color: rgb(43, 206, 157);}
+    60%{background-color: skyblue;}
+    70%{background-color: rgb(24, 59, 255);}
+    80%{background-color:blueviolet;}
+    90%{background-color:violet;}
+    100%{background-color:rgb(209, 53, 53);}
 }
 
-.block{
-    width:100%;
-    display:flex;
+@font-face {
+    font-family: "pixelVarious";
+    src: url("RetroFutureGX.ttf");
+    font-weight: 100 900;
 }
 
-.border{
-    border-bottom: 1px dashed black;
-}
-
-.box{
-    width:100%;
-    box-sizing: border-box;
-    padding:1.2em;
-    top:0;
-}
-
-a{
-    color: black;
-    opacity: .5;
-    transition: 0.6s;
-}
-
-a:hover{
-    opacity: 1;
-    letter-spacing: 2px;
-}
-
-a:visited {
-    color: black;
+h1, h2, a ,p{
+    margin:0;padding:0;
+    width: auto;
 }
 
 h1{
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1.8em;
-    line-height: 1.2em;
-    font-weight:600;
+    font-size: 60px;
+    font-family: "pixelVarious";
+    padding: 20px 20px 30px 20px;
+    width:100%;
+    margin:0;
+    top:0;
+    color: var(--text);
+    font-weight: 600;
+    letter-spacing: -1px;
+    border-bottom: 2px solid var(--line);
+    background: var(--background);
 }
+
 h2{
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1.2em;
-    line-height: 1.2em;
+    font-size: 30px;
     font-weight:400;
-}
-p{
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    font-weight:200;
-    margin-top:0px;
-}
-ul{
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    font-weight:200;
-    margin-top:0px;
+    color: var(--text);
 }
 
-
-#orange{
-    color:#fb7034;
-}
-#brown{
-    color:#997755;
-}
-#green{
-    color:#757a3b;
+h2 > a {
+    font-weight:400;
+    color: var(--text);
+    transition: .6s;
 }
 
-summary{
-    padding:0;
-    outline:none;
-}
-summary:hover{
-    opacity: .5;
-    transition: 1s;
-}
-summary::-webkit-details-marker {
-    display: none
+h2 > a:hover, h2 > a:after{
+    font-weight:900;
+    letter-spacing: 2px;
 }
 
+.center{
+    text-align:center;
+}
+
+section{ 
+    font-size: 20px;
+    background: var(--background);
+    color:var(--text);
+    margin: 20px;
+    padding:20px;
+    font-weight:700;
+    box-sizing:border-box;
+    overflow:hidden;
+    border: 2px solid var(--line);
+}
+
+a, a:after, p{
+    color: var(--text);
+    line-height: 2;
+    transition: .6s;
+}
+
+p, p > a{font-weight:900;}
+
+a{font-weight: 400;}
+
+section > a:hover{
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+.border{
+    border: 1px solid var(--line);
+    margin: 8px 0;
+}
+
+.grid{
+    display:flex;
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.grid > section{
+    width:100%;
+    margin: 0;
+    display:inline-block;
+}
+
+@media screen and (max-width: 800px){
+    .grid{
+        display:block;
+    }
+    .grid > section{
+        margin: 0 0 20px 0 ;
+    }
+}
