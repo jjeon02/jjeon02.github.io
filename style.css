@@ -139,41 +139,41 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
     position: relative;
     width:100%;
     height: 72px;
-    margin: 46px auto auto auto;
+    margin: auto;
     overflow: hidden;
     z-index: 1;
-    border-top: 1px solid var(--line);
+    /* border-top: 1px solid var(--line); */
     border-bottom: 1px solid var(--line);
 }
 
-.m-scroll__title{
+.m-scroll__title, .m-scroll__opposite{
     display: flex;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0; left: 0;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
-    height: 100%;
+    width: 100%;height: 100%;
     white-space: nowrap;
     transform: scale(2);
     transition: all 1s ease;
 }
-.m-scroll__title > div{
-    display: flex;
-    animation: scrollText 20s infinite linear;
+.m-scroll__title > div, .m-scroll__opposite>div{display: flex;}
+.m-scroll__title > div{animation: scrollText 60s infinite linear;}
+.m-scroll__opposite>div{animation: scrollOpposite 60s infinite linear;}
+
+.m-scroll__title > div > h1, .m-scroll__opposite> div > h1{
+margin: 0; font-size: 36px;line-height:0; transition: all 2s ease;
 }
 
-.m-scroll__title > div >h1 {
-    margin: 0px 0 0px 0;
-    font-size: 36px;line-height:0;
-    transition: all 2s ease;
+@keyframes scrollText {
+    from   { transform: translateX(0%); }
+    to { transform: translateX(-50%); }
 }
 
-    @keyframes scrollText {
-      from   { transform: translateX(0%); }
-      to { transform: translateX(-50%); }
-    }
+@keyframes scrollOpposite {
+    from   { transform: translateX(-50%); }
+    to { transform: translateX(0%); }
+}
 
 /* Unicode Arrow */
 .arrow-uni{font-size:large;padding-left:6px;}
