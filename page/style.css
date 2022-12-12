@@ -215,6 +215,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     -webkit-background-size: cover;
     overflow:hidden;
     border-bottom:1px solid var(--line);
+    background-color: #ddd;
 }
 
 .banner-text{

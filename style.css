@@ -144,6 +144,7 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
     z-index: 1;
     /* border-top: 1px solid var(--line); */
     border-bottom: 1px solid var(--line);
+    background: var(--background);
 }
 
 .m-scroll__title, .m-scroll__opposite{
