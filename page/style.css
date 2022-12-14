@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 html{
+    overflow-x: hidden;
     overflow-y: auto;
     animation: loadAnimation linear .2s;
 }
