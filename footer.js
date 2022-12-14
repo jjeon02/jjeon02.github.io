@@ -12,7 +12,7 @@ console.log(footerText);
 
 let scrollLeft = "<div class='m-scroll reveal border'> <vdiv class='m-scroll__title'> <div> <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1>  <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1> </div></div></div>"
 
-let scrollRight = " <div class='m-scroll reveal border'><div class='m-scroll__opposite'><div> <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1>  <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1></div></div></div>"
+let scrollRight = " <div class='m-scroll reveal'><div class='m-scroll__opposite'><div> <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1>  <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1></div></div></div>"
 
 
 document.getElementById("scrollLeft").innerHTML = scrollLeft;
