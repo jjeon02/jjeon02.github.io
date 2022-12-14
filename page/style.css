@@ -223,7 +223,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     width:100%;
     max-width:600px;
     padding:24px;
-    margin: 0 0 24vh 0;
+    margin: 0 0;
     display:block;
     background:var(--background);
     border: 1px solid var(--line);
@@ -234,6 +234,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 
 .div-center{position: relative;padding: 0;}
 .div-center > div{ margin: 0; position: absolute;top: 50%;transform: translateY(-50%);}
+
 
 .screen{
     position: fixed;
@@ -268,9 +269,9 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 .grid-flex, .grid-first{width:100%;display:flex;grid-gap:24px;margin: 0;}
 .grid-box{width:100%;margin-bottom: 12px; overflow-wrap: break-word;}
 
-
 /*THIS WRAPS THE TEXT*/
 .grid-text{padding: 20px;width:280px;display:inline-block;}
+
 /* THIS EXPLAINS THE TYPE OF WORK */
 .grid-text > h5{margin: 0 0 8px 0;}
 .grid-text > h6{color:var(--background);background:var(--text);font-size: 16px;margin: 8px 0 0 0;padding:0 6px;display:inline-block;text-transform: uppercase;}
