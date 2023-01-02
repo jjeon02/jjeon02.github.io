@@ -202,9 +202,10 @@ margin: 0; font-size: 36px;line-height:0; transition: all 2s ease;
 .border{border-top: 1px solid var(--line);}
 .border-line{border-top: 1px solid var(--line);margin: 16px 0;}
 .line-wrap{border: 1px solid var(--line);}
+.callout{padding:24px 48px;margin:24px 48px 60px 48px;border: 1px solid var(--line);border-radius: 8px;background: var(--background);box-shadow: 2px 2px 0px var(--line);}
 
 /* DIVS */
-section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background)}
+section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background);overflow: hidden;}
 
 .giantroom-banner{background: url("giant-room/banner.jpg") no-repeat center fixed;}
 
