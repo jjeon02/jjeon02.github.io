@@ -229,7 +229,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     display:block;
     z-index:-4;
     width:100%;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
     background-size: cover;
     -webkit-background-size: cover;
     overflow:hidden;
