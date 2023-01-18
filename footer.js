@@ -1,7 +1,7 @@
 let contact = "<strong class='center'>CONTACT ME:</strong><br>"
 let linkedin = "<a href='https://www.linkedin.com/in/jueun-jeon-0436/' target='_blank'>" + "LinkedIn"+"</a>";
 let behance = "<a href='https://www.behance.net/jueunjeon' target='_blank'>" + "Behance" + "</a>";
-let email = "<a href='mailto:june.jeon@gmail.com' target='_blank'>" + "Email" + "</a>";
+let email = "<a href='mailto:jjeon7@sva.edu' target='_blank'>" + "Email" + "</a>";
 let resume = "<a href='about.html#resume'>" + "resume" + "</a>";
 let github = "<a href='https://github.com/jjeon02' target='_blank'>" + "Github" + "</a>";
 
