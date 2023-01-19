@@ -139,7 +139,7 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
     display: block;
     position: relative;
     width:100%;
-    height: 72px;
+    height: 84px;
     margin: auto;
     overflow: hidden;
     z-index: 1;
@@ -157,14 +157,14 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
     width: 100%;height: 100%;
     white-space: nowrap;
     transform: scale(2);
-    transition: all 1s ease;
+    transition: all 4s ease;
 }
 .m-scroll__title > div, .m-scroll__opposite>div{display: flex;}
-.m-scroll__title > div{animation: scrollText 60s infinite linear;}
-.m-scroll__opposite>div{animation: scrollOpposite 60s infinite linear;}
+.m-scroll__title > div{animation: scrollText 100s infinite linear;}
+.m-scroll__opposite>div{animation: scrollOpposite 100s infinite linear;}
 
 .m-scroll__title > div > h1, .m-scroll__opposite> div > h1{
-margin: 0; font-size: 36px;line-height:0; transition: all 2s ease;
+margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
 }
 
 @keyframes scrollText {
@@ -205,8 +205,7 @@ margin: 0; font-size: 36px;line-height:0; transition: all 2s ease;
 
 /* DIVS */
 section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background)}
-
-.giantroom-banner{background: url("giant-room/banner.jpg") no-repeat center fixed;}
+.index-column{width:100%;max-width:840px;margin:auto;}
 
 .banner-wrapper{
     display:block;
