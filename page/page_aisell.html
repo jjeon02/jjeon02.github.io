@@ -19,6 +19,30 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
             .quote{font-family: 'Poppins', sans-serif;font-weight:600;}
+            p > strong{
+                font-style: italic;
+                font-weight: 400;
+            }
+            .wrap{
+                padding: 24px; border-radius: 10px;border: 1px solid var(--line);margin-bottom: 24px;background: #ededed;
+            }
+            img{margin-bottom: 24px;}
+            .divider { 
+                width:100%; 
+                background-color: #ededed;                
+                border-bottom: 1px solid var(--line);
+                border-top: 1px solid var(--line);
+            }
+            .divider > section{
+                color: #254EA4;
+                margin: 0 auto; 
+                padding: 12px 24px;
+                background-color: #ededed;
+                font-family: 'Poppins', sans-serif;
+                font-weight:600;text-transform: uppercase;
+                font-size: 24px;
+            }
+            .margin-24{width:100%;height:24px;}
         </style>
     </head>
     <body>
@@ -99,33 +123,58 @@
         </section>
         
         <section id="discover"></section>
+        <div class="divider"><section>Discover</section></div>
+
         <section class="reveal">
-            <h6>Discover</h6>
-            <div class="border-line"></div>
             <p>First we did desk research and conducted user interviews to define our problem.</p><br>
-            <img src="aisell/intro.jpg" class="reveal">
+            <div class="margin-24"></div>
+            <div class="grid-index">
+                <h5 class="grid-box">What is B2B & Our goal?</h5>
+                <div>
+                    <img src="aisell/b2b.png" class="reveal"><br><br>
+                    <p>
+                        B2B is short for <strong>business-to-business</strong>, and refers to the commerce that happens between more than two business/companies. After COVID, lots of B2B business process <strong>transitioned to online and virtual.</strong> Our group aimed to solve a better interaction method for them.
+                    </p>
+                    <div class="margin-24"> </div>
+                </div>
+                <h5>Discovery<div class="margin-24"> </div></h5>
+                <div>
+                    <div class="grid-first" class="reveal">
+                        <div class="wrap"><h6 style="color:#FF993A;">27%</h6><p>of B2B buyers' time is spent on independent research online</p></div>
+                        <div class="wrap"><h6 style="color:#FF993A;">70%</h6><p>of B2B buyer decision-making process is done before ever engaging a sales representative.</p></div>
+                    </div>
+                    <p>
+                        Understanding The Changing B2B Buyer Journey - Forbes I B2B Buyers do 70% of their research online - Passle
+                    </p>
+                </div>
+            </div>
+            <div class="margin-24"></div>
             <img src="aisell/insight-research.jpg" class="reveal">
-            <br><br><br>
-            <h6>We conducted user interviews - for both B2B sellers and buyers to understand the problem and B2B better.</h6><br>
-            <img src="aisell/user-Interview.jpg" class="reveal">
-            <img src="aisell/insight-interview.jpg" class="reveal">
-            <br><br><br>
-            <h6>User Personas</h6><br>
+            <div class="margin-24"></div>
+            <div class="grid-index">
+                <div class="grid-box">
+                    <h5>User interview</h5>
+                    <h6>We conducted user interviews - for both B2B sellers and buyers to understand the problem and B2B better.</h6>
+                </div>
+                <div><img src="aisell/user-Interview.jpg" class="reveal"></div>
+            </div>
+            <h5>User Personas</h5><br>
             <img src="aisell/user-persona.jpg" class="reveal">
+            <img src="aisell/insight-interview.jpg" class="reveal">
         </section>
 
         <section id="define"></section>
+        <div class="divider"><section>Define</section></div>
+
         <section class="reveal">
-            <h6>Define</h6>
-            <div class="border-line"></div>
             <p>We defined the problem statement and direction for solution</p><br>
             <img src="aisell/understanding.jpg" class="reveal">
-            <br><br><br>
             <h6>User Journey</h6><br>
             <img src="aisell/problem-statement.jpg" class="reveal">            
             <div class="callout reveal center" style="background:#D3DCED;">
-                <h2 class="quote" style="color:#2542a4;">This differences make B2B seller frustrated 
-                    on the first stage of the B2B sales process</h2>
+                <h2 class="quote" style="color:#2542a4;">
+                    This differences make B2B seller frustrated on the first stage of the B2B sales process
+                </h2>
             </div>
 
             <p class="center">
@@ -136,26 +185,56 @@
                 <h6 style="color:white;">Problem Statement</h6>
                 <h2 class="quote" style="color:white;">How can we improve the way of interacting between sellers and buyers during the first stage of the selling process?</h2>
             </div>
-            <img src="aisell/Insights.jpg" class="reveal">
-            <img src="aisell/spot.jpg" class="reveal">
+
+            <div class="grid-index">
+                <h5 class="grid-box">Insights</h5>
+                <div><img src="aisell/insights.png" class="reveal"></div>
+                <h5 class="grid-box">Solution Idea</h5>
+                <div><img src="aisell/solution-idea.png" class="reveal"></div>
+                <h5>Where we found our solution</h5>
+                <div><img  src="aisell/spot.jpg" class="reveal"></div>
+            </div>
             <img src="aisell/solution-ideation.jpg" class="reveal">
         </section>
 
         <section id="design"></section>
-        <section class="reveal">
-            <h6>Design</h6>
-            <div class="border-line"></div>        
+        <div class="divider"><section>Design</section></div>
+
+        <section class="reveal">     
             <p>Ai.Sell is a tool that can help B2B seller by creating personalized videos for B2B buyers who visit seller's website. It's a plugin for website that uses A.I. technology to create contents. </p>    <br><br>
             <!--AI sell explaination-->
             <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/787642994?h=1a3f4a81e7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ai.Sell"></iframe></div>
             
-            <br><br>
+            <div class="margin-24"></div>
+            <div class="margin-24"></div>
             <p>How it works</p><br>
             <img src="aisell/how-it-works-web.jpg" class="reveal">
             <img src="aisell/how-it-works-1.jpg" class="reveal">
             <img src="aisell/how-it-works-3.jpg" class="reveal">
-            <!-- <br><br> -->
-            <img src="aisell/reasons-to-believe.jpg" class="reveal">
+            
+            <div class="margin-24"></div>
+            <div class="margin-24"></div>
+            
+            <div class="grid-index">
+                <h5>Logo</h5>
+                <div><img src="aisell/logo.png"></div>
+                <h5>Reasons to believe <div class="margin-24"></div></h5>
+                <div>
+                    <div class="grid-first" class="reveal">
+                        <div class="wrap grid-box">
+                            <h6 style="color:#FF993A;">How it fills market gap?</h6>
+                            <p>
+                                Buyers don’t have to go through signup process to see product features.
+                                Ai customized video will provide them with the right information needed.
+                            </p>
+                        </div>
+                        <div class="wrap grid-box">
+                            <h6 style="color:#FF993A;">How it fits the demand?</h6>
+                            <p>Buyers can get more perspective on the solution they’re looking for, and they will get interest leads.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="mvp"></section>
