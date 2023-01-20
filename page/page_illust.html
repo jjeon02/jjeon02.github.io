@@ -14,65 +14,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-        <style>
-            /* SLIDE */
-            .slideshow-container {
-                width:100%;
-                position: relative; 
-                margin: 0 auto;
-            }
-
-            .slide-arrow-wrapper{
-                text-decoration: none;
-                cursor: pointer;
-                position: absolute;
-                top: 50%; 
-                width: 48px; height: 48px;
-                margin-top: -24px;
-                padding: 16px; 
-                user-select: none;
-                background: var(--background);
-                border: 1px solid var(--text);
-                border-radius: 50%;
-                overflow:hidden;
-            }
-
-            .slide-arrow-wrapper:hover{border: 1px solid var(--blue);}
-
-            .slide-arrow-wrapper:hover .slide-arrow{
-                border-top: 2px solid var(--blue);
-                border-right:2px solid var(--blue);
-            }
-
-            .arrow-wrapper-next{right: 0;}
-
-            .slide-arrow{
-                position:absolute;
-                width:16px;
-                height:16px;
-                border-top: 2px solid  var(--text);
-                border-right:2px solid  var(--text);
-            }
-
-            .arrow-next{
-                transform: rotate(45deg);
-                right: 18px;
-            }
-
-            .arrow-prev{
-                transform: rotate(-135deg);
-                left: 18px;
-            }
-
-            .slides{
-                width:84%; 
-                max-width:1200px;
-                height:auto; 
-                margin: 0 auto;
-                display:inline-block;
-            }
-
-        </style>
     </head>
     <body>
         <div id="sideNav" class="sidenav">
@@ -129,7 +70,7 @@
         <img src="illust/gender_robot4.jpg" class="slide reveal">
         <img src="illust/gender_robot5.jpg" class="slide reveal">
        
-        <!-- <section class="center reveal">
+        <section class="center reveal">
             <h2>Slide</h2>
             <p>From left to right</p>
         </section>
@@ -168,7 +109,7 @@
                     <div class="arrow-next slide-arrow"></div> 
                 </a>
             </div>
-        </section> -->
+        </section>
 
         <br><br>
         <div class="border" id="two"></div>

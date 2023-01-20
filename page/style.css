@@ -434,7 +434,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 
 .slideshow-container {
     width:100%;
-    position: relative; 
+    position: relative;
     margin: 0 auto;
 }
 
@@ -489,4 +489,5 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     margin: 0 auto;
     display:inline-block;
 }
+
 
