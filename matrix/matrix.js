@@ -1,3 +1,5 @@
+alert("This work requires your device's camera!")
+
 let matrix;
 let timeText;
 let sec;
