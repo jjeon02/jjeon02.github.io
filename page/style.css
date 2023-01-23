@@ -121,15 +121,15 @@ p,ul,li,p a,ol{font-weight:200;}
     box-shadow: 0px 0px var(--text);
 }
 
-/* .grid-text > button{margin: 12px 0 0 0;} */
+.grid-text > button{margin: 20px 0 0 0; width:100%;}
 
-/* .grid-text > button:hover, button:hover{
+.grid-text > button:hover, button:hover{
     transform: translate(-3px,-3px);
     box-shadow: 3px 3px var(--blue);
     border: 1px solid var(--blue);
     color: var(--blue);
     cursor:grab;
-} */
+}
 
 ul, ol{font-size:16px;line-height:1.8;font-weight:400;}
 ul{margin: 0 0 0 20px;}
@@ -220,6 +220,7 @@ margin: 0; font-size: 36px;line-height:0; transition: all 2s ease;
 
 /* DIVS */
 section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background);overflow: hidden;}
+.index-column{width:100%;max-width:840px;margin:auto;}
 
 .giantroom-banner{background: url("giant-room/banner.jpg") no-repeat center fixed;}
 .watson-banner{background: url("watson/banner.jpg") no-repeat center fixed;}
@@ -251,7 +252,6 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 
 .div-center{position: relative;padding: 0;}
 .div-center > div{ margin: 0; position: absolute;top: 50%;transform: translateY(-50%);}
-
 
 .screen{
     position: fixed;
@@ -287,7 +287,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 .grid-box{width:100%;margin-bottom: 12px; overflow-wrap: break-word;}
 
 /*THIS WRAPS THE TEXT*/
-.grid-text{padding: 20px;width:280px;display:inline-block;}
+.grid-text{padding: 20px;width:100%;display:inline-block;}
 
 /* THIS EXPLAINS THE TYPE OF WORK */
 .grid-text > h5{margin: 0 0 8px 0;}
