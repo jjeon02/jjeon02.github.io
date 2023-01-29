@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jueun Jeon's Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <meta property="og:image" content="uiux/img21/browser1.jpg" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+        <meta charset="utf-8"> <!-- able multiple language -->
+        <meta name="description" content="Hello World! My name is Jueun Jeon, and I am a UX designer currently studying in NYC">
+        <meta name="keywords" content="Jueun Jeon, graphic design, design, UI/UX, ui/ux, design identity, illust, brand design, brand, editorial design, portfolio, RISD, Korea University, Ju Eun Jeon, ju eun jeon, jeon, ju, eun, jueun">
+        <meta name="author" content="Jueun Jeon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon_blue.jpg" type="image/x-icon">
+        <link rel="apple-touch-icon" href="favicon_blue.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="sideNav" class="sidenav">
+            <p>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="text-decoration: none;">
+                CLOSE
+                </a>
+            </p>
+            <p><a href="about.html">About Me</a></p>
+            <div class="border"></div>
+            <p><a href="https://www.linkedin.com/in/jueun-jeon-0436/" target="_blank" style="color:var(--aaaGrey);">LINKEDIN</a></p>
+            <p><a href="https://www.behance.net/jueunjeon" target="_blank">BEHANCE</a></p>
+            <p><a href="mailto:june.jeon@gmail.com" target="_blank">EMAIL</a></p>
+            <p><a href="about.html#resume">RESUME</a></p>
+        </div>
+
+        <header class="nav-wrapper">
+            <div class="nav-container">
+                <h6><a href="index.html" class="icon">J.JEON</a></h6>
+                <ul>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#work">FROM WORK</a></li>
+                    <li> <a href="#archive">ARCHIVE</a></li>
+                    <li><a href="about.html" style="text-decoration: underline;">About Me</a></li>
+                </ul>
+                <button class="nav-button" class="margin:0px 0px;" onclick="openNav()"><p>MENU</p></button>
+            </div>
+        </header>
+
+        <a href="#top"><img src="up.svg" class="arrow"></a>
+
+        <div style="width:100%;height: 48px;"></div>
+        
+        <div class="m-scroll-s">
+            <div class="m-scroll_title-s">
+                <div> 
+                    <h1>Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;</h1>  
+                    <h1>Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;</h1>       
+                </div>
+            </div>
+        </div>
+
+        <div id="canvas-container">
+            <div class="text">
+                <h6>
+                    Jueun Jeon is a UX designer from S.Korea currently living in NYC. Jueun went to RISD for Graphic Design BFA and is currently attending School of Visual Arts for Interaction Design MFA (STEM). Jueun worked with <a href="page/page_aisell.html">Bigtincan</a>, <a href="page/page_watson.html">Watson Adventures</a> and <a href="page/page_giantroom.html">the Giant Room</a> for SVA's class. Jueun is looking for opportunities in NYC. 
+                <br><br>
+                <a href="about.html">To read more about experience</a></h6>
+            </div>
+            <div id="canvas">
+                <script src="canvas.js"></script>
+            </div> 
+        </div>
+
+
+        <!-- PROJECTS -->
+        <div id="projects" class="border"></div>
+
+        <div class="m-scroll-s">
+            <div class="m-scroll_opposite-s">
+                <div> 
+                    <h1>projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;</h1>  
+                    <h1>projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;</h1>  
+                </div>
+            </div>
+        </div>
+        
+        <section>
+            <h1>PROJECTS</h1>
+           <div class="grid-index-main">
+                <div><img src="thumb/thumb_aisell.jpg"></div>
+                <div class="grid-text">
+                    <h5>Ai.Sell: To help your B2B sales process</h5>
+                    <h6>Conceptual | Product Design</h6>
+                    <h6>with: Bigtincan</h6>
+                    <p>An A.I. tool that provides better B2B sales experience for B2B sellers designed by SVA student group</p>
+                    <button onclick="location.href='page/page_aisell.html'">See Work</button>
+                </div>
+            </div> 
+            <div class="grid-index-main reveal">
+                <div><img src="thumb/thumb_watson.jpg"></div>
+                <div class="grid-text">
+                    <h5>Watson Adventures: Service Design Solution</h5>
+                    <h6>Service Design</h6>
+                    <h6>with: Watson Adventures</h6>
+                    <p>Design research and solution suggestion for Watson Adventures conducted by SVA student group.</p>
+                    <button onclick="location.href='page/page_watson.html'">See Work</button>
+                </div>
+            </div> 
+            <div class="grid-index-main reveal">
+                <div><img src="thumb/thumb_giant.jpg"></div>
+                <div class="grid-text">
+                    <h5>Learning Parents: Design Research for the Giant Room</h5>
+                    <h6>Design Research</h6>
+                    <h6>with: the Giant Room</h6>
+                    <p>Design research and solution suggestion for the Giant Room conducted by SVA student group.</p>
+                    <button onclick="location.href='page/page_giantroom.html'">See Work</button>
+                </div>
+            </div>
+            <div class="grid-index-main reveal">
+                <div><img src="thumb/thumb_ui_screen.jpg"></div>
+                <div class="grid-text">
+                    <h5>UI/UX works from 2021</h5>
+                    <h6>Conceptual | App</h6>
+                    <p>Personal UI/UX works made in 2021 that reflects my interests and passion.</p>
+                    <button onclick="location.href='page/page_UIUX.html'">See Work</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORKS -->
+        <div class="border reveal" id="work"></div>
+
+        <section>
+            <h1>Works from works</h1>
+            <div class="grid-index-main reveal">
+                <div><img src="thumb/thumb_work.jpg"></div>
+                <div class="grid-text">
+                    <h5>Previous Works</h5>
+                    <h6>Web / Content / Editorial</h6>
+                    <p>Works done for companies & RISD. From 2018 - 2021</p>
+                    <button onclick="location.href='page/page_work.html'">See Work</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- OTHER -->
+        <div id="archive" class="border reveal"></div>
+
+        <section class="reveal">
+            <h1>Archive</h1>
+            <div class="grid-first">
+                <div class="line-wrap grid-box" style="margin-bottom: 24px;">
+                    <div><img src="thumb/thumbnail.gif"></div>
+                    <div class="grid-text">
+                        <h5>Coding World</h5>
+                        <p>
+                            <a href="https://browser-graffiti.glitch.me/" target="_blank">Browser Graffiti</a><br>
+                            <a href="https://matrix-for-interaction-logic.glitch.me/" target="_blank">Matrix</a><br>
+                            <a href="https://bubbles-interaction-logic.glitch.me" target="_blank">Bubble</a><br>
+                            <a href="https://www.jueunjeon.design/jueundp/" target="_blank">DP thesis</a><br>
+                            <a href="http://www.jueunjeon.design/jueunwebtype2020/project_2-3/" target="_blank">Retro Future Archive</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="line-wrap grid-box" style="margin-bottom: 24px;">
+                    <div><img src="thumb/thumb_illust.jpg"></div>
+                    <div class="grid-text">
+                        <h5>Outside UI/UX</h5>
+                        <p>
+                            <a href="page/page_exhibit.html">Exhibition</a><br>
+                            <a href="page/page_illust.html">Illustration</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <div style ="width:100%;height:24px;"></div> 
+        <div id="scrollLeft"></div>
+        <div id="scrollRight"></div>
+
+        <footer id ="footer" class="reveal" style="border-top:none;"></footer>
+        
+        <!--JS-->
+        <script src="script.js"></script>
+    </body>
+</html>
