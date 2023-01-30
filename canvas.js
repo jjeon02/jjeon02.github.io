@@ -1,29 +1,28 @@
 var sketchWidth;
 var sketchHeight;
+let bgimg;
+
 
 function setup() {
+    sketchWidth = document.getElementById("canvas").offsetWidth;
+    sketchHeight =   document.getElementById("canvas").offsetHeight;
 
-sketchWidth = document.getElementById("canvas").offsetWidth;
-sketchHeight =   document.getElementById("canvas").offsetHeight;
+    let renderer = createCanvas(sketchWidth, sketchHeight);
+    renderer.parent("canvas");
 
-let renderer = createCanvas(sketchWidth, sketchHeight);
-renderer.parent("canvas");
-
-background(0, 0, 255);
+    // image(img, 0, 0, sketchWidth, sketchHeight);
+    background(0, 0, 255);
 }
 
 function windowResized() {
-sketchWidth = document.getElementById("square").offsetWidth;
-sketchHeight = document.getElementById("square").offsetHeight;
-resizeCanvas(sketchWidth, sketchHeight);
+    sketchWidth = document.getElementById("square").offsetWidth;
+    sketchHeight = document.getElementById("square").offsetHeight;
+    resizeCanvas(sketchWidth, sketchHeight);
 }
 
 function draw() {
-// background(0,0,255);
-    if (mouseIsPressed) {
-    fill(255);
+    // background(bg);
     ellipse(mouseX, mouseY, 20, 20);
-    } 
 }
 
 function clearArt(){clear();}

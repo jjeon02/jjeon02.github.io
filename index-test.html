@@ -51,39 +51,43 @@
 
         <div style="width:100%;height: 48px;"></div>
         
-        <div class="m-scroll-s">
+        <!-- <div class="m-scroll-s">
             <div class="m-scroll_title-s">
                 <div> 
                     <h1>Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;</h1>  
                     <h1>Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;Hello_World&nbsp;Welcome_To&nbsp;Jueun_Jeon's&nbsp;Portfolio &nbsp;Hello_World&nbsp;</h1>       
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div id="canvas-container">
             <div class="text">
                 <h6>
                     Jueun Jeon is a UX designer from S.Korea currently living in NYC. Jueun went to RISD for Graphic Design BFA and is currently attending School of Visual Arts for Interaction Design MFA (STEM). Jueun worked with <a href="page/page_aisell.html">Bigtincan</a>, <a href="page/page_watson.html">Watson Adventures</a> and <a href="page/page_giantroom.html">the Giant Room</a> for SVA's class. Jueun is looking for opportunities in NYC. 
                 <br><br>
-                <a href="about.html">To read more about experience</a></h6>
+                <button onclick="location.href='about.html'">To read more about experience</button>
+                
+                <br><br><br>
+                <h6>Do you like the interaction?</h6><br>
+                <button onClick="clearArt()">Clear</button>
+                <button onClick="saveArt()">Save as jpg</button>
             </div>
             <div id="canvas">
-                <script src="canvas.js"></script>
             </div> 
         </div>
 
 
         <!-- PROJECTS -->
-        <div id="projects" class="border"></div>
+        <div id="projects"></div>
 
-        <div class="m-scroll-s">
+        <!-- <div class="m-scroll-s">
             <div class="m-scroll_opposite-s">
                 <div> 
                     <h1>projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;</h1>  
                     <h1>projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;projects&nbsp;</h1>  
                 </div>
             </div>
-        </div>
+        </div> -->
         
         <section>
             <h1>PROJECTS</h1>
@@ -177,12 +181,13 @@
         </section>
                 
         <div style ="width:100%;height:24px;"></div> 
-        <div id="scrollLeft"></div>
-        <div id="scrollRight"></div>
+        <!-- <div id="scrollLeft"></div>
+        <div id="scrollRight"></div> -->
 
         <footer id ="footer" class="reveal" style="border-top:none;"></footer>
         
         <!--JS-->
         <script src="script.js"></script>
+        <script src="canvas.js"></script>
     </body>
 </html>
