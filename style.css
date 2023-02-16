@@ -277,7 +277,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 .grid-text > p > strong{font-size: 16px;font-weight: 600;}
 .grid-text > p > strong > a{font-size: 16px;font-weight: 600;}
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 1040px) {
     .grid-index, .grid-index-main, .grid-first{display:block;}
     .div-center{position: static;padding:0;}
     .first-image{max-width: 540px;}

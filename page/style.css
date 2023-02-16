@@ -221,6 +221,7 @@ margin: 0; font-size: 36px;line-height:0; transition: all 2s ease;
 /* DIVS */
 section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background);overflow: hidden;}
 .index-column{width:100%;max-width:840px;margin:auto;}
+.margin-48{width:100%;height:48px;}
 
 .giantroom-banner{background: url("giant-room/banner.jpg") no-repeat center fixed;}
 .watson-banner{background: url("watson/banner.jpg") no-repeat center fixed;}
