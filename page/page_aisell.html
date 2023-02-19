@@ -17,18 +17,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
             .quote{font-family: 'Poppins', sans-serif;font-weight:600;}
             p > strong{
                 font-style: italic;
                 font-weight: 400;
             }
-            .wrap{
-                padding: 24px; border-radius: 10px;margin-bottom: 24px;background: #ededed;
-            }
-            .wrap > h6{font-size: 36px;line-height: 40px; margin-bottom: 12px;font-weight: 600;font-family: 'Poppins', sans-serif;}
+            .wrap > h6{font-size: 36px;line-height: 40px; margin-bottom: 12px;font-weight: 600; font-family: 'Poppins', sans-serif;}
             img{margin-bottom: 48px;}
-            
+
+            h5{font-family: 'Poppins', sans-serif;}
             .divider { 
                 width:100%; 
                 border-top: 1px solid var(--line);
@@ -76,47 +73,68 @@
         <!-- ARROW -->
         <a href="#top"><img src="up.svg" class="arrow"></a>
 
-        <div class="banner-wrapper aisell-banner">
-            <div class="banner-text">
-                <div class="grid-flex">
-                    <h1>AiSell: New tool for B2B sales</h1>
-                </div>
-                <div class="border-line"></div>
-                <div class="grid-flex">
-                    <h6 class="grid-box">2022</h6>
-                    <p class="grid-box">Design Research, Problem Solving, UI/UX, Interaction Design, Web App</p>
-                </div>
-                <div class="grid-flex">
-                    <h6 class="grid-box">Team Member</h6>
-                    <p class="grid-box">Bashayer Algow, Mihira Patel, Jueun Jeon</p>
-                </div>
-                <div class="grid-flex">
-                    <h6 class="grid-box">Instructor</h6>
-                    <p class="grid-box">Criswell Lappin, Roger Mader</p>
-                </div>
-                <div class="grid-flex">
-                    <h6 class="grid-box">Sponsor</h6>
-                    <p class="grid-box"><a href="https://www.bigtincan.com/">Bigtincan</a></p>
-                </div>
-                <div class="border-line"></div>
-                <div class="grid-flex">
-                    <img src="ixd.jpg" style="width:20px;height:20px;margin-top:4px;">
-                    <h6>SCHOOL OF VISUAL ARTS - INTERACTION DESIGN</h6>
-                </div>  
-                <img src="aisell/IA23_Shortlist.svg" style="width: 240px;">
+        <!-- <div class="banner-wrapper aisell-banner"> -->
+        <img src="aisell/banner.jpg">
+            
+        <section>
+            <div class="grid-flex">
+                <h1>AiSell: New tool for B2B sales</h1>
             </div>
+            <div class="border-line"></div>
+            <div class="grid-first">
+                <h6 class="grid-box">2022</h6>
+                <p class="grid-box">Design Research, Problem Solving, UI/UX, Interaction Design, Web App</p>
+            </div>
+            <div class="grid-first">
+                <h6 class="grid-box">Team Member</h6>
+                <p class="grid-box">Bashayer Algow, Mihira Patel, Jueun Jeon</p>
+            </div>
+            <div class="grid-first">
+                <h6 class="grid-box">My Role</h6>
+                <div class="grid-box">
+                    <ul>
+                        <li>UX Design</li>
+                        <li>UI Design</li>
+                        <li>Research Assist</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-first">
+                <h6 class="grid-box">Instructor</h6>
+                <p class="grid-box">Criswell Lappin, Roger Mader</p>
+            </div>
+            <div class="grid-first">
+                <h6 class="grid-box">Sponsor</h6>
+                <p class="grid-box"><a href="https://www.bigtincan.com/">Bigtincan</a></p>
+            </div>
+            <div class="grid-first">
+                <h6 class="grid-box">Methods & Tools</h6>
+                <ul class="grid-box">
+                    <li>UX Research: Stakeholders Interviews, User Journey, User Persona, 5E Journey, etc</li>
+                    <li>Design: Figma</li>
+                </ul>
+            </div>
+            <div class="border-line"></div>
+            <div class="grid-flex">
+                <div>
+                    <div class="grid-flex">
+                        <img src="ixd.jpg" style="width:20px;height:20px;margin-top:4px;">
+                        <h6>SCHOOL OF VISUAL ARTS - INTERACTION DESIGN</h6>
+                    </div>
+                </div>                
+                <div><img src="aisell/IA23_Shortlist.svg" style="width: 160px;"></div>
+            </div>
+           
         </div>
-
-        <div class="margin-48"></div>
+        </section>
         
-        <section class="center">
+        
+        <section class="center" id="intro">
             <div class="wrap">
             <p class="center">Ai.Sell is a tool that can help B2B seller by creating personalized videos for B2B buyers who visit seller's website. It's a plugin for website that uses A.I. technology to create contents.</p>
             <p><strong>This project has been on the shortlist of Interaction Awards 2023</strong></p>
             </div>            
         </section>
-
-        <section id="intro"></section>
 
         <section>
             <div class="grid-index">
@@ -161,9 +179,10 @@
                             Understanding The Changing B2B Buyer Journey - Forbes I B2B Buyers do 70% of their research online - Passle
                         </a>
                     </p>
+                    <div class="margin-48"></div>
                 </div>
                 <h5>Insights after Research</h5>
-                <div><img src="aisell/insight-research.jpg" class="reveal"></div>
+                <div><img src="aisell/insight-research.jpg" class="reveal"> <div class="margin-48"></div> </div>
             </div>
             <div class="grid-index">
                 <div class="grid-box">
@@ -174,17 +193,8 @@
             </div>
             <h5>User Personas</h5><br>
             <img src="aisell/user-persona.jpg" class="reveal">
-            <br><br>
+            <div class="margin-48"></div>
             <img src="aisell/insight-interview.jpg" class="reveal">
-            <br><br>
-            <div class="grid-index" class="reveal">
-                <h5 class="grid-box">Keywords</h5>
-                <div>
-                    <p class="center">After research we came up to our three keywords:</p>
-                    <div class="margin-48"></div>
-                    <img src="aisell/keywords.jpg">
-                </div>
-            </div>
         </section>
 
         <section id="define"></section>
@@ -206,6 +216,12 @@
             </div>
             <div class="margin-48"></div>
             <img src="aisell/problem-statement.jpg" class="reveal">            
+
+            <h5 class="center">Keywords we concluded from user journey:</h5>
+            <div class="margin-48"></div>
+            <img src="aisell/keywords.jpg" style="max-width: 720px;display:block;margin:auto;">
+            <div class="margin-48"></div>
+            <div class="margin-48"></div>
 
             <p class="center">
                 From this analysis our insight was:
