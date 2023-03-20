@@ -21,21 +21,21 @@ console.log(scrollLeft, scrollRight);
 
 
 function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
+  var reveals = document.querySelectorAll(".reveal");
   
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 10;
-  
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 10;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
     }
-    console.log("reveal working")
   }
+  console.log("reveal working");
+}
   
 window.addEventListener("scroll", reveal);
 
