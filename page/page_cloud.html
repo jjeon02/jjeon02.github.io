@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jueun Jeon's Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <meta charset="utf-8"> <!-- able multiple language -->
+        <meta name="description" content="Hello World! My name is Jueun Jeon, and I am a UI/UX & Web designer from Seoul, Korea.">
+        <meta name="keywords" content="Jueun Jeon, graphic design, design, UI/UX, ui/ux, design identity, illust, brand design, brand, editorial design, portfolio, RISD, Korea University">
+        <meta name="author" content="Jueun Jeon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon_blue.jpg" type="image/x-icon">
+        <link rel="apple-touch-icon" href="favicon_blue.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <style>
+            img{margin-bottom: 48px;}
+        </style>
+    </head>
+    <body>
+        <div id="sideNav" class="sidenav">
+            <p>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="text-decoration: none;">
+                CLOSE
+                </a>
+            </p>
+            <p><a href="http://www.jueunjeon.design/about.html">About Me</a></p>
+            <div class="border"></div>
+            <p><a href="https://www.linkedin.com/in/jueun-jeon-0436/" target="_blank" style="color:var(--aaaGrey);">LINKEDIN</a></p>
+            <p><a href="https://www.behance.net/jueunjeon" target="_blank">BEHANCE</a></p>
+            <p><a href="mailto:june.jeon@gmail.com" target="_blank">EMAIL</a></p>
+            <p><a href="http://www.jueunjeon.design/about.html#resume">RESUME</a></p>
+        </div>
+
+        <header class="nav-wrapper">
+            <div class="nav-container">
+                <h6><a href="https://jjeon02.github.io/#archive" class="icon">BACK TO HOME</a></h6>
+                <ul>
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#research">RESEARCH</a></li>
+                    <li> <a href="#trial">TRIALS</a></li>
+                    <li> <a href="#fabric">FABRICATION</a></li>
+                    <li> <a href="#final">FINAL</a></li>
+                    <li><a href="http://www.jueunjeon.design/about.html" style="text-decoration: underline;">About Me</a></li>
+                </ul>
+                <button class="nav-button" onclick="openNav()"><p>MENU</p></button>
+            </div>
+        </header>
+
+        <!-- ARROW -->
+        <a href="#top"><img src="up.svg" class="arrow"></a>
+
+        <img src="cloud/banner.jpg" class="hero-image" id="top">
+
+        <section>
+            <h1>Mood Cloud</h1>
+            <div class="border-line"></div>
+            <div class="grid-index">
+                <h6 class="grid-box">Installation</h6>
+                <p class="grid-box">2022</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Team Member</h6>
+                <p class="grid-box">Tzuyi Lee, Sukyong(Jade) Kwon, Ju Eun Jeon, Harshi Rambhia</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">My Role</h6>
+                <p class="grid-box">Code, Fabrication</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Instructor</h6>
+                <p class="grid-box">Bruno Kruse, Carrie Kengle, Eric Forman</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Code & Materials</h6>
+                <ul class="grid-box">
+                    <li>Code: C++, p5.js, Javascript, HTML / CSS</li>
+                    <li>Material: ESP32, Cotton, Wires</li>
+                </ul>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Notion Page</h6>
+                <p><a href="https://ahead-slouch-630.notion.site/Mood-Cloud-Pcomp-Final-c4f778f8dec0406e9578857f09eb52c8" target="_blank">Link</a></p>
+            </div>    
+            <div class="border-line"></div>
+            <div class="grid-flex">
+                <img src="ixd.jpg" style="width:20px;height:20px;margin-top:4px;">
+                <h6>SCHOOL OF VISUAL ARTS - INTERACTION DESIGN</h6>
+            </div>  
+        </section>
+
+        <div class="margin-48" id="concept"></div>
+        <div class="border reveal">
+            <section>
+                <h1>CONCEPT</h1>
+            </section>
+        </div>
+        
+        <section class="reveal">
+            <div class="grid-index">
+                <div class="grid-box">
+                    <h5>Concept Idea</h5>
+                    <p>
+                        We planned on using MQTT to let multiple devices communicate. Multiple phones can send mood types to the cloud and the cloud will generate the color responding to people's mood.
+                    </p>
+                </div>
+                <div class="grid-box">
+                    <div class="grid-first">
+                        <div class="grid-box">
+                            <p>Final Sketch</p> <br><img src="cloud/final-concept-sketch.png">
+                        </div>
+                        <div class="grid-box">
+                            <p>References</p> <br> <img src="cloud/ref-1.png"> <img src="cloud/ref-2.png">
+                        </div>
+                    </div>
+                </div>
+                <h5 class="grid-box"> Tools & Code</h5>
+                <div>
+                    ESP 32, p5.js, Arduino
+                </div>
+            </div>
+        </section>
+
+
+        <div class="margin-48" id="research"></div>
+        <div class="border reveal">
+            <section>
+                <h1>RESEARCH</h1>
+            </section>
+        </div> 
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h5 class="grid-box">How MQTT works and how to start</h5>
+                <div>
+                    <img src="cloud/mqtt-works.jpeg"  class="reveal">
+                </div>
+                <h5 class="grid-box">How to send data through MQTT from Arduino Uno</h5>
+                <div>
+                    <p>List of things we researched:</p>
+                    <ul>
+                        <li>Arduino ESP32 and MQTT</li>
+                        <li>ESP32 and LED</li>
+                        <li>LED Strip and ESP32</li>
+                        <li>Transistor (only work with DC voltages)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="margin-48" id="trial"></div>
+        <div class="border reveal">
+            <section>
+                <h1>TRIALS & ERRORS</h1>
+            </section>
+        </div>
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h5 class="grid-box">Server</h5>
+                <div>
+                    <p>We firstly used AWS as our server. There are a lot of things need to do for preparing it.</p><br>
+                </div>
+                <h5 class="grid-box">Onboard ESP32 to Arduino IDE</h5>
+                <div>
+                    <ul>
+                        <li>Board Type: ESP-WROOM-32 Dev Model</li>
+                        <li>Couldn't include secret.h in the main.io.ino file: Should open a new tab and make them stand by each other</li>
+                        <li>Couldn't find the “port” in Arduino IDE “tool > menu”</li>
+                        <li>Error Message Troubleshooting</li>
+                        <pre>
+A fatal error occurred: Failed to connect to ESP32: Wrong boot mode detected (0x13)! 
+The chip needs to be in download mode.</pre>
+                    </ul>
+                    <div class="margin-48"></div>
+                </div>
+                <h5>Pin knowledge</h5>
+                <p> There are a lot of details and knowledge of ESP32 board. Each pin has its own function.
+                    <a href="https://www.youtube.com/watch?v=LY-1DHTxRAk" target="_blank">We learned the ESP32 pin functions here</a>
+                    <br><br>
+                </p>
+                <h5>Power Supply - Voltage Transmit</h5>
+                <ul>
+                    <li>
+                        The ESP32's voltage is 3.3V. So after trying many ways, we use level shifter to transmit 5V power to 3.3V of ESP32.<br><br>
+                        <img src="cloud/level-shifter.png"  class="reveal">
+                    </li>
+                    <li>⚠️ We then found we can't successfully light LED strips in right colors, since we thought we don't need the resistor! After we put on the resister after hundreds of hours trying, we made it work.</li>
+                    <div class="margin-48"></div>
+                </ul>
+                <h5>Circuit</h5>
+                <div><img src="cloud/circuit.jpeg" class="reveal"></div>
+            </div>
+        </section>
+
+        <div class="margin-48" id="fabric"></div>
+        <div class="border reveal">
+            <section>
+                <h1>FABRICATION</h1>
+            </section>
+        </div>
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h5 class="grid-box">Mockups</h5>
+                <div class="grid-box">
+                    <p> 
+                        We designed a small version of cloud for testing LED and cotton material at the first.
+                        We used soft wire to make a prototype wire structure and put LED strips and cottons in advance.
+                    </p><br>
+                    <div class="grid-first reveal">
+                        <div><img src="cloud/mockup-1.jpeg"></div>
+                        <div><img src="cloud/mockup-2.jpeg"></div>
+                    </div>
+                </div>
+                <h5>LEDs testing</h5>
+                <div>
+                    <p>
+                        In the beginning, we designed a small version of cloud for testing LED and cotton materials. After making wire-frame, we changed the plan to use cleared wrap rather than paper.The reason of the using wrap is that paper was easy to teared and wires were not really stable so it cannot maintain the shapes. we took off all the paper and wrap the each section individually.
+                    </p><br>
+                    <div class="grid-first reveal">
+                        <div><img src="cloud/led-test.jpeg"></div>
+                        <div><img src="cloud/led-test-2.jpeg"></div>
+                    </div>
+                </div>
+                <h5>Primary Structure - Wrapping</h5>
+                <div>
+                    <p>
+                        Using clear wrap, each area was wrapped to prevent the wires from touching the leads. The top of the cloud has holes for Arduino boards and wires to enter.
+                    </p><br>
+                    <div class="grid-first reveal">
+                        <div><img src="cloud/wrap-1.jpeg"></div>
+                        <div><img src="cloud/wrap-2.jpeg"></div>
+                    </div>
+                    <div class="grid-first reveal">
+                        <div><img src="cloud/wrap-3.jpeg"></div>
+                        <div><img src="cloud/wrap-4.jpeg"></div>
+                    </div>
+                </div>
+                <h5>Intermediate Process</h5>
+                <div>
+                    <p>
+                        Then, we attached the cotton to the structure using a hot glue gun, and since it was not possible to attach all the cotton to the LED right away due to a problem with the code, we finished the first fabrication by making a path to attach the LED to the structure.
+                    </p><br>
+                    <img src="cloud/process-wrap.jpeg">
+                </div>
+                <h5>Structure</h5>
+                <div>
+                    <p>After solving the code problem, we tested around LED strips. Since it is a logic that gradually lights up from the bottom, the LED strips were surrounded from the bottom to the top, and then punched a small hole in the bottom to connect it to the Arduino board.</p><br>
+                    <img src="cloud/structure.jpeg" class="reveal">  
+                </div>
+                <h5>Final Testing</h5>
+                <div>
+                    <p>At about 80% finished, We ran the test again. Since the LED was covered with cotton, the brightness had to be adjusted, but since a large amount of LED was used(more than 700), it was modified while considering power and brightness at the same time.In addition, the demonstration day is in the morning, but it will be installed indoors, so we finished by checking the brightness when the lights were turned on and off.</p><br>
+                    <img src="cloud/final-testing.gif" class="reveal">
+                </div>
+                <h5>Installation Process</h5>
+                <div>
+                    <p>
+                        After checking the code, the LED strips, and the brightness, we hung the cloud on the ceiling using cable ties and display straps.
+                    </p><br>
+                    <div class="grid-first reveal">
+                        <div class="grid-box"><img src="cloud/install-1.png"></div>
+                        <div class="grid-box"><img src="cloud/install-2.png"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="margin-48" id="final"></div>
+        <div class="border reveal">
+            <section>
+                <h1>FINAL</h1>
+            </section>
+        </div>
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h5 class="grid-box">Final Look</h5>
+                <div class="gric-box">
+                    <div class="grid-first">
+                        <div class="grid-box">
+                            <h6>Final Installation consist of:</h6>
+                            <ul>
+                                <li>Cloud</li>
+                                <li>Phone App</li>
+                                <li>Poster that guides how to explore installation</li>
+                            </ul>
+                        </div>
+                        <div class="grid-box"> <img src="cloud/final-look.gif" class="reveal"></div>
+                    </div>
+                    <div class="grid-first">
+                        <div class="grid-box">
+                            <h6>Poster</h6><br>
+                            <img src="cloud/poster.jpeg" class="reveal">
+                        </div>
+                        <div class="grid-box">
+                            <h6>App</h6><br>
+                            <img src="cloud/app.png" class="reveal">
+                        </div>
+                    </div>
+                </div>
+                <h5 class="grid-box">Final Code</h5>
+                <div>
+                    <ul>
+                        <li>C++ Code for ESP 32
+                            <br>
+                            <pre>
+//ESP32 Code
+#include FastLED.h
+
+// How many leds in your strip?
+#define DATA_PIN 32
+#define NUM_LEDS 702
+
+
+
+//LED animation
+#define MAX_POWER_MILLIAMPS 6000
+#define LED_TYPE            WS2812B
+#define COLOR_ORDER         GRB
+
+// Define the array of leds
+CRGB leds[NUM_LEDS];
+
+#include "secrets.h"
+#include WiFiClient.h
+#include PubSubClient.h
+#include ArduinoJson.h
+#include "WiFi.h"
+    
+#define AWS_IOT_SUBSCRIBE_TOPIC "esp32/sub"
+
+//colour palettes
+DEFINE_GRADIENT_PALETTE( happy ) { 
+    0,  255,    0,  255,      //magenta
+    100,  255,   50,    0,      //red
+    255,  255,  100,    0,      //orange
+};
+
+DEFINE_GRADIENT_PALETTE( soso ) { 
+    0,    6,   255,   20,     //green
+    140,    0,   255,  153,     //bluegreen
+    255,   93,    63,  211,     //purple
+};
+
+DEFINE_GRADIENT_PALETTE( sad ) { 
+    0,   30,   60,   60,      //dark blue
+    125,   65,   55,   40,      //brown
+    255,   40,  100,   40,     //dark green
+};
+
+
+//declaring colourPalette
+CRGBPalette16 myHappyPal(happy);
+CRGBPalette16 mySosoPal(soso);
+CRGBPalette16 mySadPal(sad);
+
+//variable for start number, originally set to 0
+int startNumber = 0;
+
+const int chunkSize = 40;    // will be 40
+
+    
+WiFiClient net = WiFiClient();
+PubSubClient client(net);
+
+const long checkMQTTInterval = 500; 
+unsigned long previousCheckMQTTMillis = 0;
+
+    
+void connectAWS()
+{
+    //WiFi.mode(WIFI_STA);
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+    
+    Serial.println("Connecting to Wi-Fi");
+    
+    while (WiFi.status() != WL_CONNECTED)
+    {
+    delay(500);
+    Serial.print(".");
+    }
+    
+    // Connect to the MQTT broker on the AWS endpoint we defined earlier
+    client.setServer(AWS_IOT_ENDPOINT, 1883);
+    
+    // Create a message handler
+    client.setCallback(messageHandler);
+    
+    Serial.println("Connecting to AWS IOT");
+    
+    while (!client.connect(THINGNAME))
+    {
+    Serial.print(".");
+    delay(100);
+    }
+    
+    if (!client.connected())
+    {
+    Serial.println("Fail to connect!");
+    return;
+    }
+    
+    // Subscribe to a topic
+    client.subscribe(AWS_IOT_SUBSCRIBE_TOPIC);
+    Serial.println("Connect!");
+
+
+}
+
+
+void messageHandler(char* topic, byte* payload, unsigned int length)
+{
+    Serial.print("incoming: ");
+    Serial.println(topic);
+    
+    StaticJsonDocument <200> doc;
+    deserializeJson(doc, payload);
+    const char* message = doc["message"];
+    Serial.println();
+    
+
+    for (int i = 0; i < length; i++) 
+    {
+    Serial.print(i);
+    Serial.print(":");
+    Serial.print((char)payload[i]); // Pring payload content
+    Serial.print(" ");
+    }
+    char led = (char)payload[19]; // Extracting the controlling command from the Payload to Controlling LED from AWS
+    Serial.print("Command: ");
+    Serial.println(led, DEC);
+    
+    //set up for LEDs
+    if (led == 48) // 48 is the ASCI value of 0
+    {
+    // for (int i = 0; i < NUM_LEDS; i++) 
+    // {
+    // leds[i] = CRGB::Red;
+    // FastLED.setBrightness(300);
+    // }
+    FastLED.setBrightness(50);
+    moveLEDS (myHappyPal);
+
+    FastLED.show();
+    // delay(500);
+    // Serial.println("Lamp_State changed to Happy");
+    }
+
+    else if (led == 49) // 49 is the ASCI value of 1
+    {
+    // for (int i = 0; i < NUM_LEDS; i++) 
+    // {
+    // leds[i] = CRGB::Blue;
+    // FastLED.setBrightness(300);
+    // moveLEDS (CRGB::Orange);
+    // }
+    FastLED.setBrightness(20);
+    moveLEDS (mySadPal);
+    
+    FastLED.show();
+    // delay(500);
+    // Serial.println("Lamp_State changed to Sad");
+    }
+
+    else if (led == 50) // 50 is the ASCI value of 2
+    {
+    // for (int i = 0; i < NUM_LEDS; i++) 
+    // {
+    // leds[i] = CRGB::Yellow;
+    // FastLED.setBrightness(300);
+    // }
+    FastLED.setBrightness(20);
+    moveLEDS (mySosoPal);
+
+    FastLED.show();
+    // delay(500);
+    // Serial.println("Lamp_State changed to Meh");
+    }
+}
+
+void checkMQTTTimer() {
+
+    unsigned long currentMillis = millis();
+
+    if (currentMillis - previousCheckMQTTMillis >= checkMQTTInterval) {
+    // save the last time you checked for messages
+    previousCheckMQTTMillis = currentMillis;
+    client.loop();
+    }
+    
+}
+
+    
+void setup()
+{
+    Serial.begin(115200);
+    connectAWS();
+
+    pinMode (DATA_PIN, OUTPUT);
+    digitalWrite(DATA_PIN, LOW);
+    
+    //we want to change button to ASCI number here ?
+    // pinMode(buttonHappy,INPUT_PULLUP);
+    // pinMode(buttonSoso,INPUT_PULLUP);
+    // pinMode(buttonSad,INPUT_PULLUP);
+
+    FastLED.addLeds<LED_TYPE,DATA_PIN,COLOR_ORDER>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
+    FastLED.setMaxPowerInVoltsAndMilliamps( 5, MAX_POWER_MILLIAMPS);
+    FastLED.setBrightness(25);  
+    FastLED.clear();
+    delay(500);
+    FastLED.show(); 
+    
+    // initial color fill:
+    for (int i = 0; i < NUM_LEDS; i++) 
+    {
+    leds[i] = CRGB::Seashell;
+    // leds[i] = CHSV(160,80,100);
+    }
+    FastLED.show();
+}
+    
+void loop()
+{
+    // remove the delay here and check for messages every 500ms
+    checkMQTTTimer();
+
+}
+
+void moveLEDS (CRGBPalette16 anyPal) {
+
+    for (int i=0; i<chunkSize; i++) {
+    Serial.print("chunk LED ");
+    Serial.println(i);
+    
+    // move all LEDs over one, except the first pixel 
+    for (int j=NUM_LEDS-1; j>=1; j--) {
+        //Serial.println(j);
+        leds[j] = leds[j-1];
+    }
+
+    // set first pixel to new emotion:
+    leds[0] = ColorFromPalette(anyPal, random8(0,255));
+    FastLED.show();
+    
+    delay(50); // TEMPORARY DELAY TO SEE WHAT IS HAPPENING
+    }
+}
+                            </pre>
+                        </li><br>
+                        <li>P5. JS Code
+                            <pre>
+// MQTT client details:
+let broker = {
+    hostname: "23.21.151.236",
+    port: 9001, //for website
+    protocol: "mqtt",
+};
+
+// MQTT client:
+let client;
+let connected = false;
+
+// helper function to create unique identifier for client
+//https://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid
+function uuidv4() {
+    return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
+    (
+        c ^
+        (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
+    ).toString(16)
+    );
+}
+
+// client credentials:
+let creds = {
+    clientID: "p5Client_" + uuidv4(),
+};
+
+// called when the client connects
+function onConnect() {
+    console.log("client connected");
+    connected = true;
+    // once connected will subscribe to our topic
+    // # is a wildcard that subscribes us to any topic that starts with sva/
+    client.subscribe("esp32/sub");
+}
+
+// called when the client loses its connection
+function onConnectionLost(response) {
+    console.log("client not connected");
+}
+
+// called when a message arrives
+function onMessageArrived(message) {
+    console.log("message arrived");
+    // this is the topic
+    console.log(message.destinationName);
+    // this is the message payload
+    console.log("message as string: ", message.payloadString);
+    // we can convert our string into a json obj
+    const obj = JSON.parse(message.payloadString);
+    console.log("message as JSON obj", obj);
+}
+
+function setup() {
+    // createCanvas(400, 400);
+    console.log(creds);
+    // assign a value to our client variable
+    client = new Paho.MQTT.Client(
+    broker.hostname,
+    Number(broker.port),
+    creds.clientID
+    );
+    // set callback handlers for the client:
+    client.onConnectionLost = onConnectionLost;
+    client.onMessageArrived = onMessageArrived;
+    // connect to the MQTT broker:
+    client.connect({
+    onSuccess: onConnect, // callback function for when you connect
+    });
+
+
+    button = createButton("Happy");
+    button.addClass('happy')
+    button.mousePressed(greetZero);
+
+    button = createButton("Sad");
+    button.addClass('sad')
+    button.mousePressed(greetOne);
+
+    button = createButton("Meh");
+    button.addClass('meh')
+    button.mousePressed(greetTwo);
+
+    textAlign(CENTER);
+    textSize(50);
+    
+}
+
+function greetZero() {
+    message = {
+    "  ledControl  ": "0"
+    }
+
+    if (connected) {
+    client.send('esp32/sub', JSON.stringify(message))
+    }
+    console.log(message)
+}
+
+function greetOne(){
+    message = {
+    "  ledControl  ": "1"
+    }
+
+    if (connected) {
+    client.send('esp32/sub', JSON.stringify(message))
+    }
+    console.log(message)
+}
+
+function greetTwo(){
+    message = {
+    "  ledControl  ": "2"
+    }
+
+    if (connected) {
+    client.send('esp32/sub', JSON.stringify(message))
+    }
+    console.log(message)
+}
+
+function draw() {}
+                            </pre>
+                        </li>
+                    </ul>
+                    <div class="margin-48"></div>
+                </div>
+                <h5>Final Presentation<br><br></h5>
+                <div><img src="cloud/final-final-final.jpeg" class="reveal"></div>
+            </div>
+        </section>
+        
+
+        <section class="center">
+            <h6>Thank you!</h6>
+        </section>
+
+        <footer id="footer" class="reveal"></footer>
+        
+        <!--JS-->
+        <script src="script.js"></script>
+        <script src="footer.js"></script>
+
+    </body>
+</html>
