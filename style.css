@@ -2,6 +2,7 @@
 *{
     margin: 0;padding:0;box-sizing:border-box;scroll-behavior:smooth;
     /* outline:none; */
+    outline: 4px solid blue;
     transition: .2s linear;
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
@@ -358,7 +359,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     .nav-container > h6{padding: 6px 12px;}
     .nav-button{
         display:inline-block;
-        outline:none;
+        /* outline:none; */
         background:none;
         padding: 6px 12px;
     }
