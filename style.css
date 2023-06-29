@@ -1,13 +1,12 @@
 /* default css start */
 *{
     margin: 0;padding:0;box-sizing:border-box;scroll-behavior:smooth;
-    /* outline:none; */
     transition: .2s linear;
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
 }
 *:focus{
-    outline: 4ps solid blue;
+    outline: 4px solid blue;
 }
 html{
     overflow-x: hidden;
