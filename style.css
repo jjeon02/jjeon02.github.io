@@ -5,9 +5,6 @@
     font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
 }
-*:focus{
-    outline: 4px solid blue;
-}
 html{
     overflow-x: hidden;
     overflow-y: auto;
@@ -360,7 +357,6 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     .nav-container > h6{padding: 6px 12px;}
     .nav-button{
         display:inline-block;
-        /* outline:none; */
         background:none;
         padding: 6px 12px;
     }
