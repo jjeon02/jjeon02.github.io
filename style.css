@@ -23,7 +23,7 @@ body{
     background-color:var(--background);
 }
 
-/* .reveal{
+.reveal{
     position: relative;
     transform: translateY(10px);
     opacity: 0;
@@ -33,7 +33,7 @@ body{
 .reveal.active{
     transform: translateY(0);
     opacity: 1;
-} */
+}
 
 ::selection{background:var(--blue);color:white;}
 ::-moz-selection{background:var(--blue);color:white;}
