@@ -205,7 +205,15 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
 
 /* DIVS */
 section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background)}
-.index-column{width:100%;max-width:840px;margin:auto;}
+.index-column{
+    width:100%;max-width:840px;
+    margin:auto;padding: 120px 0 60px 0;
+}
+.down-arrow{
+    width:60px;height: 60px;
+    padding:12px;
+    margin:auto;
+}
 
 .banner-wrapper{
     display:block;
