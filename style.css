@@ -181,6 +181,11 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
 .arrow-uni{font-size:large;padding-left:6px;}
 
 /* TOP ICON */
+.index-icon{
+    width: 36px;
+    margin: 0 auto 24px auto;
+}
+
 .arrow{
     background: var(--background);
     width:60px;height: 60px;
@@ -198,6 +203,12 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
     cursor:grab;
 }
 
+.down-arrow{
+    width:60px;height: 60px;
+    padding:12px;
+    margin:auto;
+}
+
 /* LINE QUALITY */
 .border{border-top: 1px solid var(--line);}
 .border-line{border-top: 1px solid var(--line);margin: 16px 0;}
@@ -208,11 +219,6 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 .index-column{
     width:100%;max-width:840px;
     margin:auto;padding: 120px 0 60px 0;
-}
-.down-arrow{
-    width:60px;height: 60px;
-    padding:12px;
-    margin:auto;
 }
 
 .banner-wrapper{
