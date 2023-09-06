@@ -210,11 +210,6 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
     cursor:grab;
 }
 
-.down-arrow{
-    width:60px;height: 60px;
-    padding:12px;
-    margin:auto;
-}
 
 /* LINE QUALITY */
 .border{border-top: 1px solid var(--line);}
