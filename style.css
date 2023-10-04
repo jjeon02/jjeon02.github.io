@@ -135,7 +135,7 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
 .center{text-align:center;}
 
 /*Infinite Slide*/
-.m-scroll {
+/* .m-scroll {
     display: block;
     position: relative;
     width:100%;
@@ -143,7 +143,6 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
     margin: auto;
     overflow: hidden;
     z-index: 1;
-    /* border-top: 1px solid var(--line); */
     border-bottom: 1px solid var(--line);
     background: var(--background);
 }
@@ -175,7 +174,7 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
 @keyframes scrollOpposite {
     from   { transform: translateX(-50%); }
     to { transform: translateX(0%); }
-}
+} */
 
 /* Unicode Arrow */
 .arrow-uni{font-size:large;padding-left:6px;}
@@ -221,8 +220,6 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 .index-column{
     width:100%;max-width:840px;
     padding:auto;margin: 120px auto 60px auto;
-    /* border: 1px solid var(--line);
-    border-radius: 50%; */
 }
 
 .banner-wrapper{
@@ -291,8 +288,6 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 /* THIS EXPLAINS THE TYPE OF WORK */
 .grid-text > h5{margin: 0 0 8px 0;}
 .grid-text > h6{
-    /* color:var(--background);
-    background:var(--text); */
     font-size: 16px;margin:0;
     padding:0;
     display:inline-block;
@@ -502,15 +497,15 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     word-wrap: break-word; overflow-wrap: break-word;
     border-bottom: 1px solid var(--line);
 }
+
 /*Infinite Slide*/
-.m-scroll-s {
+/* .m-scroll-s {
     display: block;
     position: relative;
     width:100%;
     margin: auto;
     overflow: hidden;
     z-index: 1;
-    /* border-top: 1px solid var(--line); */
     border-bottom: 1px solid var(--line);
     background: var(--background);
 }
@@ -555,4 +550,4 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 @keyframes scrollOppositeSmall {
     from   { transform: translateX(-50%); }
     to { transform: translateX(0%); }
-}
+} */
