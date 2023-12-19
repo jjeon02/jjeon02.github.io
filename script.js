@@ -2,23 +2,12 @@ let contact = "<strong class='center'>CONTACT</strong><br>"
 let linkedin = "<a href='https://www.linkedin.com/in/jueun-jeon-0436/' target='_blank'>" + "LinkedIn"+"</a>";
 let behance = "<a href='https://www.behance.net/jueunjeon' target='_blank'>" + "Behance" + "</a>";
 let email = "<a href='mailto:june.jeon@gmail.com' target='_blank'>" + "june.jeon@gmail.com" + "</a>";
-// let resume = "<a href='about.html#resume'>" + "resume" + "</a>";
-// let github = "<a href='https://github.com/jjeon02' target='_blank'>" + "Github" + "</a>";
+
 
 let footerText = contact + linkedin + " / " + behance + " / " + email;
 
 document.getElementById("footer").innerHTML = footerText;
 console.log(footerText);
-
-// let scrollLeft = "<div class='m-scroll reveal border'> <vdiv class='m-scroll__title'> <div> <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1>  <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1> </div></div></div>"
-
-// let scrollRight = " <div class='m-scroll reveal'><div class='m-scroll__opposite'><div> <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1>  <h1>Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_You&nbsp;Thank_you&nbsp;</h1></div></div></div>"
-
-
-// document.getElementById("scrollLeft").innerHTML = scrollLeft;
-// document.getElementById("scrollRight").innerHTML = scrollRight;
-// console.log(scrollLeft, scrollRight);
-
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
