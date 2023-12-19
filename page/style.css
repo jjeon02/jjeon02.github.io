@@ -2,7 +2,8 @@
 *{
     margin: 0;padding:0;box-sizing:border-box;scroll-behavior:smooth;
     transition: .2s linear;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -109,9 +110,9 @@ h2{font-size:28px;line-height:1.6;font-weight:200;}
 /*Main Page Grid Title Text*/
 h5{font-size:24px;line-height:1.4;font-weight:600;}
 
-h6,p{font-size:16px;line-height:1.8;}
+h6,p{font-size:18px;line-height:1.8;}
 h6{font-weight: 400;}
-p span, button, .case-study, span{font-size:16px;line-height:1.8;font-weight:400;}
+p span, button, .case-study, span{font-size:18px;line-height:1.8;font-weight:400;}
 p,ul,li,p a,ol{font-weight:200;}
 
 .grid-text > button, button{
@@ -133,7 +134,7 @@ p,ul,li,p a,ol{font-weight:200;}
     cursor:grab;
 }
 
-ul, ol{font-size:16px;line-height:1.8;font-weight:400;}
+ul, ol{font-size:18px;line-height:1.8;font-weight:400;}
 ul{margin: 0 0 0 20px;}
 ol{margin: 0 0 0 30px;}
 ul li, ol li{ font-weight:300;}
@@ -308,10 +309,10 @@ pre::-webkit-scrollbar{display:none;}
 
 /* THIS EXPLAINS THE TYPE OF WORK */
 .grid-text > h5{margin: 0 0 8px 0;}
-.grid-text > h6{color:var(--background);background:var(--text);font-size: 16px;margin: 8px 0 0 0;padding:0 6px;display:inline-block;text-transform: uppercase;}
-.grid-text > p{font-size: 16px;margin: 12px 0 0}
-.grid-text > p > strong{font-size: 16px;font-weight: 600;}
-.grid-text > p > strong > a{font-size: 16px;font-weight: 600;}
+.grid-text > h6{color:var(--background);background:var(--text);font-size: 18px;margin: 8px 0 0 0;padding:0 6px;display:inline-block;text-transform: uppercase;}
+.grid-text > p{font-size: 18px;margin: 12px 0 0}
+.grid-text > p > strong{font-size: 18px;font-weight: 600;}
+.grid-text > p > strong > a{font-size: 18px;font-weight: 600;}
 .grid-text > button{margin: 20px 0;width:100%;}
 
 @media only screen and (max-width: 890px) {

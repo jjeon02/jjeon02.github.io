@@ -2,7 +2,8 @@
 *{
     margin: 0;padding:0;box-sizing:border-box;scroll-behavior:smooth;
     transition: .2s linear;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -100,9 +101,9 @@ h2{font-size:28px;line-height:1.6;font-weight:200;}
 /*Main Page Grid Title Text*/
 h5{font-size:24px;line-height:1.4;font-weight:600;}
 
-h6,p{font-size:16px;line-height:1.8;}
+h6,p,ul,li{font-size:18px;line-height:1.8;}
 h6{font-weight: 400;}
-p span, button, .case-study, span{font-size:16px;line-height:1.8;font-weight:400;}
+p span, button, .case-study, span{font-size:20px;line-height:1.8;font-weight:400;}
 p,ul,li,p a,ol{font-weight:200;}
 
 .grid-text > button, button{
@@ -124,7 +125,7 @@ p,ul,li,p a,ol{font-weight:200;}
     cursor:grab;
 }
 
-ul, ol{font-size:16px;line-height:1.8;font-weight:400;}
+ul, ol{font-size:18px;line-height:1.8;font-weight:400;}
 ul{margin: 0 0 0 20px;}
 ol{margin: 0 0 0 30px;}
 ul li, ol li{ font-weight:300;}
@@ -216,7 +217,7 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
 
 /* DIVS */
 section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background)}
-
+/* 
 .browser-wrapper{
     background: var(--background);
     border: 1px solid var(--line);
@@ -248,12 +249,19 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 .browser-content{
     padding: 20px 36px 30px 36px;
     color:white;
-}
+} */
 
 .index-column{
     width:100%;max-width:600px;
     padding: 20px; margin: 0 auto;
-    background: var(--background);
+    color:white;
+}
+
+.banner-img{
+    background-image: url("banner.jpg");
+    background-size: auto auto;
+    background-position: center bottom;
+    border-bottom: 1px solid var(--line);
 }
 
 .banner-wrapper{
@@ -322,14 +330,14 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
 /* THIS EXPLAINS THE TYPE OF WORK */
 .grid-text > h5{margin: 0 0 8px 0;}
 .grid-text > h6{
-    font-size: 16px;margin:0;
+    font-size: 18px;margin:0;
     padding:0;
     display:inline-block;
     text-transform: uppercase;
 }
-.grid-text > p{font-size: 16px;margin: 12px 0 0}
-.grid-text > p > strong{font-size: 16px;font-weight: 600;}
-.grid-text > p > strong > a{font-size: 16px;font-weight: 600;}
+.grid-text > p{font-size: 18px;margin: 12px 0 0}
+.grid-text > p > strong{font-size: 18px;font-weight: 600;}
+.grid-text > p > strong > a{font-size: 18px;font-weight: 600;}
 
 @media only screen and (max-width: 1040px) {
     .grid-index, .grid-index-main, .grid-first{display:block;}
@@ -376,6 +384,7 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     margin:0;
     padding: 4px 8px;
     font-weight: 400;
+    font-size: 20px;
 }
 .nav-container >ul>li > a{  font-weight: 400;}
 .nav-button{
@@ -459,6 +468,14 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     padding: 6px 12px;
     color: var(--text);
 }
+
+.section-wrapper{
+    width:100%; 
+    border-top: 1px solid var(--line);
+}
+.grey-bg {background: var(--grey);}
+.black-bg {background: var(--text);}
+.black-bg > h6, .black-bg > p, .black-bg > h1 {color:white;}
   
 /* SLIDE */
 
