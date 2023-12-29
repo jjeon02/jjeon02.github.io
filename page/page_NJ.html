@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jueun Jeon's Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <meta charset="utf-8"> <!-- able multiple language -->
+        <meta name="description" content="Hello World! My name is Jueun Jeon, and I am a UI/UX & Web designer from Seoul, Korea.">
+        <meta name="keywords" content="Jueun Jeon, graphic design, design, UI/UX, ui/ux, design identity, illust, brand design, brand, editorial design, portfolio, RISD, Korea University">
+        <meta name="author" content="Jueun Jeon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon_blue.jpg" type="image/x-icon">
+        <link rel="apple-touch-icon" href="favicon_blue.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            img{margin-bottom: 48px;}
+            .nj-icon{width:30px;height:30px;margin: 20px;}
+        </style>
+    </head>
+    <body>
+        <nav class="nav-wrapper">
+            <div class="nav-container">
+                <h6><a href="https://jjeon02.github.io/#archive" class="icon">BACK TO HOME</a></h6>
+                <ul>
+                    <li><a href="#current">CURRENT</a></li>
+                    <li><a href="#color">COLOR</a></li>
+                    <li><a href="#screens">SCREENS</a></li>
+                    <li> <a href="#p-summary">SUMMARY</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ARROW -->
+        <a href="#top"><img src="up.svg" class="arrow"></a>
+
+        <img src="nj/banner.jpg" class="hero-image" id="top" alt="image of redesigned NJ transit app">
+
+        <section>
+            <h1>Making NJ Transit Accessible</h1>
+            <div class="border-line"></div>
+            <div class="grid-index">
+                <h6 class="grid-box">Wireframe</h6>
+                <p class="grid-box">2023</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Team Member</h6>
+                <p class="grid-box">Amogh Gharpure, Jueun Jeon, Yiran Chi</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">My Role</h6>
+                <p class="grid-box">User Interface</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Instructor</h6>
+                <p class="grid-box">Elyse Voegeli</p>
+            </div>
+            <div class="grid-index">
+                <h6 class="grid-box">Methods & Tools</h6>
+                <ul class="grid-box">
+                    <li>Design Tool: Figma</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="margin-48" id="current"></div>
+        <div class="border-line reveal"></div>
+        
+        <section class="reveal">
+            <div class="grid-index">
+                <h1 class="grid-box">Current NJ Transit App</h1>
+                <div class="grid-box">
+                    <div class="grid-first wrap">
+                        <h5 >Good 👍</h5><br/>
+                        <ul>
+                            <li>Overall semantic structure was clear</li>
+                            <li>Logical Navigation</li>
+                            <li>Announcement clarity</li>
+                            <li>High contrast text</li>
+                            <li>Error messages indication</li>
+                            <li>Zoom works on iOS and Magnify works on Android</li>
+                            <li>Haptic nudge feedback</li>
+                        </ul>
+                    </div>
+                    <div class="grid-first wrap" style="margin-top:24px;">
+                        <h5>Bad 👎</h5><br />
+                        <ul>
+                            <li>Low contrast elements</li>
+                            <li>Inconsistent use of colors</li>
+                            <li>Over-reliance on colors to convey information</li>
+                            <li>Missing labels on certain elements</li>
+                            <li>Redundant Information</li>
+                            <li>Create account require verification code (sent by email)</li>
+                            <li>“Access Link” is a separate app but not works</li>
+                            <li>Layout is not consistent</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="margin-48" id="color"></div>
+        <div class="border-line reveal"></div>
+        <section class="reveal">
+            <h1>Color Contrast</h1>
+            <div class="margin-48"></div>
+            <div class="grid-index">
+                <h5 class="grid-box">Current Color</h5>
+                <ul class="grid-box">
+                    <li>The color combinations with orange, light blue and green failed at my parts as per contrast and size ratio standards of WCAG.</li>
+                    <li>The selected elements had inconsistency in color shade at various instances in the app</li>
+                    <li>Disabled elements were not marked in the right UI format</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+            <img src="nj/current-color.jpg" alt="Color Palette of current NJ Transit App." class="reveal">
+            <div class="margin-48"></div>
+            <div class="grid-index">
+                <h5 class="grid-box">Revised Color</h5>
+                <ul class="grid-box">
+                    <li>Updated the color so that it passes color contrast test in more various design occasions.</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+            <img src="nj/revised-color.jpg" alt="Revised Color Palette for NJ Transit App." class="reveal">
+        </section>
+
+        <div class="margin-48" id="screens"></div>
+        <div class="border-line reveal"></div>
+        <section class="reveal">
+            <h1>Redesigning the screens</h1>
+            <div class="margin-48"></div>
+            <div class="grid-index">
+                <div class="grid-box">
+                    <h5>Homescreen</h5>
+                </div>
+                <div class="grid-box">
+                    <p>Redundant banner slides on the home screen with misleading VoiceOver.</p>
+                    <br />
+                    <h6>Redesign</h6>
+                    <ul>
+                        <li>Decluttered the page and made it intuitive.</li>
+                        <li>Modified the orientation of the tabs to be more spaced out for low-vision users and those with hand dexterity.</li>
+                        <li>Added color groups for quick identification of similar set of information.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <img src="nj/screen-home.jpg" alt="Comparison of previous and redesigned home screen." class="reveal">
+        <div class="margin-48"></div>
+
+        <section class="reveal">
+            <h5>Purchasing Train Ticket - Process</h5>
+            <div class="margin-48"></div>
+            <div class="grid-index">
+                <h6 class="grid-box">Previous</h6>
+                <ul>
+                    <li>Multiple UI icons and images were not labelled or had Alt text, with the lack of function explanation.</li>
+                    <li>Final ticket details were not announced.</li>
+                    <li>State of the icons was not highlighted - Favorite (star), reduce (-) and add (+) icon.</li>
+                    <li>'Loading screen' animation gesture was not announced on Talkback, thus confusing the user about the page and their phone.</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/screen-purchase-prev.jpg" alt="Previous version of purchasing screens." class="reveal">
+
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h6 class="grid-box">Redesign</h6>
+                <ul>
+                    <li>Introducing an &lsquo;Accessibility Filter&rsquo; for station selection.</li>
+                    <li>Multiple choices for the origin station selection.</li>
+                    <li>Color identification for similar set of information.</li>
+                    <li>An elastic search option with an inbuilt feature to display the nearest station to the user.</li>
+                    <li>Users can search a station by its name or name of the area.</li>
+                    <li>Adjusted the spacing between elements for better navigation and click ability.</li>
+                    <li>Station names are made into Title case than an entire Uppercase for readability.</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/screen-purchase-rd.jpg" alt="Redesigned version of purchasing screens." class="reveal">
+        
+        <section>
+            <h5>Purchasing Train Ticket - Final Screen</h5>
+        </section>
+
+        <img src="nj/screen-purchase-2-prev.jpg" alt="Previous version of final purchasing screen." class="reveal">
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h6 class="grid-box">Redesign</h6>
+                <ul>
+                    <li>Ensured the colors on dark and light UI are as per the WCAG guidelines.</li>
+                    <li>Simplified the layout of ticketing process with iconography and consistent elements.</li>
+                    <li>Revised the 'Alt text' of + / - and rest of the icons to announce the number of selected tickets or relevant information of the tags respectively.</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/screen-purchase-2-rd.jpg" alt="Redesigned version of final purchasing screen." class="reveal">
+        
+
+        <section class="reveal">
+            <h5>Departure Vision (Status) </h5>
+            <div class="margin-48"></div>
+            <div class="grid-index">
+                <h6 class="grid-box">Previous</h6>
+                <ul>
+                    <li>Overall flow was hard to follow.</li>
+                    <li>The user had to use another app to locate the destined station.</li>
+                    <li>Quite a lot of elements were not tagged or read aloud .</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/dv-prev.jpg" alt="Previous version of Departure Vision." class="reveal">
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h6 class="grid-box">Redesign - Departure &ldquo;Status&rdquo;</h6>
+                <ul>
+                    <li>Renamed as Departure Status from Departure Vision to ensure the correct meaning of the tab.</li>
+                    <li>Can search the station for desired path/route in the same app</li>    
+                    <li>Similar flow to &lsquo;Purchasing ticket.&rsquo;</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/ds-rd.jpg" alt="Redesigned version of Departure Status." class="reveal">
+
+        <section class="reveal">
+            <h5>Departure Vision (Status) - Continued </h5>
+            <div class="margin-48"></div>
+            <div class="grid-index">
+                <h6 class="grid-box">Previous</h6>
+                <ul>
+                    <li>Bell icon (Notification) - in voiceover it was not selectable, and in TalkBack it read it out as “unidentified icon.”</li>
+                    <li>Map was hard to navigate.</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/dv-prev-2.jpg" alt="Previous version of Departure Status." class="reveal">
+        <div class="margin-48"></div>
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h6 class="grid-box">Redesign</h6>
+                <ul>
+                    <li>Added a &lsquo;Buy ticket&rsquo; button to simplify the workflow</li>
+                    <li>Added a voice feature to the Map that announces the train status on clicking on the Map</li>
+                    <li>Reduced redundant info and replaced by icons</li>
+                    <li>Revised the Bell icon to have alt text for train alerts</li>
+                </ul>
+            </div>
+            <div class="margin-48"></div>
+        </section>
+
+        <img src="nj/ds-rd-2.jpg" alt="Redesigned version of Departure Status." class="reveal" style="margin-bottom:0;">
+
+        <div class="border-line" style="margin-top:0;"></div>
+        <div class="margin-48" id="p-summary"></div>
+        
+        <section class="reveal">
+            <div class="grid-index">
+                <h1 class="grid-box">Project Summary</h1>
+                <div class="grid-box">
+                    <div class="grid-index wrap">
+                        <h6>Accessibility</h6>
+                        <ul>
+                            <li>Introduction of an &lsquo;Accessibility Filter&rsquo; for station selection.</li>
+                            <li>Ensured compliance with WCAG guidelines for colors on both dark and light UI.</li>
+                        </ul>
+                    </div>
+                    <div class="grid-index wrap">
+                        <h6>User Experience improvement</h6>
+                        <ul>
+                            <li>Elastic search feature for user convenience.</li>
+                            <li>Simplified layout of the ticketing process.</li>
+                            <li>Enhanced navigation through adjusted spacing between elements.</li>
+                        </ul>
+                    </div>
+                    <div class="grid-index wrap">
+                        <h6>Redundancy Reduction</h6>
+                        <ul>
+                            <li>Removed redundant information and replaced it with icons to declutter the interface.</li>
+                        </ul>
+                    </div>
+                    <div class="grid-index wrap">
+                        <h6>Alt-text revisions and workflow modifications</h6>
+                        <ul>
+                            <li>Introduction of an &lsquo;Accessibility Filter&rsquo; for station selection.</li>
+                            <li>Ensured compliance with WCAG guidelines for colors on both dark and light UI.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal">
+            <div class="grid-index">
+                <h5 class="grid-box">Further Scope of Improvement</h5>          
+                <div class="grid-box">
+                    <div class="grid-first"> 
+                        <div class="grid-box wrap">
+                            <img src="nj/icon-1.png" class="nj-icon">
+                            <h6>Accessibility Hotline</h6>
+                        </div>
+                        <div class="grid-box wrap">
+                            <img src="nj/icon-2.png" class="nj-icon">
+                            <h6>Customizable color contrasts and schemes according to user preference</h6>
+                        </div>
+                        <div class="grid-box wrap">
+                            <img src="nj/icon-3.png" class="nj-icon">
+                            <h6>Multilingual support</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="center reveal">
+            <h6>Thank you!</h6>
+        </section>
+
+        <footer id="footer" class="reveal"></footer>
+        
+        <!--JS-->
+        <script src="script.js"></script>
+        <script src="footer.js"></script>
+
+    </body>
+</html>
