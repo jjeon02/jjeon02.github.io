@@ -105,7 +105,7 @@ h6{font-weight: 400;}
 p span, button, .case-study, span, .act-button{font-size:20px;line-height:1.8;font-weight:400;}
 p,ul,li,p a,ol{font-weight:200;}
 
-.hero-text{font-weight:600;font-size: 4em;}
+
 .act-button{
     padding: 6px 32px;
     text-transform: uppercase;
@@ -245,16 +245,19 @@ section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--
     color:var(--background);
 }
 
-.banner-img{
-    background-image: url("banner.jpg");
+.banner{
+    /* background-image: url("banner.jpg");
     background-size: 100% auto;
-    background-position: center bottom;
-    /* border-bottom: 1px solid var(--line); */
-    padding: 84px 24px 24px 24px;
+    background-position: center bottom;  */
+    padding: 84px 24px 36px 24px;
     color:white;
 }
 
-/* .banner-img > h1, .banner-img > h6 {color:white;} */
+.hero-text{font-size:100px;font-weight: 600;color:var(--text);line-height:1;}
+.hero-text-empty{
+    font-size:100px;font-weight: 600;color:var(--background);-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: var(--text);
+    line-height:1;
+}
 
 .first{margin-top:48px; background: none;}
 .grid-first > .first-image{padding: 0 0 32px 0;width:100%;display:block;margin: 0 auto;}
