@@ -197,22 +197,9 @@ margin: 0; font-size: 48px;line-height:0; transition: all 2s ease;
 .arrow-uni{font-size:large;padding-left:6px;}
 
 /* TOP ICON */
-.index-icon{
-    width: 16px;
-    margin: 0 auto 8px auto;
-    animation: mouseMove 1s infinite linear;
-}
 
-@keyframes mouseMove{
-    0%{transform: translateX(0px);}
-    50%{transform: translateX(12px);}
-    100%{transform: translateX(0px);}
-}
+.icon-star{height:120px;width:auto;margin:20px;}
 
-.index-image{
-    width: 200px;
-    margin: 0 auto 12px auto;
-}
 
 .arrow{
     background: var(--background);
