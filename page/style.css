@@ -20,7 +20,7 @@ body{
     margin:0;
     box-sizing:border-box;
     left:0;right:0;
-    background-color:var(--background);
+    background-color:var(--white);
 }
 
 .reveal{
@@ -35,17 +35,19 @@ body{
     opacity: 1;
 }
 
-::selection{background:var(--blue);color:var(--background);}
-::-moz-selection{background:var(--blue);color:var(--background);}
+::selection{background:var(--blue);color:var(--white);}
+::-moz-selection{background:var(--blue);color:var(--white);}
 
 /* SCROLLBAR */
 ::-webkit-scrollbar {width:8px;}
-::-webkit-scrollbar-track {background: var(--background); border-left: 1px solid var(--line);}
-::-webkit-scrollbar-thumb {background-color: var(--background); border: 1px solid var(--line) ;border-radius: 6px;}
+::-webkit-scrollbar-track {background: var(--white); border-left: 1px solid var(--line);}
+::-webkit-scrollbar-thumb {background-color: var(--white); border: 1px solid var(--line) ;border-radius: 6px;}
 @media screen and (max-width:1200px){::-webkit-scrollbar {display: none;}}
 
 :root {
-    --background:#fff;
+    --white:#fff;
+    --eegrey:#eee;
+    --darkgrey:#111;
     --line: #444;
     --text: #000;
     --blue: #0000ff;
@@ -64,27 +66,20 @@ footer{
     margin:0 0 0 0;
     width:100%;
     text-align:center;
-    border-top: 1px solid var(--line);
+    color: var(--white);
+    background:var(--darkgrey);
     font-size: 24px; line-height: 1.4; 
     padding: 20px 20px 80px 20px; text-transform: none;font-weight: 200;
 }
 footer > a {  
     text-decoration-line: none;
+    color: var(--white);
 }
+
 footer > a:hover{color:var(--blue);}
-footer > strong{font-weight: 600;}
+footer > a:visited{ color: var(--white);}
 
-/* TYPOGRAPHY */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@font-face {
-    font-family: "pixelVarious";
-    src: url("RetroFutureGX.ttf");
-    font-weight: 100 900;
-}
+footer > strong{font-weight: 600;color: var(--white);}
 
 h1, h2, h3, h4, h5, h6, p, a, span, ul,ol, li, caption{
     margin:0;padding:0;color:var(--text);transition: .2s linear;
@@ -100,13 +95,12 @@ a:after{color: var(--text);}
 .icon{text-decoration:none;transition: .2s linear;}
 .icon:hover{color:var(--blue);}
 
+
 h1{font-size:40px;line-height:1.2;font-weight:400;text-transform: uppercase;margin-bottom:12px;}
 h2{font-size:28px;line-height:1.6;font-weight:200;}
 
 .quote{
     font-weight:400;
-    /* color:var(--blue); */
-    /* text-decoration: underline solid #ddd .4em; */
     text-underline-position: under;
 }
 
@@ -115,21 +109,45 @@ h5{font-size:24px;line-height:1.4;font-weight:600;}
 
 h6,p{font-size:18px;line-height:1.8;}
 h6{font-weight: 600;}
-p span, button, .case-study, span{font-size:18px;line-height:1.8;font-weight:400;}
+p span, button, .case-study, span, .act-button{font-size:20px;line-height:1.8;font-weight:400;}
 p,ul,li,p a,ol{font-weight:200;}
+
+.act-button{
+    padding: 6px 32px;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--text);
+    border: none;
+    box-shadow: 0px 0px var(--text);
+}
+
+.button-top{    
+    width:auto;
+    max-width: 320px;
+    margin: 16px auto 0 auto;
+}
+
+.button-about{
+    width:auto;
+    display:inline-block;
+    margin: 0 16px 16px 0;
+}
+
+.act-button > a {text-decoration:none;color: var(--white);}
+.act-button:hover a{color: var(--white);}
 
 .grid-text > button, button{
     padding: 4px 16px;
     text-transform: uppercase;
     color: var(--text);
-    background-color: var(--background);
+    background-color: var(--white);
     border: 1px solid var(--text);
     box-shadow: 0px 0px var(--text);
 }
 
 .grid-text > button{margin: 20px 0 0 0; width:100%;}
 
-.grid-text > button:hover, button:hover{
+.grid-text > button:hover, button:hover ,.act-button:hover{
     transform: translate(-3px,-3px);
     box-shadow: 3px 3px var(--blue);
     border: 1px solid var(--blue);
@@ -151,7 +169,7 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
 
 /* TOP ICON */
 .arrow{
-    background: var(--background);
+    background: var(--white);
     width:60px;height: 60px;
     padding:12px;
     border: 1px solid var(--line);
@@ -173,7 +191,7 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
 .line-wrap{border: 1px solid var(--line);}
 .callout{
     padding:24px 48px 24px 48px;margin:24px 48px 60px 48px;
-    border: 1px solid var(--line);border-radius: 8px;background: var(--background);box-shadow: 2px 2px 0px var(--line);
+    border: 1px solid var(--line);border-radius: 8px;background: var(--white);box-shadow: 2px 2px 0px var(--line);
 }
 
 @media screen and (max-width: 840px) {
@@ -181,15 +199,14 @@ h2 a:hover,h6 a:hover,ul li a:hover, p a:hover{color:blue;}
 }
 
 /* DIVS */
-section{width:100%;padding:24px;max-width:1080px;margin: auto;background: var(--background);overflow: hidden;}
+section{width:100%;padding:24px;max-width:1080px;margin: auto;overflow: hidden;}
 .index-column{width:100%;max-width:840px;margin:auto;}
 .margin-48{width:100%;height:48px;}
 .wrap{padding: 24px; border-radius: 10px;margin-bottom: 24px;background: var(--grey);}
 .hero-image{margin: 28px 0 0 0px;border-bottom: 1px solid var(--line);}
 
-.giantroom-banner{background: url("giant-room/banner.jpg") no-repeat center fixed;}
-.watson-banner{background: url("watson/banner.jpg") no-repeat center fixed;}
-.aisell-banner{background: url("aisell/banner.jpg") no-repeat center fixed;}
+.color-section{width:100%;}
+.background-grey{background:var(--eegrey);}
 
 pre{
     background: var(--grey);
@@ -221,7 +238,7 @@ pre::-webkit-scrollbar{display:none;}
     padding:24px;
     margin: 0 0;
     display:block;
-    background:var(--background);
+    background:var(--white);
     border: 1px solid var(--line);
 }
 
@@ -244,8 +261,8 @@ pre::-webkit-scrollbar{display:none;}
 .image-bg{background-size: cover;width:100%;}
 .bg-insane{background: url("bg_2.jpg") no-repeat center fixed;}
 
-.wrapper{width:100%;background: var(--background);padding: 20px; border: 1px solid var(--line);}
-.entire-wrapper{width:100%;left:0;right:0;background: var(--background);}
+.wrapper{width:100%;background: var(--white);padding: 20px; border: 1px solid var(--line);}
+.entire-wrapper{width:100%;left:0;right:0;background: var(--white);}
 
 .grid-index{width:100%;display:grid;grid-template-columns: 30% 1fr;grid-gap:32px;}
 
@@ -269,7 +286,7 @@ pre::-webkit-scrollbar{display:none;}
 
 /* THIS EXPLAINS THE TYPE OF WORK */
 .grid-text > h5{margin: 0 0 8px 0;}
-.grid-text > h6{color:var(--background);background:var(--text);font-size: 18px;margin: 8px 0 0 0;padding:0 6px;display:inline-block;text-transform: uppercase;}
+/* .grid-text > h6{color:var(--white);background:var(--text);font-size: 18px;margin: 8px 0 0 0;padding:0 6px;display:inline-block;text-transform: uppercase;} */
 .grid-text > p{font-size: 18px;margin: 12px 0 0}
 .grid-text > p > strong{font-size: 18px;font-weight: 600;}
 .grid-text > p > strong > a{font-size: 18px;font-weight: 600;}
@@ -290,7 +307,7 @@ pre::-webkit-scrollbar{display:none;}
     margin:0 auto;padding:0;display:block;
     left:0;right:0;bottom:0;top:0;
     animation: appearance 0.6s linear;
-    background-color:var(--background);
+    background-color:var(--white);
 }
 
 /* NAVBAR */
@@ -299,7 +316,7 @@ pre::-webkit-scrollbar{display:none;}
     width:100%;
     height:48px;
     color: var(--text);
-    background: var(--background);
+    background: var(--white);
     border-bottom: 1px solid var(--line);
     z-index:4;
     overflow:hidden;
@@ -366,7 +383,7 @@ pre::-webkit-scrollbar{display:none;}
     height:100%;
     position: fixed; 
     top:0;right:0;
-    background-color: var( --background);
+    background-color: var( --white);
     overflow-x: hidden;
     transition: 0.5s; padding-top: 60px;
     z-index:6;
@@ -436,7 +453,7 @@ pre::-webkit-scrollbar{display:none;}
     margin-top: -24px;
     padding: 16px; 
     user-select: none;
-    background: var(--background);
+    background: var(--white);
     border: 1px solid var(--text);
     border-radius: 50%;
     overflow:hidden;
