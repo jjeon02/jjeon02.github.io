@@ -59,7 +59,7 @@ function Home() {
               <h2>Hi! This is Jueun Jeon and I'm a UX/UI designer</h2>
               <p>I believe UX is about designing what we <span className="grey-text">don't see</span>.</p>
             </div>
-            <button className="btn-secondary btn-size-lg" onClick={() => window.open(process.env.PUBLIC_URL + '/resume_jueun_jeon.pdf', '_blank')}>
+            <button className="btn-secondary btn-size-lg" onClick={() => window.open(process.env.PUBLIC_URL + '/resume_jueun-jeon.pdf', '_blank')}>
               Download Resume
               <IconDownload />
             </button>
