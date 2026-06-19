@@ -81,11 +81,11 @@ function Project3() {
 
         <div class="column  margin-md">
           <div className="column-box column-box-img-txt">
-            <img src={problem1} alt="Problem 1" className="img-popup" />
+            <img src={problem1} alt="Problem 1"/>
             <p>When clicking a category, subcategories kept appearing below as tabs: an uncommon UI pattern for web interfaces.</p>
           </div>
           <div className="column-box column-box-img-txt">
-            <img src={problem2} alt="Problem 2" className="img-popup" />
+            <img src={problem2} alt="Problem 2" />
             <p>Visually, categories and files shared the same design, so users could not distinguish between them.</p>
           </div>
         </div>
@@ -101,7 +101,7 @@ function Project3() {
       </section>
 
       <section>
-        <img src={criteria1} alt="Criteria 1" className="img-popup margin-md" />
+        <img src={criteria1} alt="Criteria 1" className="margin-md" />
         <h6>Files should be viewable by Asset or Product type, as before.</h6>
         <ul>
           <li>Asset: classification by the type of the file itself - Web content, Presentation Decks, Press images, etc.</li>
@@ -112,17 +112,17 @@ function Project3() {
       <section class="max-width-project">
         <div class="column">
           <div class="column-box">
-            <img src={criteria2} alt="Criteria 2" className="img-popup margin-md" />
+            <img src={criteria2} alt="Criteria 2" className="margin-md" />
             <h6>Categories and files should be visually distinct.</h6>
             <p>Currently there was a confusion between categories and files in the UI.</p>
           </div>
           <div class="column-box">
-            <img src={criteria3} alt="Criteria 3" className="img-popup margin-md" />
+            <img src={criteria3} alt="Criteria 3" className="margin-md" />
             <h6>Filter functionality can be added</h6>
             <p>We received confirmation from the development team that filter functionality can be implemented.</p>
           </div>
           <div class="column-box">
-            <img src={criteria4} alt="Criteria 4" className="img-popup margin-md" />
+            <img src={criteria4} alt="Criteria 4" className="margin-md" />
             <h6>Mobile view support required</h6>
             <p>The previous design was not optimized for mobile: a responsive design was needed for usability.</p>
           </div>
