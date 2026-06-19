@@ -64,7 +64,9 @@ function Home() {
               <IconDownload />
             </button>
           </div>
-          <img src={arrow} alt="cursor symbol" class="home-cursor"/>
+            <div className="home-title-img-wrapper">
+              <img src={arrow} alt="cursor symbol" class="home-cursor"/>
+            </div>
         </div>
       </header>
       <section>
