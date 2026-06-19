@@ -11,7 +11,7 @@
   align-self: stretch;
   gap: var(--padding-object);
   /* background: var(--grey-black); */
-  background-image: url('../pages/home/paper_header.jpg');
+  background-image: url('../pages/home/paper_header_light.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -25,8 +25,8 @@
   gap: var(--padding-md);
 }
 
-.home-title-content > .text-wrapper-xs{
-  color: var(--grey-white);
+.home-grey-text{
+  color: var(--grey-md-02);
 }
 
 .home-title-content > .btn-secondary{
