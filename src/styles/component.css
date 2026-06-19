@@ -1,0 +1,222 @@
+/* main content */
+
+.nav-gap {
+  height: 42px;
+}
+
+/* ================== LIST ================== */
+.list-wrapper{
+  width:100%;
+  margin:0;
+}
+
+.list-title{
+  padding: 0 0 var(--padding-sm) 0;
+}
+
+.list{
+  width: 100%;
+  display:flex;
+  gap: var(--padding-md);
+  padding: var(--padding-sm) 0;
+}
+
+.list-dark-line{
+  color: var(--grey-dark);
+  border-bottom: 1px solid var(--grey-md-02);
+}
+
+.list-light-line{
+  color: var(--grey-light-02);
+  border-bottom: 1px solid var(--grey-light-02);
+}
+
+.list-light-line > p, .list-light-line > p > a{
+  color: var(--grey-light-01);
+}
+
+.list-first, .list-full{
+  flex:1;
+}
+
+/* ================== BUTTON ================== */
+
+button{
+  border:none;
+  background:none;
+  padding:0;
+  margin:0;
+  cursor: pointer;
+}
+
+.btn-primary, .btn-secondary, .btn-txt{
+  cursor: pointer;
+}
+
+/* BTN-VARIANT */
+.btn-primary{
+  border: none;
+  background: var(--grey-dark-01);
+  color: var(--grey-white);
+  border-top: 2.4px solid var(--grey-md-01);
+  border-left: 2.4px solid var(--grey-md-01);
+  border-bottom: 2.4px solid var(--grey-black);
+  border-right: 2.4px solid var(--grey-black);
+}
+
+.btn-primary:hover{background: var(--grey-dark-02);}
+.btn-primary svg{color: var(--grey-white);}
+
+.btn-secondary{
+  border: 1px solid var(--grey-md-02);
+  background: var(--grey-light-03);
+  color: var(--grey-black);
+  border-top: 2.4px solid var(--grey-light-01);
+  border-left: 2.4px solid var(--grey-light-01);
+  border-bottom: 2.4px solid var(--grey-md-02);
+  border-right: 2.4px solid var(--grey-md-02);
+}
+
+.btn-secondary:hover{
+  background: var(--grey-md-01);
+}
+
+.btn-txt{
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--padding-sm);
+  padding:0;
+  margin:0;
+}
+
+.btn-txt:hover{color: var(--blue-default);}
+.btn-txt:visited{color: var(--grey-black);}
+
+.btn-txt-light{color: var(--grey-light-01);}
+.btn-txt-light:hover{color: var(--blue-default);}
+.btn-txt-light:visited{color: var(--grey-light-01);}
+
+
+/* BTN-SIZE */
+.btn-size-lg{
+  padding: var(--padding-sm) var(--padding-lg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--padding-md);
+}
+
+.btn-size-lg svg{width: 20px;height: 20px;}
+
+/* ================== BADGE ================== */
+
+.badge-size-md{
+  padding: 2px 4px 2px 4px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  align-self: flex-start;
+  line-height: 1.2;
+}
+
+.badge-size-sm{
+  padding: 0px 4px 0px 4px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  align-self: flex-start;
+  line-height: 1.2;
+}
+
+/* badge VARIANT */
+.badge-primary{
+  background-color: var(--blue-dark);
+  color: var(--grey-light-01);
+  border: none;
+}
+
+.badge-secondary{
+  background-color: var(--grey-light-02);
+  color: var(--grey-dark);
+  border: 1px solid var(--grey-light-03);
+}
+
+.badge-blue{
+  background-color: var(--blue-tint-02);
+  color: var(--blue-default);
+}
+
+.badge-yellow{
+  background-color: var(--yellow-default);
+  color: var(--grey-dark-01);
+}
+
+
+/* ================== SCROLL TO TOP ================== */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  padding: var(--padding-md);
+  border-radius: 50%;
+  background: var(--grey-light-01);
+  border: 1px solid var(--grey-md-02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.scroll-to-top svg{
+  width: 24px;
+  height: 24px;
+}
+
+.scroll-to-top:hover {
+  background: var(--grey-light-02);
+}
+
+/* ================== ETC ================== */
+
+.copied-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: var(--padding-xs) var(--padding-sm);
+  background-color: var(--grey-light-02);
+  border: 1px solid var(--grey-md-02);
+  border-radius: var(--radius-md);
+  z-index: 1000;
+  color: var(--grey-black);
+}
+
+.img-popup{
+  box-shadow: 0 0px 24px var(--shadow-default);
+  border-radius: var(--radius-md);
+}
+
+.sub-title{
+  text-transform: uppercase;
+  color: var(--blue-default);
+}
+
+.table-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.text-with-icon{
+  display: flex;
+  align-items: center;
+  gap: var(--padding-sm);
+  margin: 0;
+}
+
+.text-with-icon svg{
+  width: 20px;
+  height: 20px;
+}

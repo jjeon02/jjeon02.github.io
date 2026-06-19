@@ -1,0 +1,156 @@
+/* ================== TITLE ================== */
+
+.home-header{
+  padding: var(--padding-section);
+}
+
+.home-title-header{
+  display: flex;
+  height: 174px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: stretch;
+  gap: var(--padding-object);
+  /* background: var(--grey-black); */
+  background-image: url('../pages/home/paper_header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.home-title-content{
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  gap: var(--padding-md);
+}
+
+.home-title-content > .text-wrapper-xs{
+  color: var(--grey-white);
+}
+
+.home-title-content > .btn-secondary{
+  max-width: 232px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title-img-wrapper{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.home-cursor{
+  width: 80px; height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-title-header{
+    flex-direction: column;
+  }
+  .home-title-content > .btn-secondary{
+    max-width: 100%;
+  }
+  .home-title-img-wrapper{
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+  }
+}
+
+/* ================== WORK CARD ================== */
+
+.work-section-title {
+  padding: var(--padding-sm) 0;
+  border-bottom: 1px solid var(--grey-md-02);
+  margin-bottom: 0;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-card {
+  display: flex;
+  gap: var(--padding-object);
+  padding: var(--padding-object) 0;
+  border-bottom: 1px solid var(--grey-md-02);
+}
+
+.work-card-image {
+  flex: 2;
+  background-color: var(--grey-md-02);
+  background-size: cover;
+  background-position: center;
+  min-height: 240px;
+  overflow: hidden;
+  padding: var(--padding-md);
+  cursor: pointer;
+  aspect-ratio: 1200/800;
+}
+
+.work-card-info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-card-info h2 {
+  color: var(--grey-dark);
+}
+
+.work-card-desc{
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.work-card-from {
+  margin: 2px 0;
+  height:auto;
+  color: var(--point-blue);
+}
+
+.work-card-tag{
+  display: inline-flex;
+}
+
+@media screen and (max-width: 768px) {
+  .work-card {
+    flex-direction: column;
+  }
+  .work-card-image {
+    width: 100%;
+    min-height: 200px;
+  }
+  .work-card-info > p {
+  flex: 1 0 0;
+  margin-bottom: var(--padding-sm);
+  }
+
+}
+
+/* ========= ABOUT ========= */
+.button-center-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--padding-md);
+}
+
+/* ========= NOT FOUND ========= */
+.not-found-404{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    min-height: calc(100vh - 250px);
+    gap: var(--padding-object);
+    align-self: stretch;
+    margin: var(--padding-section);
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

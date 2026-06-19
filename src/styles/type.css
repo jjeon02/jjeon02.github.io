@@ -1,0 +1,84 @@
+body, code {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-style: normal;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, .badge-size-md, .badge-size-sm{
+  margin: 0;
+  color: var(--grey-dark);
+}
+
+/* ============ SIZE ============  */
+h1{
+  line-height: 1.4;
+  font-size: var(--font-size-xxl);
+}
+
+h2{
+  line-height: 1.4;
+  font-size: var(--font-size-xl);
+}
+
+h5{
+  line-height: 1.6;
+  font-size: var(--font-size-md);
+}
+
+h6{
+  line-height: 1.6;
+  font-size: var(--font-size-md);
+}
+
+p, ul li, ol li, button, .badge-size-md , .badge-size-sm, dl, dt, dd, td, th{
+  margin: 0;
+  line-height: 1.6;
+  font-size: var(--font-size-md);
+  font-weight: 400;
+}
+
+
+ul{
+  padding:0 0 0 1.2em; margin: 0;
+  list-style-type: square;
+}
+
+
+caption{
+  display: block;
+  width: 100%;
+  margin: 0;
+  line-height: 1.4;
+  font-size: var(--font-size-sm);
+  text-align: left;
+}
+
+.badge-size-md, .badge-size-sm{line-height: 1.12em;font-weight: 500;}
+
+.ref > a {color: var(--grey-md-02);}
+.ref > a:visited {color: var(--grey-md-02);}
+.ref > a{text-decoration:underline;}
+.ref > a:hover{text-decoration:underline;}
+
+/* ============ STYLE ============  */
+
+h5{text-transform: uppercase;}
+
+a{text-decoration: none;}
+a:visited {color: var(--grey-black);}
+a:hover {text-decoration: none; color: var(--blue-default);}
+a:visited:hover {color: var(--blue-default);}
+
+.center{text-align:center;}
+.all-cap{text-transform: uppercase;}
+/* .right-align{text-align: right;} */
+
+.grey-text{color: var(--grey-md-01);}
+.grey-dark-text{color: var(--grey-md-03);}
+.blue-text{color: var(--blue-default);}
+
+
+.allow-underline{text-decoration: underline;}
+.allow-underline:hover{text-decoration: underline;}
