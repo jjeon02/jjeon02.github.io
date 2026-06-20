@@ -1,4 +1,5 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import Navbar from './components/nav';
 import Footer from './components/footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
@@ -9,9 +10,16 @@ import Project1 from './pages/project-1';
 import Project2 from './pages/project-2';
 import Project3 from './pages/project-3';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }); }, [pathname]);
+  return null;
+}
+
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path='*' element={<NotFound/>} />

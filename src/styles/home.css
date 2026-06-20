@@ -10,7 +10,6 @@
   align-items: flex-end;
   align-self: stretch;
   gap: var(--padding-object);
-  /* background: var(--grey-black); */
   background-image: url('../pages/home/paper_header_light.jpg');
   background-size: cover;
   background-position: center;
